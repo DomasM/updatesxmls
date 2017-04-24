@@ -1,80 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfVersionInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <VersionInfo>
-    <executable>https://lightconupdater.blob.core.windows.net/take00/%5C0.8.6.0%5CdummyApp.exe</executable>
-    <updater>https://dl.dropbox.com/s/uiy6l1ks2408089/autoUpdater.exe</updater>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/dummyApp/0.8.17.0/dummyApp.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
     <copyFilesHashes>
-      <string>259079672492023e5d2fe82ddaefd7c74c599c8413d9387ecdc8286aeabc05ec</string>
+      <string>fa1fbb8fb0286c278d4dae67ec16151fe4b7da39fb8fc319cd0be6a11f637d07</string>
       <string>e52372f345aa39c567f6282d18d376152a782a0c181ff3d31344b3c457864ec8</string>
-      <string>6bab19244dd1e19386e4d31bf40b00bbd0c6171417f18619325455646667070b</string>
+      <string>1b15a6f921f4e6e8ccb08f9eb4aeb130c5b1701c26f9d84f4c0c9f4c67e89ba9</string>
     </copyFilesHashes>
     <filesToCopySource>
-      <string>https://lightconupdater.blob.core.windows.net/take00/%5C0.8.6.0%5Clib%5CdummyApp.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/dummyApp/0.8.17.0/lib/dummyApp.pdb</string>
     </filesToCopySource>
     <filesToCopyDestination>
       <string>lib\dummyApp.pdb</string>
     </filesToCopyDestination>
     <filesToDelete />
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
-    <versionSerialized>0.8.6.0</versionSerialized>
-  </VersionInfo>
-  <VersionInfo>
-    <executable>https://lightconupdater.blob.core.windows.net/take00/0.8.7.0%5CdummyApp.exe</executable>
-    <updater>https://dl.dropbox.com/s/uiy6l1ks2408089/autoUpdater.exe</updater>
-    <copyFilesHashes>
-      <string>2916eaa235a2b1b7387f23fab0d69fbee6da5f9cba2f6819f31a1da70a57693c</string>
-      <string>e52372f345aa39c567f6282d18d376152a782a0c181ff3d31344b3c457864ec8</string>
-      <string>d9695f40e43248bdfc556ca72e2c9c299c65547637aa4f1dfc70ba8cc9fea851</string>
-    </copyFilesHashes>
-    <filesToCopySource>
-      <string>https://lightconupdater.blob.core.windows.net/take00/0.8.7.0%5Clib%5CdummyApp.pdb</string>
-    </filesToCopySource>
-    <filesToCopyDestination>
-      <string>lib\dummyApp.pdb</string>
-    </filesToCopyDestination>
-    <filesToDelete />
-    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
-    <versionSerialized>0.8.7.0</versionSerialized>
-  </VersionInfo>
-  <VersionInfo>
-    <executable>https://lightconupdater.blob.core.windows.net/take00/0.8.9.0/dummyApp.exe</executable>
-    <updater>https://dl.dropbox.com/s/uiy6l1ks2408089/autoUpdater.exe</updater>
-    <copyFilesHashes>
-      <string>803bd70878fd88da3a078847c626719c46d9a933df8100782c9fe2aa6ff5e305</string>
-      <string>e52372f345aa39c567f6282d18d376152a782a0c181ff3d31344b3c457864ec8</string>
-      <string>365f964c848e1b15d0ed9db7effdf38de16ac88d7d1b9991cf2f3328c4a22aff</string>
-      <string>7d17aa188fd66da1abaaa0303f42c0f78ec86054e0c202f2deb2a8754f8bf424</string>
-    </copyFilesHashes>
-    <filesToCopySource>
-      <string>https://lightconupdater.blob.core.windows.net/take00/0.8.9.0/lib/dummyApp.pdb</string>
-      <string>https://lightconupdater.blob.core.windows.net/take00/0.8.9.0/lib/folder folder white name/another folder/file with ... ... whitespaces.exe</string>
-    </filesToCopySource>
-    <filesToCopyDestination>
-      <string>lib\dummyApp.pdb</string>
-      <string>lib\folder folder white name\another folder\file with ... ... whitespaces.exe</string>
-    </filesToCopyDestination>
-    <filesToDelete>
-      <string>lib\folder folder white name\another folder\file with ... whitespaces.exe</string>
-    </filesToDelete>
-    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
-    <versionSerialized>0.8.9.0</versionSerialized>
-  </VersionInfo>
-  <VersionInfo>
-    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/dummyApp/0.8.13.0/dummyApp.exe</executable>
-    <updater>https://dl.dropbox.com/s/uiy6l1ks2408089/autoUpdater.exe</updater>
-    <copyFilesHashes>
-      <string>1717af3f4986a978006ae2ee247f18cd8f74ddf40eb066ce38d87e18c0060e7f</string>
-      <string>e52372f345aa39c567f6282d18d376152a782a0c181ff3d31344b3c457864ec8</string>
-      <string>7a34784228403698b8bbd964f10073de7119354518acf56eeaabaec06d2a806e</string>
-    </copyFilesHashes>
-    <filesToCopySource>
-      <string>https://lightconupdater.blob.core.windows.net/take00/apps/dummyApp/0.8.13.0/lib/dummyApp.pdb</string>
-    </filesToCopySource>
-    <filesToCopyDestination>
-      <string>lib\dummyApp.pdb</string>
-    </filesToCopyDestination>
-    <filesToDelete />
-    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
-    <versionSerialized>0.8.13.0</versionSerialized>
+    <versionSerialized>0.8.17.0</versionSerialized>
   </VersionInfo>
 </ArrayOfVersionInfo>
