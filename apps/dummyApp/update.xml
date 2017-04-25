@@ -234,4 +234,22 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>0.8.31.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/dummyApp/0.8.32.0/dummyApp.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>c84ceb0b7c1e3faa8b049d5800a7687dfb13a0d804133e5b6db63dafed6ec5da</string>
+      <string>e52372f345aa39c567f6282d18d376152a782a0c181ff3d31344b3c457864ec8</string>
+      <string>43069d8b64b55be793daab5a905792036d56203051eb6fa9bdad1d0537894b5b</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/dummyApp/0.8.32.0/lib/dummyApp.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\dummyApp.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>0.8.32.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
