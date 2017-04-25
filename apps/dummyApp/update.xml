@@ -53,5 +53,6 @@
     <filesToDelete />
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>0.8.19.0</versionSerialized>
+	<blah></blah>
   </VersionInfo>
 </ArrayOfVersionInfo>
