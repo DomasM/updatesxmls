@@ -270,4 +270,27 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>0.8.33.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/dummyApp/0.8.35.0/dummyApp.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>83fc614cc6170d6ab5c6cea509ae5e94e0170623c0a1b84189ecbbd26e957427</string>
+      <string>e52372f345aa39c567f6282d18d376152a782a0c181ff3d31344b3c457864ec8</string>
+      <string>717b8a573b18589e3bd0820a21e467c9c0bb42241b4c4545e964ddd029d1b607</string>
+      <string>7d17aa188fd66da1abaaa0303f42c0f78ec86054e0c202f2deb2a8754f8bf424</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/dummyApp/0.8.35.0/lib/dummyApp.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/dummyApp/0.8.35.0/lib/folder%20folder%20white%20name/another%20folder/file%20with%20...%20...%20whitesp%20%20%20%20aces.exe</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\dummyApp.pdb</string>
+      <string>lib\folder folder white name\another folder\file with ... ... whitesp    aces.exe</string>
+    </filesToCopyDestination>
+    <filesToDelete>
+      <string>lib\folder folder white name\another folder\file with ... ... whitespaces.exe</string>
+    </filesToDelete>
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>0.8.35.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
