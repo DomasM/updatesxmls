@@ -272,7 +272,7 @@
   </VersionInfo>
   <VersionInfo>
     <executable>https://lightconupdater.blob.core.windows.net/take00/apps/dummyApp/0.8.35.0/dummyApp.exe</executable>
-    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/gama/autoUpdater.exe</updater>
     <copyFilesHashes>
       <string>83fc614cc6170d6ab5c6cea509ae5e94e0170623c0a1b84189ecbbd26e957427</string>
       <string>e52372f345aa39c567f6282d18d376152a782a0c181ff3d31344b3c457864ec8</string>
