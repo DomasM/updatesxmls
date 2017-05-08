@@ -292,5 +292,6 @@
     </filesToDelete>
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>0.8.35.0</versionSerialized>
+    <dummy></dummy>
   </VersionInfo>
 </ArrayOfVersionInfo>
