@@ -201,4 +201,58 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-9.0.0.0" newVersion="9.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.1.0.0" newVersion="2.1.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.3.0.0" newVersion="1.3.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.0.20029.0" newVersion="2.0.20029.0" /&gt;&lt;/dependentAssembly&gt;&lt;!-- BEGIN: Added by PostSharp --&gt;&lt;dependentAssembly xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;assemblyIdentity name="PostSharp" publicKeyToken="b13fd38b8f9c99d7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="3.0.0.0-5.0.21.0" newVersion="5.0.21.0" /&gt;&lt;/dependentAssembly&gt;&lt;!-- END: Added by PostSharp --&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>1.1.0.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/WinTopas4/1.1.1.0/WinTopas4.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>841d23af4d376e0aebf2eb15d557e276315819ad4ee790a565048a270c6674c4</string>
+      <string>f10a27f90ecc5f7a9d36f827a565729539cca53b90ac4d1b2137903005a5f9c8</string>
+      <string>ce0053aac3c7a14e80a444fe453f3ff6d56eb6b713d09e463a17c2a69375f4ad</string>
+      <string>b023daf65a1d08c54ec23662f3879bdced1bf38517444bb103d6e291d1993425</string>
+      <string>db140bc4e39aa2028ed972f33b98bf5c1baf1f67b083a726181533120ba68f96</string>
+      <string>a0a6ff04ed68c479a5d8030427ce604d9ba3d2890eea91f8813653a93494491d</string>
+      <string>b388a62b003ac3c16d174bca582bcb57a705ce6875ba0f480559229c78e45959</string>
+      <string>35714007bfd97f0a93a28ee31dd71429164233dc92c2c149f1274c73262b15ea</string>
+      <string>0ba5c05aafb172caff1ea59f1b8d79a64eda7974d2976d35d557ab55b60257e5</string>
+      <string>ce0053aac3c7a14e80a444fe453f3ff6d56eb6b713d09e463a17c2a69375f4ad</string>
+      <string>c8f36dcdb125ed86722c5a2595981c7f3db9d45347b596cc66ae82f4e26969dd</string>
+      <string>36ae6ec09ed701f2bdcffdeaf8509cfc1e976d53eb7217b1dec5a7d639ba02fb</string>
+      <string>bab65e221d73f06a908ed24610d42aec24616662d4b2e7f86e8b99fe54a67e77</string>
+      <string>34a474acb1923699cedcf3b8c756572fb6fa55d1172c8086c942e75a37539842</string>
+      <string>ace8538e4f1f8ec94110be1df021bf880d1fa9d540c121e7011884583e44f1d1</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/WinTopas4/1.1.1.0/lib/GenFu.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/WinTopas4/1.1.1.0/lib/RestServiceHelper.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/WinTopas4/1.1.1.0/lib/RestServiceHelper.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/WinTopas4/1.1.1.0/lib/WCFRestHelpGenerator.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/WinTopas4/1.1.1.0/lib/WCFRestHelpGenerator.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/WinTopas4/1.1.1.0/lib/WinTopas4.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/WinTopas4/1.1.1.0/Resources/SelfHostedServer/Master/Topas4Server.exe</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/WinTopas4/1.1.1.0/Resources/SelfHostedServer/Master/lib/GenFu.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/WinTopas4/1.1.1.0/Resources/SelfHostedServer/Master/lib/RestServiceHelper.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/WinTopas4/1.1.1.0/Resources/SelfHostedServer/Master/lib/RestServiceHelper.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/WinTopas4/1.1.1.0/Resources/SelfHostedServer/Master/lib/Topas4Server.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/WinTopas4/1.1.1.0/Resources/SelfHostedServer/Master/lib/WCFRestHelpGenerator.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/WinTopas4/1.1.1.0/Resources/SelfHostedServer/Master/lib/WCFRestHelpGenerator.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\GenFu.dll</string>
+      <string>lib\RestServiceHelper.dll</string>
+      <string>lib\RestServiceHelper.pdb</string>
+      <string>lib\WCFRestHelpGenerator.dll</string>
+      <string>lib\WCFRestHelpGenerator.pdb</string>
+      <string>lib\WinTopas4.pdb</string>
+      <string>Resources\SelfHostedServer\Master\Topas4Server.exe</string>
+      <string>Resources\SelfHostedServer\Master\lib\GenFu.dll</string>
+      <string>Resources\SelfHostedServer\Master\lib\RestServiceHelper.dll</string>
+      <string>Resources\SelfHostedServer\Master\lib\RestServiceHelper.pdb</string>
+      <string>Resources\SelfHostedServer\Master\lib\Topas4Server.pdb</string>
+      <string>Resources\SelfHostedServer\Master\lib\WCFRestHelpGenerator.dll</string>
+      <string>Resources\SelfHostedServer\Master\lib\WCFRestHelpGenerator.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-9.0.0.0" newVersion="9.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.1.0.0" newVersion="2.1.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.3.0.0" newVersion="1.3.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.0.20029.0" newVersion="2.0.20029.0" /&gt;&lt;/dependentAssembly&gt;&lt;!-- BEGIN: Added by PostSharp --&gt;&lt;dependentAssembly xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;assemblyIdentity name="PostSharp" publicKeyToken="b13fd38b8f9c99d7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="3.0.0.0-5.0.21.0" newVersion="5.0.21.0" /&gt;&lt;/dependentAssembly&gt;&lt;!-- END: Added by PostSharp --&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>1.1.1.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
