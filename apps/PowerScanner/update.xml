@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfVersionInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner/1.0.3.0/PowerScanner.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>72df27a582fd88411ea53dab11e50b07409a12edc9bb6057fb8cbe1462f21d20</string>
+      <string>f10a27f90ecc5f7a9d36f827a565729539cca53b90ac4d1b2137903005a5f9c8</string>
+      <string>6a338c454fe84109d4e3d33898593cfea112f28f87c887a4c13138b0d179648a</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner/1.0.3.0/lib/PowerScanner.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\PowerScanner.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="NetMQ" publicKeyToken="a6decef4ddc58b3a" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.3" newVersion="3.3.2.3" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.2.4.0" newVersion="1.2.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>1.0.3.0</versionSerialized>
+  </VersionInfo>
+</ArrayOfVersionInfo>
