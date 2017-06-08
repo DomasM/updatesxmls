@@ -171,4 +171,46 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.2.4.0" newVersion="1.2.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.0.0.668" newVersion="2.0.0.668" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>1.4.9.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.5.0.0/PowerMeter.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>ef935283d4aa876d9c0582d930a255629f97694e1a5b71c7de7ff1181be460a2</string>
+      <string>f10a27f90ecc5f7a9d36f827a565729539cca53b90ac4d1b2137903005a5f9c8</string>
+      <string>a20250d0ee80082ff916352111c498d54b211cad385354b1cf3a74d56042fafc</string>
+      <string>d8f2153259a7c64ff90a1b458f46b67e14caefe029723133ec0a19d0a8a94c08</string>
+      <string>afa197c2d7f078e60a879dddf42561ca7f4b75da807641a5b0479995deb165ec</string>
+      <string>78afa90cee0d9e6becb7f3b82de24e386767f4ccf80044bfc7b349a281ee10d6</string>
+      <string>8ed1142e574892075dd566b242a4f70ca153faf0e54c27a38d9e3baa0430fabb</string>
+      <string>178823e4029e22d8436eacd7a8be5775951c958b49fac5c324378973b0a2e808</string>
+      <string>e5898d339335737a9e09efcf33fcf490762e2ad87a850340592f2693a97df6f7</string>
+      <string>e1c44cac13aec96dbcf17c4f770fbfc8706b878a06aab1dfa10d1ce389daf4c1</string>
+      <string>bb693c01ce1d1b9d028e8df43b17719544d6ab3a8b07d222f78971888d944dc4</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.5.0.0/lib/GNUPlotHelpers.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.5.0.0/lib/GNUPlotHelpers.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.5.0.0/lib/PowerMeter.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.5.0.0/lib/SciChart.Charting.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.5.0.0/lib/SciChart.Core.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.5.0.0/lib/SciChart.Data.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.5.0.0/lib/SciChart.Drawing.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.5.0.0/lib/ScichartV4Helpers.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.5.0.0/lib/ScichartV4Helpers.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\GNUPlotHelpers.dll</string>
+      <string>lib\GNUPlotHelpers.pdb</string>
+      <string>lib\PowerMeter.pdb</string>
+      <string>lib\SciChart.Charting.dll</string>
+      <string>lib\SciChart.Core.dll</string>
+      <string>lib\SciChart.Data.dll</string>
+      <string>lib\SciChart.Drawing.dll</string>
+      <string>lib\ScichartV4Helpers.dll</string>
+      <string>lib\ScichartV4Helpers.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.2.4.0" newVersion="1.2.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.0.0.668" newVersion="2.0.0.668" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>1.5.0.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
