@@ -785,4 +785,46 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.1.0.0" newVersion="2.1.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.3.0.0" newVersion="1.3.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.0.20029.0" newVersion="2.0.20029.0" /&gt;&lt;/dependentAssembly&gt;&lt;!-- BEGIN: Added by PostSharp --&gt;&lt;dependentAssembly xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;assemblyIdentity name="PostSharp" publicKeyToken="b13fd38b8f9c99d7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="3.0.0.0-5.0.21.0" newVersion="5.0.21.0" /&gt;&lt;/dependentAssembly&gt;&lt;!-- END: Added by PostSharp --&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>1.2.9.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/WinTopas4/1.2.10.0/WinTopas4.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>8ee8229e7422a0edfc971f74c50acd24686f1dbef265997416792fc986c4f147</string>
+      <string>f10a27f90ecc5f7a9d36f827a565729539cca53b90ac4d1b2137903005a5f9c8</string>
+      <string>5ea4df7b3eb860ed8867da3d22a8cb549aa04686f682647352b0adf7834a7f84</string>
+      <string>2050c6b40c36d242e10c02accf68feb897a7051b89702fda2e7dc063a3dd1976</string>
+      <string>a3dcf75c825feb4392f3841ec3acf7c4a3f45d9628b8696d488bd3db9c180493</string>
+      <string>7d45b7a2a5b658e0cc5b6784d03e2fb5f2ec7f21ce8e901fc7f9387142299552</string>
+      <string>f79dcf0c471ea6ebd080b449b467d310c00ff0aa480e8c9e8e7c7d534218b748</string>
+      <string>ca9c4ea51876d01547aeb8d34e63a901adf71b826b20dc9533faf85d236c46d6</string>
+      <string>b0475b25b97af2e820207976ab73084d2aed0c05bb3cde344dad2631d774735c</string>
+      <string>a3dcf75c825feb4392f3841ec3acf7c4a3f45d9628b8696d488bd3db9c180493</string>
+      <string>7d45b7a2a5b658e0cc5b6784d03e2fb5f2ec7f21ce8e901fc7f9387142299552</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/WinTopas4/1.2.10.0/lib/GNUPlotHelpers.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/WinTopas4/1.2.10.0/lib/GNUPlotHelpers.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/WinTopas4/1.2.10.0/lib/UdpLocatorV2.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/WinTopas4/1.2.10.0/lib/UdpLocatorV2.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/WinTopas4/1.2.10.0/lib/WinTopas4.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/WinTopas4/1.2.10.0/Resources/SelfHostedServer/Master/Topas4Server.exe</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/WinTopas4/1.2.10.0/Resources/SelfHostedServer/Master/lib/Topas4Server.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/WinTopas4/1.2.10.0/Resources/SelfHostedServer/Master/lib/UdpLocatorV2.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/WinTopas4/1.2.10.0/Resources/SelfHostedServer/Master/lib/UdpLocatorV2.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\GNUPlotHelpers.dll</string>
+      <string>lib\GNUPlotHelpers.pdb</string>
+      <string>lib\UdpLocatorV2.dll</string>
+      <string>lib\UdpLocatorV2.pdb</string>
+      <string>lib\WinTopas4.pdb</string>
+      <string>Resources\SelfHostedServer\Master\Topas4Server.exe</string>
+      <string>Resources\SelfHostedServer\Master\lib\Topas4Server.pdb</string>
+      <string>Resources\SelfHostedServer\Master\lib\UdpLocatorV2.dll</string>
+      <string>Resources\SelfHostedServer\Master\lib\UdpLocatorV2.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.1.0.0" newVersion="2.1.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.3.0.0" newVersion="1.3.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.0.20029.0" newVersion="2.0.20029.0" /&gt;&lt;/dependentAssembly&gt;&lt;!-- BEGIN: Added by PostSharp --&gt;&lt;dependentAssembly xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;assemblyIdentity name="PostSharp" publicKeyToken="b13fd38b8f9c99d7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="3.0.0.0-5.0.21.0" newVersion="5.0.21.0" /&gt;&lt;/dependentAssembly&gt;&lt;!-- END: Added by PostSharp --&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>1.2.10.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
