@@ -156,4 +156,46 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="NetMQ" publicKeyToken="a6decef4ddc58b3a" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.3" newVersion="3.3.2.3" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.2.4.0" newVersion="1.2.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>1.0.5.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner/1.1.0.0/PowerScanner.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>37aa2b8c901af8d96a7f3daf398941105a09d764573d8a935c191f46ad2a4e58</string>
+      <string>f10a27f90ecc5f7a9d36f827a565729539cca53b90ac4d1b2137903005a5f9c8</string>
+      <string>5fdb0d7aa5320dfaf7d2c2ecf3441eed08591eaa574f131a33a306dcdb49f249</string>
+      <string>25bf853d327264e5312d188cc361d5255d0af8e52fc0cdb7129fce5da6e14ac0</string>
+      <string>ccc1e9cb84d3f17d16b649aab074388d9672c278beff266a9f0412b121a05cb6</string>
+      <string>78afa90cee0d9e6becb7f3b82de24e386767f4ccf80044bfc7b349a281ee10d6</string>
+      <string>8ed1142e574892075dd566b242a4f70ca153faf0e54c27a38d9e3baa0430fabb</string>
+      <string>178823e4029e22d8436eacd7a8be5775951c958b49fac5c324378973b0a2e808</string>
+      <string>e5898d339335737a9e09efcf33fcf490762e2ad87a850340592f2693a97df6f7</string>
+      <string>e1c44cac13aec96dbcf17c4f770fbfc8706b878a06aab1dfa10d1ce389daf4c1</string>
+      <string>bb693c01ce1d1b9d028e8df43b17719544d6ab3a8b07d222f78971888d944dc4</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner/1.1.0.0/lib/GNUPlotHelpers.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner/1.1.0.0/lib/GNUPlotHelpers.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner/1.1.0.0/lib/PowerScanner.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner/1.1.0.0/lib/SciChart.Charting.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner/1.1.0.0/lib/SciChart.Core.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner/1.1.0.0/lib/SciChart.Data.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner/1.1.0.0/lib/SciChart.Drawing.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner/1.1.0.0/lib/ScichartV4Helpers.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner/1.1.0.0/lib/ScichartV4Helpers.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\GNUPlotHelpers.dll</string>
+      <string>lib\GNUPlotHelpers.pdb</string>
+      <string>lib\PowerScanner.pdb</string>
+      <string>lib\SciChart.Charting.dll</string>
+      <string>lib\SciChart.Core.dll</string>
+      <string>lib\SciChart.Data.dll</string>
+      <string>lib\SciChart.Drawing.dll</string>
+      <string>lib\ScichartV4Helpers.dll</string>
+      <string>lib\ScichartV4Helpers.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="NetMQ" publicKeyToken="a6decef4ddc58b3a" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.3" newVersion="3.3.2.3" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.2.4.0" newVersion="1.2.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>1.1.0.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
