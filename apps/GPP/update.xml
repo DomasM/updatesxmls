@@ -36,4 +36,34 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="NetMQ" publicKeyToken="a6decef4ddc58b3a" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.2" newVersion="3.3.2.2" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.3.0.0" newVersion="1.3.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.0.0.668" newVersion="2.0.0.668" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>0.2.2.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/GPP/0.2.3.0/GPP.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>c1464dd71484ec44a59c73e18313edf16d11eedafc10b1585e02e290da3b7cfe</string>
+      <string>f10a27f90ecc5f7a9d36f827a565729539cca53b90ac4d1b2137903005a5f9c8</string>
+      <string>8e904d4bb92ed51d824b1ce229a0f79ab1c15d667e8be9982736160544eba09c</string>
+      <string>cd551eebcf05020b30bb1529cb7b0a466aee6cd1ae01296ea24b1e16e3304620</string>
+      <string>5a7fabb9b15b078f4cae9b45ed9d8625a2319246c6dc16fffcc1f9b53b562e89</string>
+      <string>c48dcfa1c77af65c526a9a197daac377645703b866dc4b5f7b4ce0a5c1346b1a</string>
+      <string>eddc1c0909b83a187559ade671e910971e5c522d480af95211698ae7d19fed40</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GPP/0.2.3.0/lib/FireAndForgetTSVReader.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GPP/0.2.3.0/lib/FireAndForgetTSVReader.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GPP/0.2.3.0/lib/GNUPlotHelpers.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GPP/0.2.3.0/lib/GNUPlotHelpers.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GPP/0.2.3.0/lib/GPP.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\FireAndForgetTSVReader.dll</string>
+      <string>lib\FireAndForgetTSVReader.pdb</string>
+      <string>lib\GNUPlotHelpers.dll</string>
+      <string>lib\GNUPlotHelpers.pdb</string>
+      <string>lib\GPP.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="NetMQ" publicKeyToken="a6decef4ddc58b3a" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.2" newVersion="3.3.2.2" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.3.0.0" newVersion="1.3.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.0.0.668" newVersion="2.0.0.668" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>0.2.3.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
