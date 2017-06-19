@@ -281,4 +281,52 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="NetMQ" publicKeyToken="a6decef4ddc58b3a" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.2" newVersion="3.3.2.2" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.3.0.0" newVersion="1.3.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.0.0.668" newVersion="2.0.0.668" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>0.4.2.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/GPP/0.4.4.0/GPP.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>fb36dea1153fbfff0d99a724065897601551ffdb8cf0a0ff832a18561b7f7ac6</string>
+      <string>f10a27f90ecc5f7a9d36f827a565729539cca53b90ac4d1b2137903005a5f9c8</string>
+      <string>10f4c38ab710578ebfa18bba128cdada73a67fa90c25d02b38d8feaf140ba846</string>
+      <string>357ba1d933a8ed081b4e20276a0a865a00f0d1ced8aa5522431992a3f0c305ac</string>
+      <string>37b64be589cd6acadca378bd2e3c06d1bc20fc095f5ea467cdba43c183bd72cd</string>
+      <string>ce78f61eafcd96ff878f7e29d4c6efbcf5e4163f60870d74d9f028d0dbc7c525</string>
+      <string>f5311ef31b0ffde6a075fc46000f7b97ad746dbc1dc393ef9f0fde447d8bf3fb</string>
+      <string>ddaf90606db0ade16f2dcdccd56d794e695c71bfbc73743403e4f7dd17b1c46b</string>
+      <string>a67ff0cccddc4fe4241694a5e5049d8a1af771ce30b1b2a691f0694aa8e567bd</string>
+      <string>f378085d5ffabf5cdf00c43792716d18491d129005e48ec52c954e4c4e9e6180</string>
+      <string>799e15eba2201c2f276341ae95fe592e02a71b5b392e17caecacd8f8b22e2340</string>
+      <string>74838dcae4b5954633e36ebfc00d01e930d6a0cffbeb08658746e43fafa2d05a</string>
+      <string>e9b7cc224e0609c0599185181cbbcb037afe5188c019d026fc76774f3c13e399</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GPP/0.4.4.0/lib/Abt.Controls.SciChart.Wpf.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GPP/0.4.4.0/lib/Cyotek.Collections.Generic.CircularBuffer.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GPP/0.4.4.0/lib/DataLogViewer.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GPP/0.4.4.0/lib/DataLogViewer.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GPP/0.4.4.0/lib/FileSystemHelpers.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GPP/0.4.4.0/lib/FileSystemHelpers.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GPP/0.4.4.0/lib/GPP.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GPP/0.4.4.0/lib/ScichartHelpers.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GPP/0.4.4.0/lib/ScichartHelpers.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GPP/0.4.4.0/lib/StdAvgCalc.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GPP/0.4.4.0/lib/StdAvgCalc.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\Abt.Controls.SciChart.Wpf.dll</string>
+      <string>lib\Cyotek.Collections.Generic.CircularBuffer.dll</string>
+      <string>lib\DataLogViewer.dll</string>
+      <string>lib\DataLogViewer.pdb</string>
+      <string>lib\FileSystemHelpers.dll</string>
+      <string>lib\FileSystemHelpers.pdb</string>
+      <string>lib\GPP.pdb</string>
+      <string>lib\ScichartHelpers.dll</string>
+      <string>lib\ScichartHelpers.pdb</string>
+      <string>lib\StdAvgCalc.dll</string>
+      <string>lib\StdAvgCalc.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="NetMQ" publicKeyToken="a6decef4ddc58b3a" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.2" newVersion="3.3.2.2" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.3.0.0" newVersion="1.3.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.0.0.668" newVersion="2.0.0.668" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>0.4.4.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
