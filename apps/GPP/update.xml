@@ -329,4 +329,40 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="NetMQ" publicKeyToken="a6decef4ddc58b3a" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.2" newVersion="3.3.2.2" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.3.0.0" newVersion="1.3.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.0.0.668" newVersion="2.0.0.668" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>0.4.4.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/GPP/0.4.6.0/GPP.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>39619a7b4aed68e6578b895ad108995da23b41d30cdb78378522e6ce37e1800d</string>
+      <string>f10a27f90ecc5f7a9d36f827a565729539cca53b90ac4d1b2137903005a5f9c8</string>
+      <string>e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</string>
+      <string>0a3a38b34024f4cf4e0e709ab9982697a27fcda197fe9b54547bdf699b395682</string>
+      <string>53715c9325ba7daf83691770d5c3ead9222f595c62337a1d44c8bfb2fa7cc11f</string>
+      <string>7d12301c95aa21e883383989f8f30fad0450552dedd2adef61b51f41604df6e8</string>
+      <string>7ff5fa9c45911d7e6a9c06dee41f9d558162a15727c7495bf517fef1a764c4d8</string>
+      <string>3f5d72cc9868b275058f9a7ec133ff4ea83f10e87016b005d94cecf6a6b7db35</string>
+      <string>e35c5e090288fef56e82eaec73116a4e776f9674d9791aeecaa49a513234f2c8</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GPP/0.4.6.0/cache/404.txt</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GPP/0.4.6.0/lib/GPP.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GPP/0.4.6.0/lib/mxparser.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GPP/0.4.6.0/lib/SylosDataLogWriter.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GPP/0.4.6.0/lib/SylosDataLogWriter.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GPP/0.4.6.0/lib/SylosLogFileReader.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GPP/0.4.6.0/lib/SylosLogFileReader.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>cache\404.txt</string>
+      <string>lib\GPP.pdb</string>
+      <string>lib\mxparser.dll</string>
+      <string>lib\SylosDataLogWriter.dll</string>
+      <string>lib\SylosDataLogWriter.pdb</string>
+      <string>lib\SylosLogFileReader.dll</string>
+      <string>lib\SylosLogFileReader.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="NetMQ" publicKeyToken="a6decef4ddc58b3a" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.2" newVersion="3.3.2.2" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.3.0.0" newVersion="1.3.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.0.0.668" newVersion="2.0.0.668" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.0.20029.0" newVersion="2.0.20029.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>0.4.6.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
