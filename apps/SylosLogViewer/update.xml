@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfVersionInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/SylosLogViewer/0.8.1.0/SylosLogViewer.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>dd0ba81e577985bce3cb3520e87814db96a26470afb46ffbd605f97f60d3add2</string>
+      <string>f10a27f90ecc5f7a9d36f827a565729539cca53b90ac4d1b2137903005a5f9c8</string>
+      <string>8969cddd13ba49826b91cfc5b69c9c71957e695d95c2698ef81deef3842f8902</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/SylosLogViewer/0.8.1.0/lib/SylosLogViewer.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\SylosLogViewer.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.5.0.23" newVersion="1.5.0.23" /&gt;&lt;/dependentAssembly&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>0.8.1.0</versionSerialized>
+  </VersionInfo>
+</ArrayOfVersionInfo>
