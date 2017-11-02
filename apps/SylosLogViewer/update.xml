@@ -105,7 +105,6 @@
       <string>lib\SylosLogViewer.pdb</string>
     </filesToCopyDestination>
     <filesToDelete>
-      <string>cache\404.txt</string>
       <string>lib\Abt.Controls.SciChart.Wpf.dll</string>
     </filesToDelete>
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.5.0.23" newVersion="1.5.0.23" /&gt;&lt;/dependentAssembly&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
