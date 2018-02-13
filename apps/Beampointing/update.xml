@@ -203,4 +203,49 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="NetMQ" publicKeyToken="a6decef4ddc58b3a" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.2" newVersion="3.3.2.2" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.2.4.0" newVersion="1.2.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>0.6.0.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/Beampointing/0.6.1.0/BeamPointing.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>428b303d404d5fc4fead31a869d1dc9f6a572aaa113271fdd86336c9ac1a1b3f</string>
+      <string>f10a27f90ecc5f7a9d36f827a565729539cca53b90ac4d1b2137903005a5f9c8</string>
+      <string>0f4946ede3a230082fdbc3720718ffd45d883206f3f20297a0fa88c1c0cb5b72</string>
+      <string>1ae91ac250f12ae56cddf76230c4b5e8d64b068aa05c0f1f6d0dd777360a25e2</string>
+      <string>d538ea0d606ac2c680b989e222cf41d7662f099e04db3cdf8ae76b6b4b42b5b1</string>
+      <string>a7f2133ec197c411f1917953bdaf9d0f650b2ffc5aabbcf5a23e10138535b970</string>
+      <string>7b574b07fa43e53248d10c4095cdd1048b42f8c5fbf3f292d790cd0f3c3ec497</string>
+      <string>daf16af7a7f25b84073f8d370d9d1cdf11b74806666493af06c596d4df4743a6</string>
+      <string>495c233be9b854523f862b03c3270400e60cac64c0e5e58e9219b6ac3045ef44</string>
+      <string>6bf2ff1b0467be8180113ed5bd91f46c0fc04cd3fb83de69e328d28379f6e47a</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Beampointing/0.6.1.0/lib/BeamPointing.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Beampointing/0.6.1.0/lib/RestServiceHelper.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Beampointing/0.6.1.0/lib/RestServiceHelper.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Beampointing/0.6.1.0/lib/RestSharp.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Beampointing/0.6.1.0/lib/ScichartV4Helpers.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Beampointing/0.6.1.0/lib/ScichartV4Helpers.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Beampointing/0.6.1.0/lib/ZeroMQHelpers.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Beampointing/0.6.1.0/Resources/PerDeviceSettings/Beam%20Pointing%2019B.json</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\BeamPointing.pdb</string>
+      <string>lib\RestServiceHelper.dll</string>
+      <string>lib\RestServiceHelper.pdb</string>
+      <string>lib\RestSharp.dll</string>
+      <string>lib\ScichartV4Helpers.dll</string>
+      <string>lib\ScichartV4Helpers.pdb</string>
+      <string>lib\ZeroMQHelpers.pdb</string>
+      <string>Resources\PerDeviceSettings\Beam Pointing 19B.json</string>
+    </filesToCopyDestination>
+    <filesToDelete>
+      <string>lib\AsyncIO.dll</string>
+      <string>lib\DMAG.dll</string>
+      <string>lib\NetMQ.dll</string>
+      <string>lib\udpLocator.dll</string>
+      <string>lib\ZeroMQHelpers.dll</string>
+    </filesToDelete>
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="NetMQ" publicKeyToken="a6decef4ddc58b3a" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.2" newVersion="3.3.2.2" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.2.4.0" newVersion="1.2.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>0.6.1.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
