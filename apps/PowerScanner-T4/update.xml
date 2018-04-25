@@ -951,4 +951,67 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="NetMQ" publicKeyToken="a6decef4ddc58b3a" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.3" newVersion="3.3.2.3" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.3.0.0" newVersion="1.3.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.0.20029.0" newVersion="2.0.20029.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Microsoft.ApplicationInsights" publicKeyToken="31bf3856ad364e35" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.2.0.0" newVersion="2.2.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="PostSharp" publicKeyToken="b13fd38b8f9c99d7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-5.0.35.0" newVersion="5.0.35.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>1.5.1.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner-T4/1.5.2.0/PowerScanner-T4.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>ca8d0b9b3a4cab8c9e492b870d1118887907c49513db1ee630bca3a6fc27f308</string>
+      <string>f10a27f90ecc5f7a9d36f827a565729539cca53b90ac4d1b2137903005a5f9c8</string>
+      <string>67a1977a211dd33752c7e6fcafb1e6ab61b6f26f529b1373e54d1ca512ada858</string>
+      <string>8b2701f232346af4d2709b3bb522b61f08c54b1e5c2a1efee00f2b9226ccce58</string>
+      <string>225146e4eb04621c62ab029bb4a09496cb19ec08f05b1eb1129b0c62e1520d49</string>
+      <string>8a7041ec600d4210bd4954653938ea475198d578f3acbc1da69882a4fdf0adbd</string>
+      <string>675e928c8a8be96c8adc8f8446c45ae595b277878a895d22fb9ab3acaf6ea7a3</string>
+      <string>0ea3f040c277feddc545d3d8db729ec3a8131fc13e2ce732dac57330a8876874</string>
+      <string>f1ea67f74170fc61dd6c82d42267106d90da3d1b42c28798e35a4cd7214fd87e</string>
+      <string>fb78c29cd95f86be10c8be9e4eb247e30384601844339283c2cae9b5800a59e8</string>
+      <string>ade0d307ec376a10cd501decf1f6d423ed8d696f421d814d9b6d0ded774c2f6d</string>
+      <string>4cfc7c79f1bc17b490cb8685d388c76798bba7ecfad479e3c3c058bdff046823</string>
+      <string>07036688c3d63bb69de2e7fda2d09ffafb58bd7a5aa4b98432c15b829ee08a0f</string>
+      <string>65575400d79f6aa0904ef3f01d155014f65da833288c7bbac1faa299faac289e</string>
+      <string>827452dcc04f876e380a961d164a4ad7d2174f645e2319c605af19de7ea6c276</string>
+      <string>ff9958dafc24dd3267036e5530c3f7f3572b0884894f1997aa81209258b0576c</string>
+      <string>f6c44b6e6f213b00f8ef8483042b0c32631b46658f4b9b3485006829f6f72135</string>
+      <string>be66fbd637dcff3b85b60f998926d5ecbcaf374b2a9d9de24cae7c6aff8be2e8</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner-T4/1.5.2.0/lib/Accord.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner-T4/1.5.2.0/lib/Accord.Math.Core.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner-T4/1.5.2.0/lib/Accord.Math.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner-T4/1.5.2.0/lib/Accord.Statistics.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner-T4/1.5.2.0/lib/FireAndForgetTSVReader.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner-T4/1.5.2.0/lib/FireAndForgetTSVReader.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner-T4/1.5.2.0/lib/LogAxisTickProvider.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner-T4/1.5.2.0/lib/LogAxisTickProvider.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner-T4/1.5.2.0/lib/PowerScanner-T4.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner-T4/1.5.2.0/lib/ScichartV4Helpers.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner-T4/1.5.2.0/lib/ScichartV4Helpers.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner-T4/1.5.2.0/lib/spectrumAlgorithms.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner-T4/1.5.2.0/lib/spectrumAlgorithms.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner-T4/1.5.2.0/lib/StdAvgCalc.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner-T4/1.5.2.0/lib/StdAvgCalc.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner-T4/1.5.2.0/lib/WinTopas4.exe</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\Accord.dll</string>
+      <string>lib\Accord.Math.Core.dll</string>
+      <string>lib\Accord.Math.dll</string>
+      <string>lib\Accord.Statistics.dll</string>
+      <string>lib\FireAndForgetTSVReader.dll</string>
+      <string>lib\FireAndForgetTSVReader.pdb</string>
+      <string>lib\LogAxisTickProvider.dll</string>
+      <string>lib\LogAxisTickProvider.pdb</string>
+      <string>lib\PowerScanner-T4.pdb</string>
+      <string>lib\ScichartV4Helpers.dll</string>
+      <string>lib\ScichartV4Helpers.pdb</string>
+      <string>lib\spectrumAlgorithms.dll</string>
+      <string>lib\spectrumAlgorithms.pdb</string>
+      <string>lib\StdAvgCalc.dll</string>
+      <string>lib\StdAvgCalc.pdb</string>
+      <string>lib\WinTopas4.exe</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="NetMQ" publicKeyToken="a6decef4ddc58b3a" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.3" newVersion="3.3.2.3" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.3.0.0" newVersion="1.3.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.0.20029.0" newVersion="2.0.20029.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Microsoft.ApplicationInsights" publicKeyToken="31bf3856ad364e35" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.2.0.0" newVersion="2.2.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="PostSharp" publicKeyToken="b13fd38b8f9c99d7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-5.0.35.0" newVersion="5.0.35.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>1.5.2.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
