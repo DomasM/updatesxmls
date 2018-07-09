@@ -710,4 +710,22 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.2.4.0" newVersion="1.6.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.3.12.0" newVersion="2.3.12.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>1.7.2.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.7.3.0/PowerMeter.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>efa4e369b89ead5fe4a5748f4f9d217fbd6c38b8ec55730bb3b77207b9992f4a</string>
+      <string>f10a27f90ecc5f7a9d36f827a565729539cca53b90ac4d1b2137903005a5f9c8</string>
+      <string>9f1bc122ce9a9246000435cddbe03bf44027ef827495e5b7d9abfde203e68dc5</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.7.3.0/lib/PowerMeter.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\PowerMeter.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.2.4.0" newVersion="1.6.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.3.12.0" newVersion="2.3.12.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>1.7.3.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
