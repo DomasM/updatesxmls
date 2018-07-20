@@ -5,7 +5,7 @@
     <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
     <copyFilesHashes>
       <string>a258c4f2f38ad3d130a4745ec319b486a019e8109502451f5e8022a189a47b8f</string>
-      <string>f10a27f90ecc5f7a9d36f827a565729539cca53b90ac4d1b2137903005a5f9c8</string>
+      <string>1aee216b1a30dd9fa097e6009268f3bb7bd022633250c2dfce1ee066ab097585</string>
       <string>06804377b8f6e8c2b09b9b3cba22aedf709f1488e0f0c79192f722f099a980f0</string>
     </copyFilesHashes>
     <filesToCopySource>
@@ -23,7 +23,7 @@
     <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
     <copyFilesHashes>
       <string>65a05db0833b357464c8ed91badfe6826d576497e82b7053881587a339403708</string>
-      <string>f10a27f90ecc5f7a9d36f827a565729539cca53b90ac4d1b2137903005a5f9c8</string>
+      <string>1aee216b1a30dd9fa097e6009268f3bb7bd022633250c2dfce1ee066ab097585</string>
       <string>e8cf013128dc2344e7098ef7b6578916732ee5025f1d5a81cba2bd13428b6a54</string>
       <string>bf006b6076a582e314be0c42746d89f3e2e8fce6a974698bcd19f85a1995fe0a</string>
       <string>6e870d7828cb5fc48d9b09b8a6dca7be62dd4b5b765b0d924c465715f5ea1c0d</string>
@@ -47,7 +47,7 @@
     <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
     <copyFilesHashes>
       <string>103ae4e3e0cf4a66d126c98a737bda73707bc909a4524d2ad65e986577d0ec2c</string>
-      <string>f10a27f90ecc5f7a9d36f827a565729539cca53b90ac4d1b2137903005a5f9c8</string>
+      <string>1aee216b1a30dd9fa097e6009268f3bb7bd022633250c2dfce1ee066ab097585</string>
       <string>590650b07fbe340f7ebb2e26f3474ceb0fed2c2b3289f39194278c6a60eb9bc9</string>
       <string>6db62ba327700d066da97df5d37bcaedc01306d97a146772988a3c11691244e9</string>
       <string>679056e96934a1c0b8d521c8419c2db67cd13a4621a8bd9ddc7f3f8ef2ac8d96</string>
@@ -308,7 +308,7 @@
     <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
     <copyFilesHashes>
       <string>6194b8e8b2629a17adb963d03e09ed686913fa4a5160d01f7be9138a347798f5</string>
-      <string>f10a27f90ecc5f7a9d36f827a565729539cca53b90ac4d1b2137903005a5f9c8</string>
+      <string>1aee216b1a30dd9fa097e6009268f3bb7bd022633250c2dfce1ee066ab097585</string>
       <string>c99697665dedf2c456af47a0ce4752c266e62b4d4e1323356564b9f10247108b</string>
       <string>fb2ec9afd343379090a9bdccede5f36d09d9e21ae51ed918a63f4ecdf36fac52</string>
       <string>e4c0895e017103f9e52f7b6e7c3e6f1675b274d2fae9a64463430c9cb9a0ac2f</string>
