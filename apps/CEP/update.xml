@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfVersionInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.3.1.0/OPOControl.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>29256e238ab2b49d9e61f56b8bacac13319d82de47d0e781abf3c3c97d5c3aea</string>
+      <string>1aee216b1a30dd9fa097e6009268f3bb7bd022633250c2dfce1ee066ab097585</string>
+      <string>409ba975b1219442da3840e7218607c80f8120e72554321f885bcb4e847e68d4</string>
+      <string>6da48e30c097371b3fe1f906c9288b1cf33a9282718aa92b89e793f3738df179</string>
+      <string>75419461538db7c7eed629d3cd520374271d9e3ed7382fae50d717861d4947ed</string>
+      <string>67eea27ac639f476607198f0c6dbe5ee2347e12e2d917cff95fa98bfa348c595</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.3.1.0/lib/aSpectrometer.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.3.1.0/lib/aSpectrometer.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.3.1.0/lib/OPOControl.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.3.1.0/lib/WinTopas4.exe</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\aSpectrometer.dll</string>
+      <string>lib\aSpectrometer.pdb</string>
+      <string>lib\OPOControl.pdb</string>
+      <string>lib\WinTopas4.exe</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;loadFromRemoteSources enabled="true" /&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="NetMQ" publicKeyToken="a6decef4ddc58b3a" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.2" newVersion="3.3.2.2" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.3.0.0" newVersion="1.3.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.0.0.668" newVersion="2.0.0.668" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="PostSharp" publicKeyToken="b13fd38b8f9c99d7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-5.0.35.0" newVersion="5.0.35.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Accord.Math" publicKeyToken="fa1a88e29555ccf7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.8.0.0" newVersion="3.8.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" culture="neutral" publicKeyToken="384d532d7e88985d" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.10.21623.0" newVersion="2.10.21623.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>0.3.1.0</versionSerialized>
+  </VersionInfo>
+  <VersionInfo>
     <executable>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.9.3.0/CEP.exe</executable>
     <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
     <copyFilesHashes>
@@ -421,30 +448,33 @@
     <versionSerialized>0.9.6.0</versionSerialized>
   </VersionInfo>
   <VersionInfo>
-    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.3.1.0/OPOControl.exe</executable>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.3.2.0/OPOControl.exe</executable>
     <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
     <copyFilesHashes>
-      <string>29256e238ab2b49d9e61f56b8bacac13319d82de47d0e781abf3c3c97d5c3aea</string>
+      <string>6d049fe76388807469c21d544fd417071971e9885a7bf0f3ed54948a83868bc9</string>
       <string>1aee216b1a30dd9fa097e6009268f3bb7bd022633250c2dfce1ee066ab097585</string>
-      <string>409ba975b1219442da3840e7218607c80f8120e72554321f885bcb4e847e68d4</string>
-      <string>6da48e30c097371b3fe1f906c9288b1cf33a9282718aa92b89e793f3738df179</string>
-      <string>75419461538db7c7eed629d3cd520374271d9e3ed7382fae50d717861d4947ed</string>
-      <string>67eea27ac639f476607198f0c6dbe5ee2347e12e2d917cff95fa98bfa348c595</string>
+      <string>62a995a7c9ec97c245e1dc14ef77bd38e4074d5529c1ffaae3af9ddf9fbd111b</string>
+      <string>e470538a54d32ad06ec828e0c1ad00a5e38f1086fe09131c06e7c9039415ff31</string>
+      <string>77c1d028692f8dcdadade9b600d1c47bf83d293ab367973631047498600623f7</string>
+      <string>b49aafde052937ad0d0abad057f81d8c1f8119ea5aa3bb4b12b553ca639f614f</string>
+      <string>07f0f6acff3f9c1de21926ccebe594118638559bb3390b72315d6b14ab8873a5</string>
     </copyFilesHashes>
     <filesToCopySource>
-      <string>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.3.1.0/lib/aSpectrometer.dll</string>
-      <string>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.3.1.0/lib/aSpectrometer.pdb</string>
-      <string>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.3.1.0/lib/OPOControl.pdb</string>
-      <string>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.3.1.0/lib/WinTopas4.exe</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.3.2.0/lib/aSpectrometer.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.3.2.0/lib/aSpectrometer.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.3.2.0/lib/IgnoSpec01.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.3.2.0/lib/OPOControl.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.3.2.0/lib/WinTopas4.exe</string>
     </filesToCopySource>
     <filesToCopyDestination>
       <string>lib\aSpectrometer.dll</string>
       <string>lib\aSpectrometer.pdb</string>
+      <string>lib\IgnoSpec01.dll</string>
       <string>lib\OPOControl.pdb</string>
       <string>lib\WinTopas4.exe</string>
     </filesToCopyDestination>
     <filesToDelete />
     <configRuntimeInfo>&lt;loadFromRemoteSources enabled="true" /&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="NetMQ" publicKeyToken="a6decef4ddc58b3a" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.2" newVersion="3.3.2.2" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.3.0.0" newVersion="1.3.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.0.0.668" newVersion="2.0.0.668" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="PostSharp" publicKeyToken="b13fd38b8f9c99d7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-5.0.35.0" newVersion="5.0.35.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Accord.Math" publicKeyToken="fa1a88e29555ccf7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.8.0.0" newVersion="3.8.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" culture="neutral" publicKeyToken="384d532d7e88985d" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.10.21623.0" newVersion="2.10.21623.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
-    <versionSerialized>0.3.1.0</versionSerialized>
+    <versionSerialized>0.3.2.0</versionSerialized>
   </VersionInfo>
 </ArrayOfVersionInfo>
