@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfVersionInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/Sylos_PowerLocker/2.3.1.0/Sylos_PowerLocker.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>5874f88ae00e3b24dba6303f6c93f367d80e12e9e6c27dde980d584b1fe133ae</string>
+      <string>1aee216b1a30dd9fa097e6009268f3bb7bd022633250c2dfce1ee066ab097585</string>
+      <string>44dd69bb616fc422a162657069f01be2c2c6481c45aafc9af3b59fb366fad3fa</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Sylos_PowerLocker/2.3.1.0/lib/Sylos_PowerLocker.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\Sylos_PowerLocker.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>2.3.1.0</versionSerialized>
+  </VersionInfo>
+</ArrayOfVersionInfo>
