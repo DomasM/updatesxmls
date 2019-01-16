@@ -490,9 +490,41 @@
     <filesToCopyDestination>
       <string>lib\BeamPointing.pdb</string>
     </filesToCopyDestination>
-    <filesToDelete>
-    </filesToDelete>
+    <filesToDelete />
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="NetMQ" publicKeyToken="a6decef4ddc58b3a" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.2" newVersion="3.3.2.2" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.2.4.0" newVersion="1.2.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.10.21623.0" newVersion="2.10.21623.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>1.1.2.0</versionSerialized>
+  </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/Beampointing/1.2.0.0/BeamPointing.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>f11dc34bc3f3e76197004d08a254b10655b814766fd1db4f693b1e901591017a</string>
+      <string>1aee216b1a30dd9fa097e6009268f3bb7bd022633250c2dfce1ee066ab097585</string>
+      <string>1c516dff3a11c8d6c5987484c78aa9700d44353efe45d850bfa1a8bd78b3d71f</string>
+      <string>d66d4ab1c78ce3e0d758b532dd7a75f3ca3262e3e4f8c480e011292f8ae3eed1</string>
+      <string>e27063db738de81ee963a664768d7e50810910710ff8ff4084f3b31d58799b38</string>
+      <string>4871aac97010ad824d05eed21b5f0581c62b6b29a6fd174f46100db60007ed7b</string>
+      <string>483548d27d73f5789a02e2d533d75925dacdae76f29bbf384c5776e8492a1c7f</string>
+      <string>d6fb0dcfee1490a8168117ed1b55758f11db38475417b3668d19f89dcb55cbdd</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Beampointing/1.2.0.0/lib/AutoMapper.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Beampointing/1.2.0.0/lib/AutoMapper.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Beampointing/1.2.0.0/lib/BeamPointing.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Beampointing/1.2.0.0/lib/settingsGUIDumper.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Beampointing/1.2.0.0/lib/settingsGUIDumper.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Beampointing/1.2.0.0/lib/System.ValueTuple.dll</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\AutoMapper.dll</string>
+      <string>lib\AutoMapper.pdb</string>
+      <string>lib\BeamPointing.pdb</string>
+      <string>lib\settingsGUIDumper.dll</string>
+      <string>lib\settingsGUIDumper.pdb</string>
+      <string>lib\System.ValueTuple.dll</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="NetMQ" publicKeyToken="a6decef4ddc58b3a" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.2" newVersion="3.3.2.2" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.2.4.0" newVersion="1.2.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="System.ValueTuple" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.0.3.0" newVersion="4.0.3.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.10.21623.0" newVersion="2.10.21623.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>1.2.0.0</versionSerialized>
   </VersionInfo>
 </ArrayOfVersionInfo>
