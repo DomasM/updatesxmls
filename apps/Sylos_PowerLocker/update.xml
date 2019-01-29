@@ -36,4 +36,30 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>2.3.2.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/Sylos_PowerLocker/2.3.3.0/Sylos_PowerLocker.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>4e5448cda4c6a479860d1c3671e3b3f5cce8c3acd10e35fd83a423c0ba7e92fb</string>
+      <string>1aee216b1a30dd9fa097e6009268f3bb7bd022633250c2dfce1ee066ab097585</string>
+      <string>bf7b80b03507729b302290b70f92937d5fd07bb444dded9471815cda40c0dd67</string>
+      <string>c3111d63b032431796cd3fc8b252a11a63213c315ec497c23bc6b9bb17cc99e6</string>
+      <string>811cd739cff9adc11afcfc00a7c3b7e200bd410781d29759758c0bac63341ff1</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Sylos_PowerLocker/2.3.3.0/lib/SylosDataLogWriter.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Sylos_PowerLocker/2.3.3.0/lib/SylosDataLogWriter.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Sylos_PowerLocker/2.3.3.0/lib/Sylos_PowerLocker.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\SylosDataLogWriter.dll</string>
+      <string>lib\SylosDataLogWriter.pdb</string>
+      <string>lib\Sylos_PowerLocker.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete>
+      <string>ApplicationInsights.config</string>
+    </filesToDelete>
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>2.3.3.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
