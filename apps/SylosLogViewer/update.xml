@@ -114,7 +114,6 @@
     <executable>https://lightconupdater.blob.core.windows.net/take00/apps/SylosLogViewer/1.1.0.0/SylosLogViewer.exe</executable>
     <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
     <copyFilesHashes>
-      <string>1aed57eb307728eb50023370375a29025ff96ea62638130636bd151a461592ef</string>
       <string>1aee216b1a30dd9fa097e6009268f3bb7bd022633250c2dfce1ee066ab097585</string>
       <string>e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</string>
       <string>67a1977a211dd33752c7e6fcafb1e6ab61b6f26f529b1373e54d1ca512ada858</string>
@@ -155,7 +154,6 @@
       <string>abdccb4202ddd9dd55d5b297102c8a98b9ddcc6f35d271dbf777308848023d96</string>
     </copyFilesHashes>
     <filesToCopySource>
-      <string>https://lightconupdater.blob.core.windows.net/take00/apps/SylosLogViewer/1.1.0.0/cache/404.txt</string>
       <string>https://lightconupdater.blob.core.windows.net/take00/apps/SylosLogViewer/1.1.0.0/lib/Accord.dll</string>
       <string>https://lightconupdater.blob.core.windows.net/take00/apps/SylosLogViewer/1.1.0.0/lib/Accord.Math.Core.dll</string>
       <string>https://lightconupdater.blob.core.windows.net/take00/apps/SylosLogViewer/1.1.0.0/lib/Accord.Math.dll</string>
@@ -194,7 +192,6 @@
       <string>https://lightconupdater.blob.core.windows.net/take00/apps/SylosLogViewer/1.1.0.0/lib/WpfAutoGrid.dll</string>
     </filesToCopySource>
     <filesToCopyDestination>
-      <string>cache\404.txt</string>
       <string>lib\Accord.dll</string>
       <string>lib\Accord.Math.Core.dll</string>
       <string>lib\Accord.Math.dll</string>
