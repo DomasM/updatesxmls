@@ -101,4 +101,22 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>2.4.0.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/Sylos_PowerLocker/2.5.1.0/Sylos_PowerLocker.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>923ac3560cb1cf5cba17e75617901395b79930b38c9baf4e3443ab5841aca2be</string>
+      <string>1aee216b1a30dd9fa097e6009268f3bb7bd022633250c2dfce1ee066ab097585</string>
+      <string>250d17b9ca480c0e14e2a2bfc916f4521edff566306d4a36aaa529c29c13c1d7</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Sylos_PowerLocker/2.5.1.0/lib/Sylos_PowerLocker.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\Sylos_PowerLocker.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>2.5.1.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
