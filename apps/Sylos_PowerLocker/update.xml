@@ -62,4 +62,25 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>2.3.3.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/Sylos_PowerLocker/2.3.4.0/Sylos_PowerLocker.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>f3fa8d6f484000ec9306980a525da64ad6b469f0b61f1bb7eb575c2627d2e0a0</string>
+      <string>1aee216b1a30dd9fa097e6009268f3bb7bd022633250c2dfce1ee066ab097585</string>
+      <string>a04dc1a05021656a644d883e6d71721bb6700631ebf2dd6706e1b49ca64b23f9</string>
+      <string>360d6112929cbb257e17c11dbec505183a41c52785f4de0a0c96defd07a6c0d6</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Sylos_PowerLocker/2.3.4.0/ApplicationInsights.config</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Sylos_PowerLocker/2.3.4.0/lib/Sylos_PowerLocker.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>ApplicationInsights.config</string>
+      <string>lib\Sylos_PowerLocker.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>2.3.4.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
