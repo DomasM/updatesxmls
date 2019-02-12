@@ -126,4 +126,52 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="NetMQ" publicKeyToken="a6decef4ddc58b3a" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.2" newVersion="3.3.2.2" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.3.12.0" newVersion="2.3.12.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>0.9.7.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/Sylos_PharosControl/0.9.8.0/Sylos_PharosControl.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>9b776fc40e344f7b9b9f255cf1d36a10f6c041d247dee28e00033d7cf47184ba</string>
+      <string>1aee216b1a30dd9fa097e6009268f3bb7bd022633250c2dfce1ee066ab097585</string>
+      <string>b411eb163b0263b2fa096b4c9b712c3dae31e5f87cdfb923636b36bd5495c239</string>
+      <string>b28108a423c295216bfdebaac40d72b1170205c6745e51f74560efabaeb27e9c</string>
+      <string>7b570ed41363e4ecff864d0fb94e4c855183d018ebcaa871e0f4d11acae9a5d8</string>
+      <string>7ab059140aec42aec6918170cd09d00ae5da04c4fd96b92715c2b4bb10f9ea7c</string>
+      <string>89c1385a864ae3828b23435fbd10c00f543b81b60fb5d5a4f6a8a1c734b97de1</string>
+      <string>435c3bc1b4c0224c37647aae9f6a7a67ad0994e298700eace8ea42dbcdf5b663</string>
+      <string>6dd296662f85f4015348e67f1e1ffcf8db742695f67a9633176da683e32d4043</string>
+      <string>1796277a7aa9f2a9835c070d28fed44b3614ca221a2c1affc21a4c4e41194c3f</string>
+      <string>a2debc6c010a5f1416b4f8300b00c2c2836e193178d66293adb2df31df14ed80</string>
+      <string>766b834b0c26859f841f621c129fa44a7c04361337822ab4950a8f95a59b828c</string>
+      <string>c61674f822cb09cb71316c9a33addee240bcbd483daeaa3e77301b83ffd1823d</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Sylos_PharosControl/0.9.8.0/lib/aPharos.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Sylos_PharosControl/0.9.8.0/lib/aPharos.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Sylos_PharosControl/0.9.8.0/lib/Autofac.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Sylos_PharosControl/0.9.8.0/lib/Autofac.Extras.DynamicProxy.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Sylos_PharosControl/0.9.8.0/lib/Autofac.Extras.DynamicProxy.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Sylos_PharosControl/0.9.8.0/lib/Autofac.Integration.Wcf.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Sylos_PharosControl/0.9.8.0/lib/Autofac.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Sylos_PharosControl/0.9.8.0/lib/Castle.Core.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Sylos_PharosControl/0.9.8.0/lib/RestServiceHelper.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Sylos_PharosControl/0.9.8.0/lib/RestServiceHelper.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Sylos_PharosControl/0.9.8.0/lib/Sylos_PharosControl.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\aPharos.dll</string>
+      <string>lib\aPharos.pdb</string>
+      <string>lib\Autofac.dll</string>
+      <string>lib\Autofac.Extras.DynamicProxy.dll</string>
+      <string>lib\Autofac.Extras.DynamicProxy.pdb</string>
+      <string>lib\Autofac.Integration.Wcf.dll</string>
+      <string>lib\Autofac.pdb</string>
+      <string>lib\Castle.Core.dll</string>
+      <string>lib\RestServiceHelper.dll</string>
+      <string>lib\RestServiceHelper.pdb</string>
+      <string>lib\Sylos_PharosControl.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="NetMQ" publicKeyToken="a6decef4ddc58b3a" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.2" newVersion="3.3.2.2" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.3.12.0" newVersion="2.3.12.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>0.9.8.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
