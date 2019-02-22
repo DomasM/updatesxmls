@@ -311,4 +311,22 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.6.4.0" newVersion="1.6.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-12.0.0.0" newVersion="12.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>1.1.2.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/SylosLogViewer/1.1.3.0/SylosLogViewer.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>da5d007fb136584b6988523a936f7a53153ecb1dff9920ad7de8deb1d48b971e</string>
+      <string>1aee216b1a30dd9fa097e6009268f3bb7bd022633250c2dfce1ee066ab097585</string>
+      <string>026de384b50157c76dced46d4dc04fd050ab207e63cfc7042126e46f23b1b90a</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/SylosLogViewer/1.1.3.0/lib/SylosLogViewer.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\SylosLogViewer.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.6.4.0" newVersion="1.6.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-12.0.0.0" newVersion="12.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>1.1.3.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
