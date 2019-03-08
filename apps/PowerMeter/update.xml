@@ -812,4 +812,70 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.6.4.0" newVersion="1.6.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.3.12.0" newVersion="2.3.12.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>1.7.5.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.7.6.0/PowerMeter.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>7843ca3e68b0b4165dc84d4cd119ce144f00f61a2dce00fb44c088988a8ee4a3</string>
+      <string>1aee216b1a30dd9fa097e6009268f3bb7bd022633250c2dfce1ee066ab097585</string>
+      <string>f247bdf1f7f1ba73d55fc8857923bc521fc12ffa067ae89b54a26df6b092276b</string>
+      <string>39125424d51a39f5b25a66c11a61c28714a1be91508a52aa37c6b17e35918daa</string>
+      <string>50e6b5fc6bcdf73d9997859668530021aab6d62023aa194b6970937f0fbe12e7</string>
+      <string>b667ba173720aa6d02c803ece2ac38f7a13da2b328f4350df6c86a47226e8c38</string>
+      <string>76f19b80c8d79b34190a2f6ef079863820fca1b99548774737d24bb59ba81b03</string>
+      <string>da7e6abde3a32e47ab1caed61160ff61e8d4e8d5ee33dac9eb9199d1145e456d</string>
+      <string>1a6bbab3daa752a81c2e1f0feff0b5599ad2511b0a1391a911f94e98cedbf741</string>
+      <string>30135b616ee7228c207daa6a3207ec0025963842f989a1f6e7940549aa8a6945</string>
+      <string>8f543d372a4ba67f4d951f8d4d377f1a9510e42d2517326e600de93c53499f5e</string>
+      <string>df7197a0c329cdca80db685d19393ad1f17afe225a56fc5777adfe9d2f9b4a07</string>
+      <string>86fa043da6111597821ba75deb6c433e69f9b07acf4c3e338a8a3b110ddc928a</string>
+      <string>a68a3ed549f26cafac3e67d27bc9a0f35e1cd662d812c242fd1c0f26754dd64d</string>
+      <string>f352b78d60b0be822f3f81a2d0578311764a5d55c8ac13b6fe4c80bcdbafcd90</string>
+      <string>17cd1160608d180d02763d0bb9ab152c60e5773f49e05b2bddd711f4c72bbdc1</string>
+      <string>78d583021e66a50ac88a6490af0b5045ae1b05b9bc477ea230db46ed2f29603b</string>
+      <string>4871aac97010ad824d05eed21b5f0581c62b6b29a6fd174f46100db60007ed7b</string>
+      <string>483548d27d73f5789a02e2d533d75925dacdae76f29bbf384c5776e8492a1c7f</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.7.6.0/lib/autoUpdaterAttached.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.7.6.0/lib/autoUpdaterAttached.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.7.6.0/lib/autoUpdaterCommon.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.7.6.0/lib/autoUpdaterCommon.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.7.6.0/lib/DataLogViewer.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.7.6.0/lib/DataLogViewer.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.7.6.0/lib/FileSystemHelpers.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.7.6.0/lib/FileSystemHelpers.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.7.6.0/lib/FireAndForgetTSVReader.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.7.6.0/lib/FireAndForgetTSVReader.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.7.6.0/lib/folderSelectDialog.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.7.6.0/lib/folderSelectDialog.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.7.6.0/lib/GNUPlotHelpers.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.7.6.0/lib/GNUPlotHelpers.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.7.6.0/lib/PowerMeter.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.7.6.0/lib/settingsGUIDumper.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.7.6.0/lib/settingsGUIDumper.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\autoUpdaterAttached.dll</string>
+      <string>lib\autoUpdaterAttached.pdb</string>
+      <string>lib\autoUpdaterCommon.dll</string>
+      <string>lib\autoUpdaterCommon.pdb</string>
+      <string>lib\DataLogViewer.dll</string>
+      <string>lib\DataLogViewer.pdb</string>
+      <string>lib\FileSystemHelpers.dll</string>
+      <string>lib\FileSystemHelpers.pdb</string>
+      <string>lib\FireAndForgetTSVReader.dll</string>
+      <string>lib\FireAndForgetTSVReader.pdb</string>
+      <string>lib\folderSelectDialog.dll</string>
+      <string>lib\folderSelectDialog.pdb</string>
+      <string>lib\GNUPlotHelpers.dll</string>
+      <string>lib\GNUPlotHelpers.pdb</string>
+      <string>lib\PowerMeter.pdb</string>
+      <string>lib\settingsGUIDumper.dll</string>
+      <string>lib\settingsGUIDumper.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.6.4.0" newVersion="1.6.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.3.12.0" newVersion="2.3.12.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>1.7.6.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
