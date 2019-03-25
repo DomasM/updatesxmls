@@ -5,7 +5,7 @@
     <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
     <copyFilesHashes>
       <string>536bb3bb96b1b5d05917c3902c0c6ab1506248dde4bc0b11ec5dc030d8dfccfd</string>
-      <string>1aee216b1a30dd9fa097e6009268f3bb7bd022633250c2dfce1ee066ab097585</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
       <string>cfdf2aa64f536975256cc9aac9c15a266296abc8c340e07ad4aac8e50bf7cd59</string>
     </copyFilesHashes>
     <filesToCopySource>

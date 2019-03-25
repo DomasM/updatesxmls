@@ -5,7 +5,7 @@
     <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
     <copyFilesHashes>
       <string>dd0ba81e577985bce3cb3520e87814db96a26470afb46ffbd605f97f60d3add2</string>
-      <string>1aee216b1a30dd9fa097e6009268f3bb7bd022633250c2dfce1ee066ab097585</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
       <string>8969cddd13ba49826b91cfc5b69c9c71957e695d95c2698ef81deef3842f8902</string>
     </copyFilesHashes>
     <filesToCopySource>
@@ -23,7 +23,7 @@
     <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
     <copyFilesHashes>
       <string>483d64c71328659b0b59b9d6fa66c2c48466f8c349f2cfeceee123861a83ad8b</string>
-      <string>1aee216b1a30dd9fa097e6009268f3bb7bd022633250c2dfce1ee066ab097585</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
       <string>9b09bc81ca6d4fa71bc121f5c0abea11a86f4152ef3f0ca728d76982dd355c64</string>
       <string>0fe4fc6008ec268703ac42d5eb808a8d66b11a641f91e04097458e833b186b1e</string>
       <string>2bf2f8607543b2e624cc995a3b3bef76985103acdecc5ebec6b1668eed79429d</string>
@@ -114,7 +114,7 @@
     <executable>https://lightconupdater.blob.core.windows.net/take00/apps/SylosLogViewer/1.1.0.0/SylosLogViewer.exe</executable>
     <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
     <copyFilesHashes>
-      <string>1aee216b1a30dd9fa097e6009268f3bb7bd022633250c2dfce1ee066ab097585</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
       <string>e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</string>
       <string>67a1977a211dd33752c7e6fcafb1e6ab61b6f26f529b1373e54d1ca512ada858</string>
       <string>8b2701f232346af4d2709b3bb522b61f08c54b1e5c2a1efee00f2b9226ccce58</string>
@@ -238,7 +238,7 @@
     <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
     <copyFilesHashes>
       <string>90227525b0a27ad4d36de5824587545b23c693b307e4c258d812828b230f17c5</string>
-      <string>1aee216b1a30dd9fa097e6009268f3bb7bd022633250c2dfce1ee066ab097585</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
       <string>f247bdf1f7f1ba73d55fc8857923bc521fc12ffa067ae89b54a26df6b092276b</string>
       <string>39125424d51a39f5b25a66c11a61c28714a1be91508a52aa37c6b17e35918daa</string>
       <string>50e6b5fc6bcdf73d9997859668530021aab6d62023aa194b6970937f0fbe12e7</string>
@@ -286,7 +286,7 @@
     <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
     <copyFilesHashes>
       <string>96d5dc1aee497e91b0622cd8418efefc36e267967bff2b342ef5cc096ac56f8c</string>
-      <string>1aee216b1a30dd9fa097e6009268f3bb7bd022633250c2dfce1ee066ab097585</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
       <string>e4a9ba589c1caaf3bbf6fb57f834793562ec32d7dfae48eae3e1f1903bfcdd88</string>
       <string>6e5f00dabd337458bbec22dc24505c1a6bd2e112f7849d043a75fefd42532e1c</string>
       <string>9bd19d26959bf704290787878be4bfbcf9690b46a84124dc5ebc8cf93f2138df</string>
@@ -316,7 +316,7 @@
     <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
     <copyFilesHashes>
       <string>da5d007fb136584b6988523a936f7a53153ecb1dff9920ad7de8deb1d48b971e</string>
-      <string>1aee216b1a30dd9fa097e6009268f3bb7bd022633250c2dfce1ee066ab097585</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
       <string>026de384b50157c76dced46d4dc04fd050ab207e63cfc7042126e46f23b1b90a</string>
     </copyFilesHashes>
     <filesToCopySource>
