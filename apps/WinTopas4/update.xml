@@ -3712,4 +3712,28 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.3.0.0" newVersion="2.3.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.6.0.0" newVersion="1.6.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" culture="neutral" publicKeyToken="384d532d7e88985d" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.10.21623.0" newVersion="2.10.21623.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="PostSharp" publicKeyToken="b13fd38b8f9c99d7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-5.0.35.0" newVersion="5.0.35.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>1.26.5.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/WinTopas4/1.26.6.0/WinTopas4.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>9b3d9a960a2164591ea9a93101ec48af3eeb071a6e9016ae1cffee65d68cfb66</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+      <string>1b470ff6ae8a960cdfc46bf3c7bbb8a170c45e61f39388872bd0207531976a95</string>
+      <string>e3144679a8e60522f09249b0b3dbeae89c596fb0292515eeefde2f3cff1cf37a</string>
+      <string>c6402c39313096280b718cb418c30ed3154e6f071ee348003157f708c1ce16c3</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/WinTopas4/1.26.6.0/lib/WinTopas4.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/WinTopas4/1.26.6.0/Resources/SelfHostedServer/Master/Topas4Server.exe</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/WinTopas4/1.26.6.0/Resources/SelfHostedServer/Master/lib/Topas4Server.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\WinTopas4.pdb</string>
+      <string>Resources\SelfHostedServer\Master\Topas4Server.exe</string>
+      <string>Resources\SelfHostedServer\Master\lib\Topas4Server.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.3.0.0" newVersion="2.3.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.6.0.0" newVersion="1.6.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" culture="neutral" publicKeyToken="384d532d7e88985d" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.10.21623.0" newVersion="2.10.21623.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="PostSharp" publicKeyToken="b13fd38b8f9c99d7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-5.0.35.0" newVersion="5.0.35.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>1.26.6.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
