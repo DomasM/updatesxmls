@@ -395,4 +395,58 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.6.4.0" newVersion="1.6.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-12.0.0.0" newVersion="12.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>1.2.0.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/SylosLogViewer/1.3.0.0/SylosLogViewer.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>be17b0f7f5350ec18e92ad3a2a11ad0a27e4343a20ad924c04b94bba69b03850</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+      <string>10f4c38ab710578ebfa18bba128cdada73a67fa90c25d02b38d8feaf140ba846</string>
+      <string>357ba1d933a8ed081b4e20276a0a865a00f0d1ced8aa5522431992a3f0c305ac</string>
+      <string>201b35c5ed0c0c273861c9447bd4b7c8ffbc145df1b3f2ee0aad7e2a20a2f0e2</string>
+      <string>6949df213089045df2c6a2578ad612d4dd93c1f0f5429b4101cad4c56eef915c</string>
+      <string>cfaec8e9c1e6a6e8f099624f6f97f09e1a428ec526f99e7e0a393cf4c7d16ca2</string>
+      <string>970544c193830722877d6f4d9f31e30b030006f38bf67ead522f620d11e87d35</string>
+      <string>ff9958dafc24dd3267036e5530c3f7f3572b0884894f1997aa81209258b0576c</string>
+      <string>f6c44b6e6f213b00f8ef8483042b0c32631b46658f4b9b3485006829f6f72135</string>
+      <string>6788b1387a46cff12bd97290fea4b2bdd52dc25bb42a390ddeb6e33377cdd330</string>
+      <string>147a033a83b7df3e0aed2268db1c89a743e9dd7906cab9478ff017a83fdd9db5</string>
+      <string>569a95b71bc1da13ace4663d0a56adb028c81dbd4995b5746c601b4ae8a809f4</string>
+      <string>7cb88ac25b959e89ed0b36ab83ce1aafba5945795acb055ceaf4045f4a11ccb9</string>
+      <string>8665d5fde919e714c8310418a3073739559f0ba9533f539a4ea4309cf4e75d80</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/SylosLogViewer/1.3.0.0/lib/Abt.Controls.SciChart.Wpf.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/SylosLogViewer/1.3.0.0/lib/Cyotek.Collections.Generic.CircularBuffer.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/SylosLogViewer/1.3.0.0/lib/DataLogViewer.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/SylosLogViewer/1.3.0.0/lib/DataLogViewer.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/SylosLogViewer/1.3.0.0/lib/ScichartHelpers.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/SylosLogViewer/1.3.0.0/lib/ScichartHelpers.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/SylosLogViewer/1.3.0.0/lib/StdAvgCalc.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/SylosLogViewer/1.3.0.0/lib/StdAvgCalc.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/SylosLogViewer/1.3.0.0/lib/SylosDataLogWriter.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/SylosLogViewer/1.3.0.0/lib/SylosDataLogWriter.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/SylosLogViewer/1.3.0.0/lib/SylosLogFileReader.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/SylosLogViewer/1.3.0.0/lib/SylosLogFileReader.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/SylosLogViewer/1.3.0.0/lib/SylosLogViewer.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\Abt.Controls.SciChart.Wpf.dll</string>
+      <string>lib\Cyotek.Collections.Generic.CircularBuffer.dll</string>
+      <string>lib\DataLogViewer.dll</string>
+      <string>lib\DataLogViewer.pdb</string>
+      <string>lib\ScichartHelpers.dll</string>
+      <string>lib\ScichartHelpers.pdb</string>
+      <string>lib\StdAvgCalc.dll</string>
+      <string>lib\StdAvgCalc.pdb</string>
+      <string>lib\SylosDataLogWriter.dll</string>
+      <string>lib\SylosDataLogWriter.pdb</string>
+      <string>lib\SylosLogFileReader.dll</string>
+      <string>lib\SylosLogFileReader.pdb</string>
+      <string>lib\SylosLogViewer.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.6.4.0" newVersion="1.6.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-12.0.0.0" newVersion="12.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>1.3.0.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
