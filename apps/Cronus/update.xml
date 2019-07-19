@@ -567,4 +567,61 @@
     <configRuntimeInfo>&lt;loadFromRemoteSources enabled="true" /&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="NetMQ" publicKeyToken="a6decef4ddc58b3a" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.2" newVersion="3.3.2.2" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.3.0.0" newVersion="1.3.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.0.0.668" newVersion="2.0.0.668" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="PostSharp" publicKeyToken="b13fd38b8f9c99d7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-5.0.35.0" newVersion="5.0.35.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Accord.Math" publicKeyToken="fa1a88e29555ccf7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.8.0.0" newVersion="3.8.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" culture="neutral" publicKeyToken="384d532d7e88985d" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.10.21623.0" newVersion="2.10.21623.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="System.ValueTuple" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.0.3.0" newVersion="4.0.3.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>0.14.7.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/Cronus/0.14.8.0/Cronus.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>2523d5e739eebbe098b7458e3633fc17cd47be3d8c048193caba8b8b2b2275ab</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+      <string>fc942cf03ce8eb7ea9593add1bc1a12a295a5feb4f1535d8ccdef95a478b0092</string>
+      <string>89dc7a533dd5c13adbd8d5888fa5ed9bf40684e2a0d942a58b3ba41dd83bcb19</string>
+      <string>dfc62473728f10a65da7f07938aae66b484f0f1eeca7d84974000dec94977303</string>
+      <string>128b2eb2103fcc07129a62580b3bdb96566d76876f96a0a76c3a2ad619d06a22</string>
+      <string>6da6482a5bbac735740dc1cdf8479985ca702adcf71ea620df7548042beadf29</string>
+      <string>f1bc5fbb2ea19291851acefd74887718eb46e94005b249fbc08a9dcf6a4ff065</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Cronus/0.14.8.0/lib/aPowerMeter.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Cronus/0.14.8.0/lib/aPowerMeter.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Cronus/0.14.8.0/lib/aPowerMeterSelector.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Cronus/0.14.8.0/lib/aPowerMeterSelector.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Cronus/0.14.8.0/lib/Cronus.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Cronus/0.14.8.0/lib/WinTopas4.exe</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\aPowerMeter.dll</string>
+      <string>lib\aPowerMeter.pdb</string>
+      <string>lib\aPowerMeterSelector.dll</string>
+      <string>lib\aPowerMeterSelector.pdb</string>
+      <string>lib\Cronus.pdb</string>
+      <string>lib\WinTopas4.exe</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;loadFromRemoteSources enabled="true" /&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="NetMQ" publicKeyToken="a6decef4ddc58b3a" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.2" newVersion="3.3.2.2" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.3.0.0" newVersion="1.3.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.0.0.668" newVersion="2.0.0.668" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="PostSharp" publicKeyToken="b13fd38b8f9c99d7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-5.0.35.0" newVersion="5.0.35.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Accord.Math" publicKeyToken="fa1a88e29555ccf7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.8.0.0" newVersion="3.8.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" culture="neutral" publicKeyToken="384d532d7e88985d" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.10.21623.0" newVersion="2.10.21623.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="System.ValueTuple" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.0.3.0" newVersion="4.0.3.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>0.14.8.0</versionSerialized>
+  </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/Cronus/0.15.0.0/Cronus.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>435f5967f9b6e2e9303319bf1632582e99ec6d17a07c5368744541b294d8cd3f</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+      <string>f9f67a29f50563800d4490f86daa620c518b24d326b50965c5311bccb26025c5</string>
+      <string>23f428da13c6d9a120a99320ef54ca7b26f5a5b422ff50805dc6e41a9f4c9900</string>
+      <string>cbc92823b88fe644a3e13e5b80328008992d74ed9073dd46058741c95022f697</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Cronus/0.15.0.0/Cronus.pssym</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Cronus/0.15.0.0/lib/Cronus.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Cronus/0.15.0.0/lib/WinTopas4.exe</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>Cronus.pssym</string>
+      <string>lib\Cronus.pdb</string>
+      <string>lib\WinTopas4.exe</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;loadFromRemoteSources enabled="true" /&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="NetMQ" publicKeyToken="a6decef4ddc58b3a" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.2" newVersion="3.3.2.2" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.3.0.0" newVersion="1.3.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.0.0.668" newVersion="2.0.0.668" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="PostSharp" publicKeyToken="b13fd38b8f9c99d7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-5.0.35.0" newVersion="5.0.35.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Accord.Math" publicKeyToken="fa1a88e29555ccf7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.8.0.0" newVersion="3.8.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" culture="neutral" publicKeyToken="384d532d7e88985d" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.10.21623.0" newVersion="2.10.21623.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="System.ValueTuple" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.0.3.0" newVersion="4.0.3.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>0.15.0.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
