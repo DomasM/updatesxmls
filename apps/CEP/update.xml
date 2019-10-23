@@ -846,4 +846,58 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Abt.Controls.SciChart.Wpf" publicKeyToken="b55dd9efe817e823" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.1.0.5013" newVersion="3.1.0.5013" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Accord.Math" publicKeyToken="fa1a88e29555ccf7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.8.0.0" newVersion="3.8.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.2.4.0" newVersion="1.2.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="PostSharp" publicKeyToken="b13fd38b8f9c99d7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-5.0.35.0" newVersion="5.0.35.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.10.21623.0" newVersion="2.10.21623.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>0.9.12.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.9.13.0/CEP.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>6d1b956b4c1d8686ff13819304377d6f53268f1d03a18efdea2ecd98fbe05a9f</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+      <string>9194cbb6fc2831dbdec818582822675b74dd88716ffd55f217ad914fb2cbde4e</string>
+      <string>a67d06a5922761c674db78fe2e755abf6d61d062202aed4c16c96bb319188315</string>
+      <string>286651b3eb4a2a486dd69f951f6dc8d8d7fe080dd8fc6a6414d01cb6ca2edda0</string>
+      <string>e1f2a5416f7ea09fa180562133c6c8a1f94f7bdd149e295b9629718fe3edbb09</string>
+      <string>2ebc1409d269b86dd8dd95595f2f8c7514196c482a8cc730088c48e3875b7368</string>
+      <string>92eefdfd5602a1f47bf0d8fd7b30c0cad74816578b8e73cab4265dd6fafe5f7d</string>
+      <string>b986a3c9fe38506439f7096d088c2701f5df03d2f719f77b04f19f2a25c74fc0</string>
+      <string>30dd7171b2f49f0384aa3394e9952c784cbbfeed02e23ad5e178380c26e97dac</string>
+      <string>a1afce50df504652d20b9218097e03eb0bac443700030fb4768cf0615b5d07bb</string>
+      <string>695c5c00bc8e37234b9367134ae71f9e63c811133640c89a19980c9acd1ed8c3</string>
+      <string>797dd35ef2663351fcb810fd20a2e8f18ab046eddec763057d053bc4ab14443f</string>
+      <string>38809553ea010f7f65f57e21ee0e6cf53024edf288cb906ea45107d0041a095f</string>
+      <string>98fcb1a2e04aacf168e5137a27fcf00d61cb4c2671b6765a988b8fd9730a1054</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.9.13.0/lib/CEP.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.9.13.0/lib/DataLogViewer.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.9.13.0/lib/DataLogViewer.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.9.13.0/lib/PortableSettingsProvider.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.9.13.0/lib/PortableSettingsProvider.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.9.13.0/lib/SciChart.Charting.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.9.13.0/lib/SciChart.Core.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.9.13.0/lib/SciChart.Data.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.9.13.0/lib/SciChart.Drawing.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.9.13.0/lib/ScichartV4Helpers.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.9.13.0/lib/ScichartV4Helpers.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.9.13.0/lib/SylosDataLogWriter.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/CEP/0.9.13.0/lib/SylosDataLogWriter.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\CEP.pdb</string>
+      <string>lib\DataLogViewer.dll</string>
+      <string>lib\DataLogViewer.pdb</string>
+      <string>lib\PortableSettingsProvider.dll</string>
+      <string>lib\PortableSettingsProvider.pdb</string>
+      <string>lib\SciChart.Charting.dll</string>
+      <string>lib\SciChart.Core.dll</string>
+      <string>lib\SciChart.Data.dll</string>
+      <string>lib\SciChart.Drawing.dll</string>
+      <string>lib\ScichartV4Helpers.dll</string>
+      <string>lib\ScichartV4Helpers.pdb</string>
+      <string>lib\SylosDataLogWriter.dll</string>
+      <string>lib\SylosDataLogWriter.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Abt.Controls.SciChart.Wpf" publicKeyToken="b55dd9efe817e823" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.1.0.5013" newVersion="3.1.0.5013" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Accord.Math" publicKeyToken="fa1a88e29555ccf7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.8.0.0" newVersion="3.8.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.2.4.0" newVersion="1.2.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="PostSharp" publicKeyToken="b13fd38b8f9c99d7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-5.0.35.0" newVersion="5.0.35.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.10.21623.0" newVersion="2.10.21623.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>0.9.13.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
