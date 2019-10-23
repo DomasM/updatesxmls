@@ -1046,4 +1046,76 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.6.4.0" newVersion="1.6.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.3.12.0" newVersion="2.3.12.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>1.8.2.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.8.3.0/PowerMeter.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>0a301fb21cda4eb309801df8d3f1a89b99ca506a1996458ab681bcda91dcb96e</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+      <string>e65c2d2cfc014fad4974810ddd469d64bfe8683c15b637d74eb75cca20082465</string>
+      <string>8e7e4875edc160990d8c9597a11afe115a381715bf656fce715ce7c7bd8fff9b</string>
+      <string>9ecd6e35c074d67e4ad91b744f49c0edc9794fbdccce0c6eea3426663949655a</string>
+      <string>d0adf757b9c11d8a87fe5d7185c785e5d8c01826469c0b73bea9c995ee8918df</string>
+      <string>a67d06a5922761c674db78fe2e755abf6d61d062202aed4c16c96bb319188315</string>
+      <string>286651b3eb4a2a486dd69f951f6dc8d8d7fe080dd8fc6a6414d01cb6ca2edda0</string>
+      <string>7194fb242e3254d5e5a75f18badfbe5bd914bd8509aeda520961d068a49f1870</string>
+      <string>10b03cb827703ba7d3fc4d53f6d4e36ab068cc32abef52d39a0ecb795b48b16b</string>
+      <string>24dcfcc83e6f1ff923f1195842972fae66b71dcee2cc9f178ea8c0fff533202b</string>
+      <string>6e66f27220c3ead56510edfb2483bc4fc2fd86e454644abf399b279e83257fd0</string>
+      <string>cb6056b5eba57fe0f6f4a0b997d9de64c1f26d7da049bacadf14542559c73571</string>
+      <string>92eefdfd5602a1f47bf0d8fd7b30c0cad74816578b8e73cab4265dd6fafe5f7d</string>
+      <string>b986a3c9fe38506439f7096d088c2701f5df03d2f719f77b04f19f2a25c74fc0</string>
+      <string>30dd7171b2f49f0384aa3394e9952c784cbbfeed02e23ad5e178380c26e97dac</string>
+      <string>a1afce50df504652d20b9218097e03eb0bac443700030fb4768cf0615b5d07bb</string>
+      <string>695c5c00bc8e37234b9367134ae71f9e63c811133640c89a19980c9acd1ed8c3</string>
+      <string>797dd35ef2663351fcb810fd20a2e8f18ab046eddec763057d053bc4ab14443f</string>
+      <string>0f3e556f9918c510f81dadd499f51338eff216ffb46da2a1c26b7c6f47274114</string>
+      <string>06b7b5a41acf03a5eb86a59c6e40ef1768e9029b3e9f42301fb445238a8bacf7</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.8.3.0/lib/aPowerMeter.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.8.3.0/lib/aPowerMeter.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.8.3.0/lib/aPowerMeterSelector.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.8.3.0/lib/aPowerMeterSelector.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.8.3.0/lib/DataLogViewer.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.8.3.0/lib/DataLogViewer.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.8.3.0/lib/DateTimePrecise.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.8.3.0/lib/DateTimePrecise.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.8.3.0/lib/FileSystemHelpers.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.8.3.0/lib/FileSystemHelpers.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.8.3.0/lib/PowerMeter.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.8.3.0/lib/SciChart.Charting.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.8.3.0/lib/SciChart.Core.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.8.3.0/lib/SciChart.Data.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.8.3.0/lib/SciChart.Drawing.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.8.3.0/lib/ScichartV4Helpers.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.8.3.0/lib/ScichartV4Helpers.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.8.3.0/lib/WPFUtils.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.8.3.0/lib/WPFUtils.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\aPowerMeter.dll</string>
+      <string>lib\aPowerMeter.pdb</string>
+      <string>lib\aPowerMeterSelector.dll</string>
+      <string>lib\aPowerMeterSelector.pdb</string>
+      <string>lib\DataLogViewer.dll</string>
+      <string>lib\DataLogViewer.pdb</string>
+      <string>lib\DateTimePrecise.dll</string>
+      <string>lib\DateTimePrecise.pdb</string>
+      <string>lib\FileSystemHelpers.dll</string>
+      <string>lib\FileSystemHelpers.pdb</string>
+      <string>lib\PowerMeter.pdb</string>
+      <string>lib\SciChart.Charting.dll</string>
+      <string>lib\SciChart.Core.dll</string>
+      <string>lib\SciChart.Data.dll</string>
+      <string>lib\SciChart.Drawing.dll</string>
+      <string>lib\ScichartV4Helpers.dll</string>
+      <string>lib\ScichartV4Helpers.pdb</string>
+      <string>lib\WPFUtils.dll</string>
+      <string>lib\WPFUtils.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.6.4.0" newVersion="1.6.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.3.12.0" newVersion="2.3.12.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>1.8.3.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
