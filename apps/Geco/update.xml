@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfVersionInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/2.1.5.0/Geco.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>2fd028103f5294d6041788e575ddfe1e194c56c490ce200e454112953259d362</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+    </copyFilesHashes>
+    <filesToCopySource />
+    <filesToCopyDestination />
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="System.Windows.Interactivity" publicKeyToken="31bf3856ad364e35" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.5.0.0" newVersion="4.5.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="RestSharp" publicKeyToken="598062e77f915f75" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-106.6.1.0" newVersion="106.6.1.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>2.1.5.0</versionSerialized>
+  </VersionInfo>
+</ArrayOfVersionInfo>
