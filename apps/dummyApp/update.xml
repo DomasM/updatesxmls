@@ -473,4 +473,34 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>0.8.57.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/dummyApp/0.8.59.0/dummyApp.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/gama/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>0b7796cb2e4013205d292141fa0e0fff3914d0499a2a0ad09d5fc5559d7d0c77</string>
+      <string>e52372f345aa39c567f6282d18d376152a782a0c181ff3d31344b3c457864ec8</string>
+      <string>a645f8550bd1e0b2ef1623b7ca14113eb8fc19a9e463f78cb52bb06fab5400b7</string>
+      <string>b05652597605e8719d3ad5bab293098a2fed62359c7def872147c152f008e13a</string>
+      <string>6119c1836eb9d313440ef0f48c8de000359ec2ca7848f9e1e974dce77669baa1</string>
+      <string>7bd82da4db3d401ceb94b51f694cd903e10e2dbe3fd1a45bc13d36201844efba</string>
+      <string>cd668f8670a3d11e6cdb0399d98a87d37dfc5186d086c289058c7ecf916b497d</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/dummyApp/0.8.59.0/lib/autoUpdaterAttached.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/dummyApp/0.8.59.0/lib/autoUpdaterAttached.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/dummyApp/0.8.59.0/lib/autoUpdaterCommon.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/dummyApp/0.8.59.0/lib/autoUpdaterCommon.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/dummyApp/0.8.59.0/lib/dummyApp.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\autoUpdaterAttached.dll</string>
+      <string>lib\autoUpdaterAttached.pdb</string>
+      <string>lib\autoUpdaterCommon.dll</string>
+      <string>lib\autoUpdaterCommon.pdb</string>
+      <string>lib\dummyApp.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>0.8.59.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
