@@ -202,4 +202,47 @@
     <configRuntimeInfo>&lt;legacyCorruptedStateExceptionsPolicy enabled="true" /&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>3.3.0.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.5.0.0/GecoServer.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>887d3334cd36d936512a5c16d7513dbcec41ddaacc4369ae75cd3bf262355afd</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+      <string>241cb77017dc48e7cfac4bfbd005abb66432b9f4bf8cfd4f819b628d90f97fe0</string>
+      <string>5d408e1981fa58787812d2031583be34aab913e238fd4c633c2317622773918c</string>
+      <string>dc5779e91d5e764ff77594d9b1c412c18f2c1ce3d83147c2603d83fbc2fc1040</string>
+      <string>0965978dc2ec59d071f20b8ee3806f9a9e24c0c44583a416b9e669401497122e</string>
+      <string>c5668db3fe37bd63888aff6b0d82ca4087152e3a6091d1ffa282be0405d7ba4e</string>
+      <string>e90a6f9f1a642d9473c1dfea9b4b103d76541e86f805e4445e4f185e993f4c1e</string>
+      <string>93fbc59e4880afc9f136c3ac0976ada7f3faa7cacedce5c824b337cbca9d2ebf</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.5.0.0/lib/ControlzEx.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.5.0.0/lib/ControlzEx.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.5.0.0/lib/GecoServer.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.5.0.0/lib/MahApps.Metro.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.5.0.0/lib/MahApps.Metro.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.5.0.0/lib/MahApps.Metro.xml</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.5.0.0/lib/System.Windows.Interactivity.dll</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\ControlzEx.dll</string>
+      <string>lib\ControlzEx.pdb</string>
+      <string>lib\GecoServer.pdb</string>
+      <string>lib\MahApps.Metro.dll</string>
+      <string>lib\MahApps.Metro.pdb</string>
+      <string>lib\MahApps.Metro.xml</string>
+      <string>lib\System.Windows.Interactivity.dll</string>
+    </filesToCopyDestination>
+    <filesToDelete>
+      <string>Drivers\FODE_USB_Driver.inf</string>
+      <string>lib\ComPortReader.dll</string>
+      <string>lib\ComPortReader.pdb</string>
+      <string>lib\GECO Control Provider.pdb</string>
+      <string>lib\PI_GCS2_DLL.dll</string>
+      <string>lib\PI_GCS2_DLL_x64.dll</string>
+    </filesToDelete>
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.2.0.0" newVersion="3.2.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>3.5.0.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
