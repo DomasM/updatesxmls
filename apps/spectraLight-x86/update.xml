@@ -2057,4 +2057,73 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Accord" publicKeyToken="fa1a88e29555ccf7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.8.0.0" newVersion="3.8.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Accord.Math" publicKeyToken="fa1a88e29555ccf7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.8.0.0" newVersion="3.8.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="SciChart.Drawing" publicKeyToken="b55dd9efe817e823" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-5.4.0.12119" newVersion="5.4.0.12119" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="SciChart.Core" publicKeyToken="b55dd9efe817e823" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-5.4.0.12119" newVersion="5.4.0.12119" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="SciChart.Charting" publicKeyToken="b55dd9efe817e823" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-5.4.0.12119" newVersion="5.4.0.12119" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.3.12.0" newVersion="2.3.12.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.6.4.0" newVersion="1.6.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.10.21623.0" newVersion="2.10.21623.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-11.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="PostSharp" publicKeyToken="b13fd38b8f9c99d7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-5.0.35.0" newVersion="5.0.35.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Accord.Statistics" publicKeyToken="fa1a88e29555ccf7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.8.0.0" newVersion="3.8.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Xceed.Wpf.Toolkit" publicKeyToken="3e4669d2f30244f4" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.0.0" newVersion="3.3.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="SciChart.Data" publicKeyToken="b55dd9efe817e823" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-5.4.0.12119" newVersion="5.4.0.12119" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>2.23.0.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/spectraLight-x86/2.23.1.0/spectraLight.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>467fa4d07f267b51eeae0eb24d03e50142e9aa2224ed976891a1b42b1a73bdee</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+      <string>dd2446883bb2ef22ad399c2a52a3dc1dff76b92bc15108c9866d4eafaec34b52</string>
+      <string>1d79c6ee33034a1aea1f6e21680ea8af3b12aa401850458d684e8425c6c7e251</string>
+      <string>15c85007f12ecaf26b414ed87cd2046d793e7a8deedb7d4c67d971897a28da71</string>
+      <string>6934f327fa1a9a075e31c6f654457c123c6c20ad036130839f4d1b42829df41f</string>
+      <string>c016aa8ac44513832aaa9ba6499bdf17dfe2b91ccd23335a55c35fd57eda5470</string>
+      <string>114c91a9d43f35b9ec2cb7c7e6e9a6dfc054d398ff676df059482ab19a0f2614</string>
+      <string>4c57a910996fa8a5347d021c38644e5080d35616b66f655a625748ec5e44ba93</string>
+      <string>6196b3c7f08f500a0d27f46ddbdd4cb36b8b6a8af5ecf294011aa03303c36096</string>
+      <string>ce739ef6d19f4ba7a393c1a8629f5bb37662282914ed63dcdc1a77201a7d6c8e</string>
+      <string>ad875c6f7dfd72c43fefa61c8d6b62b50d0d4f8d271c7194965b5e32b46c264a</string>
+      <string>4f12c9302e20a5265c0a8ef4eb55c8597f6a511b349e6aaea422edc9dc2f5f4c</string>
+      <string>db376e9ec92b18de4707f6e89fd99b9088a974a8faefddb53ac220cabf7a8c43</string>
+      <string>1c47f2dc2fbceb715a358bd0bae458b251204fe97b0950fc6bee918d14575398</string>
+      <string>1cd58cc0efd92fd3097a6f3832a194805fac92695471406553b812b53efbd9d5</string>
+      <string>c31b53e89c925c48e017d5412037ce813ed9470171e5a705051d3854ca8afa3c</string>
+      <string>c35e990fe9b120817a007d8bc34aa3ee11b51bcd304d1ca42b43725982a8aa34</string>
+      <string>3a04a980894092c8959a77b335b53171580baa77728bb4603bdf68ebdeeeb64d</string>
+      <string>419c085f32dfdc2e273990aa211882e26a66efcf2066a7bc212909004ddcbf23</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/spectraLight-x86/2.23.1.0/lib/ApplicationInsightsWeaver.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/spectraLight-x86/2.23.1.0/lib/ApplicationInsightsWeaver.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/spectraLight-x86/2.23.1.0/lib/ApplicationsInsightsHelper.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/spectraLight-x86/2.23.1.0/lib/ApplicationsInsightsHelper.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/spectraLight-x86/2.23.1.0/lib/aSpectrometer.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/spectraLight-x86/2.23.1.0/lib/aSpectrometer.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/spectraLight-x86/2.23.1.0/lib/autoUpdaterAttached.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/spectraLight-x86/2.23.1.0/lib/autoUpdaterAttached.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/spectraLight-x86/2.23.1.0/lib/autoUpdaterCommon.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/spectraLight-x86/2.23.1.0/lib/autoUpdaterCommon.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/spectraLight-x86/2.23.1.0/lib/ConvertersHelper.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/spectraLight-x86/2.23.1.0/lib/ConvertersHelper.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/spectraLight-x86/2.23.1.0/lib/GNUPlotHelpers.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/spectraLight-x86/2.23.1.0/lib/GNUPlotHelpers.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/spectraLight-x86/2.23.1.0/lib/RestServiceHelper.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/spectraLight-x86/2.23.1.0/lib/RestServiceHelper.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/spectraLight-x86/2.23.1.0/lib/spectraLight.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/spectraLight-x86/2.23.1.0/lib/WinTopas4.exe</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\ApplicationInsightsWeaver.dll</string>
+      <string>lib\ApplicationInsightsWeaver.pdb</string>
+      <string>lib\ApplicationsInsightsHelper.dll</string>
+      <string>lib\ApplicationsInsightsHelper.pdb</string>
+      <string>lib\aSpectrometer.dll</string>
+      <string>lib\aSpectrometer.pdb</string>
+      <string>lib\autoUpdaterAttached.dll</string>
+      <string>lib\autoUpdaterAttached.pdb</string>
+      <string>lib\autoUpdaterCommon.dll</string>
+      <string>lib\autoUpdaterCommon.pdb</string>
+      <string>lib\ConvertersHelper.dll</string>
+      <string>lib\ConvertersHelper.pdb</string>
+      <string>lib\GNUPlotHelpers.dll</string>
+      <string>lib\GNUPlotHelpers.pdb</string>
+      <string>lib\RestServiceHelper.dll</string>
+      <string>lib\RestServiceHelper.pdb</string>
+      <string>lib\spectraLight.pdb</string>
+      <string>lib\WinTopas4.exe</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Accord" publicKeyToken="fa1a88e29555ccf7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.8.0.0" newVersion="3.8.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Accord.Math" publicKeyToken="fa1a88e29555ccf7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.8.0.0" newVersion="3.8.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="SciChart.Drawing" publicKeyToken="b55dd9efe817e823" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-5.4.0.12119" newVersion="5.4.0.12119" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="SciChart.Core" publicKeyToken="b55dd9efe817e823" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-5.4.0.12119" newVersion="5.4.0.12119" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="SciChart.Charting" publicKeyToken="b55dd9efe817e823" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-5.4.0.12119" newVersion="5.4.0.12119" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.3.12.0" newVersion="2.3.12.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.6.4.0" newVersion="1.6.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.10.21623.0" newVersion="2.10.21623.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-11.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="PostSharp" publicKeyToken="b13fd38b8f9c99d7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-5.0.35.0" newVersion="5.0.35.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Accord.Statistics" publicKeyToken="fa1a88e29555ccf7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.8.0.0" newVersion="3.8.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Xceed.Wpf.Toolkit" publicKeyToken="3e4669d2f30244f4" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.0.0" newVersion="3.3.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="SciChart.Data" publicKeyToken="b55dd9efe817e823" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-5.4.0.12119" newVersion="5.4.0.12119" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>2.23.1.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
