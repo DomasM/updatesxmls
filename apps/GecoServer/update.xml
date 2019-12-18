@@ -290,4 +290,40 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.2.0.0" newVersion="3.2.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>3.5.2.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.5.3.0/GecoServer.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>ff98b0559da2e321fc93dba2ae8eb5684d82238537f3abce5da4d09632da7deb</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+      <string>7aa0cde0740520fa1db23ebbabd2e80ce6d419947c2472f41b90c2419d61b759</string>
+      <string>1682b6af64414b778dac59ad5813d65101e870f15872a0293bbd66decadb195f</string>
+      <string>58ff2964e13ee76a81fac56db70175e13887e301916672fbc1acabba499d29de</string>
+      <string>6e4942db6eefb04dbdfaea9a9ce9028f5463a01219b40968df6fee18644078d5</string>
+      <string>48492396e089a79edaaa62146cf484fbd03df730782b5d820edf4557a855e2ec</string>
+      <string>f606b94c5a1d5b48a703f2be0d2fa31ef7860c01096f19a638e42d4f7ea7f718</string>
+      <string>444e028182ee736955983a192535d1867d406d14810a1cf1d82c3eef5b77b682</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.5.3.0/lib/aPowerMeter.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.5.3.0/lib/aPowerMeter.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.5.3.0/lib/doubleToNiceString.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.5.3.0/lib/doubleToNiceString.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.5.3.0/lib/FileSystemHelpers.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.5.3.0/lib/FileSystemHelpers.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.5.3.0/lib/GecoServer.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\aPowerMeter.dll</string>
+      <string>lib\aPowerMeter.pdb</string>
+      <string>lib\doubleToNiceString.dll</string>
+      <string>lib\doubleToNiceString.pdb</string>
+      <string>lib\FileSystemHelpers.dll</string>
+      <string>lib\FileSystemHelpers.pdb</string>
+      <string>lib\GecoServer.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.2.0.0" newVersion="3.2.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>3.5.3.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
