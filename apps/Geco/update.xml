@@ -116,4 +116,64 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="System.Windows.Interactivity" publicKeyToken="31bf3856ad364e35" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.5.0.0" newVersion="4.5.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="RestSharp" publicKeyToken="598062e77f915f75" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-106.6.1.0" newVersion="106.6.1.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>3.5.2.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.5.3.0/Geco.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>0c83a76b309d8505fc61dea940b665a9e63216a29ee7b07141c8652ba9cc270a</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+      <string>7aa0cde0740520fa1db23ebbabd2e80ce6d419947c2472f41b90c2419d61b759</string>
+      <string>1682b6af64414b778dac59ad5813d65101e870f15872a0293bbd66decadb195f</string>
+      <string>4f2a6f3e0a64cd26f9cf34e55633d4e82b497dcb498e0352d18c0ecc8323c2ee</string>
+      <string>7e00ea368232e5d53a736d33b86251d0f9d2329191957371ebc3a10b81d22fdb</string>
+      <string>58ff2964e13ee76a81fac56db70175e13887e301916672fbc1acabba499d29de</string>
+      <string>6e4942db6eefb04dbdfaea9a9ce9028f5463a01219b40968df6fee18644078d5</string>
+      <string>48492396e089a79edaaa62146cf484fbd03df730782b5d820edf4557a855e2ec</string>
+      <string>f606b94c5a1d5b48a703f2be0d2fa31ef7860c01096f19a638e42d4f7ea7f718</string>
+      <string>cbc5cfc975dcf788f23534e5d8b4b80608ce95adad92aed41cf8c828e9851417</string>
+      <string>86fc6ceb8e7e1ab7b0bd002a21c43490b3af4ca6d115a7704625842f085f1ea1</string>
+      <string>b81cd912171e3d9c8de84cb4a2e789ab9c6976a8b69f05348f29031e7d55f5b6</string>
+      <string>f1da411e69639bde58027b6844283e40102d6bf72e210457b131d52da4b7e38c</string>
+      <string>91581bb8bd76c8c447bfa39922c3787b5b8ef60edf295879a9df0073c0a37dd2</string>
+      <string>1937e3d9ac622ebb80e917211d4e6f5e3954ba45f454a52e733194f21bda8bff</string>
+      <string>91ce59c9daf19c3c463c05a47342c4fd88e9b4f5c8223f48ffc48356cfff8575</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.5.3.0/lib/aPowerMeter.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.5.3.0/lib/aPowerMeter.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.5.3.0/lib/aPowerMeterSelector.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.5.3.0/lib/aPowerMeterSelector.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.5.3.0/lib/doubleToNiceString.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.5.3.0/lib/doubleToNiceString.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.5.3.0/lib/FileSystemHelpers.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.5.3.0/lib/FileSystemHelpers.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.5.3.0/lib/Geco.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.5.3.0/lib/GNUPlotHelpers.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.5.3.0/lib/GNUPlotHelpers.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.5.3.0/lib/ScichartV4Helpers.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.5.3.0/lib/ScichartV4Helpers.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.5.3.0/lib/UdpLocatorV2.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.5.3.0/lib/UdpLocatorV2.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\aPowerMeter.dll</string>
+      <string>lib\aPowerMeter.pdb</string>
+      <string>lib\aPowerMeterSelector.dll</string>
+      <string>lib\aPowerMeterSelector.pdb</string>
+      <string>lib\doubleToNiceString.dll</string>
+      <string>lib\doubleToNiceString.pdb</string>
+      <string>lib\FileSystemHelpers.dll</string>
+      <string>lib\FileSystemHelpers.pdb</string>
+      <string>lib\Geco.pdb</string>
+      <string>lib\GNUPlotHelpers.dll</string>
+      <string>lib\GNUPlotHelpers.pdb</string>
+      <string>lib\ScichartV4Helpers.dll</string>
+      <string>lib\ScichartV4Helpers.pdb</string>
+      <string>lib\UdpLocatorV2.dll</string>
+      <string>lib\UdpLocatorV2.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="System.Windows.Interactivity" publicKeyToken="31bf3856ad364e35" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.5.0.0" newVersion="4.5.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="RestSharp" publicKeyToken="598062e77f915f75" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-106.6.1.0" newVersion="106.6.1.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>3.5.3.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
