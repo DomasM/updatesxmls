@@ -350,7 +350,6 @@
     <copyFilesHashes>
       <string>6e84c0cb23288100a4df8c834607347212678a9f79aa4d0cbf156f42b1fb26a1</string>
       <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
-      <string>55ff916c2957afc8979ddf19c3cd4610130bb3db66e3b36768ecd302a9645d03</string>
       <string>c5583f1063d82ef0d953197aee13bcc208c99885789f2c59fb35720178060df2</string>
       <string>71dfa970200ccbcbdf847a5d0be73af2597919fd4fa56ff8083a2fe697471fe9</string>
       <string>ea1e997d13b31e8f4cad816879794931bb4d02032b2c8ff5cb334db5a0b0c7fd</string>
@@ -358,7 +357,6 @@
       <string>7d04ae8105fa46d5cc8d58b41fb1f489c0c4632e811505b95d54900b44cff511</string>
     </copyFilesHashes>
     <filesToCopySource>
-      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.6.2.0/Configuration/Configuration.json</string>
       <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.6.2.0/lib/aPowerMeter.dll</string>
       <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.6.2.0/lib/aPowerMeter.pdb</string>
       <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.6.2.0/lib/GecoServer.pdb</string>
@@ -366,7 +364,6 @@
       <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.6.2.0/lib/RestServiceHelper.pdb</string>
     </filesToCopySource>
     <filesToCopyDestination>
-      <string>Configuration\Configuration.json</string>
       <string>lib\aPowerMeter.dll</string>
       <string>lib\aPowerMeter.pdb</string>
       <string>lib\GecoServer.pdb</string>
