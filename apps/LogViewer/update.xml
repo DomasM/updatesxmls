@@ -66,4 +66,40 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.6.4.0" newVersion="1.6.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-12.0.0.0" newVersion="12.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>2.1.0.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/2.2.0.0/LogViewer.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>715fa7798a4764d9858991f1a99c1aea4dbf501e491c71e85cc1945875a7d339</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+      <string>dda06c197b6bdb7ab8624b38b0707a5c84095b614f51bd8438a4edcfef63c23e</string>
+      <string>2414f17d55862fe454091c453188c056628b7777b5036a3e3339f696fcf87cba</string>
+      <string>9ee79edcccd56381414cc2dae3cd6748c900469b9c6149ef2a07857797aecc50</string>
+      <string>6e47b844ae24da12c467dd06c89ad1925c1e6f07db1153473b516b292738eb92</string>
+      <string>97b7faf00db747f68fd8dfb38ccdf3661f06718c2013737907348bbe7854f9eb</string>
+      <string>05760efaebd674c374b05f9924c3d371b2580f7f23f9af06d324b5e716a76cb5</string>
+      <string>a3f2e0d90ed5d56adc1c2d08f305192926e4d875d89d70142882730849f0c801</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/2.2.0.0/lib/LogViewer.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/2.2.0.0/lib/MoreLinq.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/2.2.0.0/lib/MoreLinq.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/2.2.0.0/lib/SylosDataLogWriter.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/2.2.0.0/lib/SylosDataLogWriter.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/2.2.0.0/lib/SylosLogFileReader.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/2.2.0.0/lib/SylosLogFileReader.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\LogViewer.pdb</string>
+      <string>lib\MoreLinq.dll</string>
+      <string>lib\MoreLinq.pdb</string>
+      <string>lib\SylosDataLogWriter.dll</string>
+      <string>lib\SylosDataLogWriter.pdb</string>
+      <string>lib\SylosLogFileReader.dll</string>
+      <string>lib\SylosLogFileReader.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.6.4.0" newVersion="1.6.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-12.0.0.0" newVersion="12.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.0" newVersion="3.3.2.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>2.2.0.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
