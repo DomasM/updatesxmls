@@ -554,4 +554,40 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="System.Windows.Interactivity" publicKeyToken="31bf3856ad364e35" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.5.0.0" newVersion="4.5.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="RestSharp" publicKeyToken="598062e77f915f75" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-106.6.1.0" newVersion="106.6.1.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>3.6.2.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.7.1.0/Geco.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>8a0707c343025453c9e8124914c18813528072b19bd2478ed8c05d15fb8a5e37</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+      <string>4cda14422da4c6bef470e531356ef7144b257f48508da805719b67cd7a33e67f</string>
+      <string>674164a41702957654fca1ac6e4d1798b83ed89049d54c387b384295f3baeca6</string>
+      <string>01dac2fbc14bd81488e6f1307d41470a4f23cf52b1ed02de8725694462a1448a</string>
+      <string>3217e8f6a119d38ef0c73c27e145408a5e9ab301de45298d457f05ecc918b7dd</string>
+      <string>1d87426ddf7bd88fe9a1ed80e3ebfa30300d3eb9a4c2c9053ac575e28e79baa3</string>
+      <string>d03160ec023d5f2bdf068d1af7b822860bb9d25af5f0f6a59b0071a8404986aa</string>
+      <string>fd69584ab02a678cb4c62c866fb1de09a89f91c48e1016b08f60c0d46fb9d2f1</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.7.1.0/lib/Geco.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.7.1.0/lib/UdpLocatorV2.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.7.1.0/lib/UdpLocatorV2.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.7.1.0/Resources/GecoServer/GecoServer.exe</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.7.1.0/Resources/GecoServer/lib/GecoServer.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.7.1.0/Resources/GecoServer/lib/PI_GCS2_DLL.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.7.1.0/Resources/GecoServer/lib/PI_GCS2_DLL_x64.dll</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\Geco.pdb</string>
+      <string>lib\UdpLocatorV2.dll</string>
+      <string>lib\UdpLocatorV2.pdb</string>
+      <string>Resources\GecoServer\GecoServer.exe</string>
+      <string>Resources\GecoServer\lib\GecoServer.pdb</string>
+      <string>Resources\GecoServer\lib\PI_GCS2_DLL.dll</string>
+      <string>Resources\GecoServer\lib\PI_GCS2_DLL_x64.dll</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="System.Windows.Interactivity" publicKeyToken="31bf3856ad364e35" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.5.0.0" newVersion="4.5.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="RestSharp" publicKeyToken="598062e77f915f75" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-106.6.1.0" newVersion="106.6.1.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>3.7.1.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
