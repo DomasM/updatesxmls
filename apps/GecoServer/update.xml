@@ -394,9 +394,32 @@
       <string>lib\PI_GCS2_DLL.dll</string>
       <string>lib\PI_GCS2_DLL_x64.dll</string>
     </filesToCopyDestination>
-    <filesToDelete>
-    </filesToDelete>
+    <filesToDelete />
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.2.0.0" newVersion="3.2.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>3.7.1.0</versionSerialized>
+  </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.8.0.0/GecoServer.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>f31bbc7cd8f37493d7e144dfe1efe22cb9d580bc729dff32b46d7e988d11cd5d</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+      <string>5c3b9968fb99e4c5de08cf40c6455cdbb02ccc2f360c289b865b295e1dfe159c</string>
+      <string>53a08e5581771a6a4c2e0c63c8b4c0ccae6083c99fe7d46a654fa77e010b9755</string>
+      <string>6d6a30b10ce4f4b01f5e74c7244215ebd89adee065f7d8dbe9d8552d21f7ee8e</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.8.0.0/lib/FireAndForgetTSVReader.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.8.0.0/lib/FireAndForgetTSVReader.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.8.0.0/lib/GecoServer.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\FireAndForgetTSVReader.dll</string>
+      <string>lib\FireAndForgetTSVReader.pdb</string>
+      <string>lib\GecoServer.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.2.0.0" newVersion="3.2.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>3.8.0.0</versionSerialized>
   </VersionInfo>
 </ArrayOfVersionInfo>
