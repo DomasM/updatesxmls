@@ -590,4 +590,34 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="System.Windows.Interactivity" publicKeyToken="31bf3856ad364e35" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.5.0.0" newVersion="4.5.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="RestSharp" publicKeyToken="598062e77f915f75" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-106.6.1.0" newVersion="106.6.1.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>3.7.1.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.8.0.0/Geco.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>f16be3905acf42130baab2dda65fc9d7813702e36f6de2144e2f8aa1ebe44083</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+      <string>e2ad44ac392d4dc28ac1f65a43364254f1433e54d6f121654d005e4fa6a5100e</string>
+      <string>70b4c3699dc412e9dd54207ed1a7231add5095d215e7fa02e827c3255390a488</string>
+      <string>5c3b9968fb99e4c5de08cf40c6455cdbb02ccc2f360c289b865b295e1dfe159c</string>
+      <string>53a08e5581771a6a4c2e0c63c8b4c0ccae6083c99fe7d46a654fa77e010b9755</string>
+      <string>6d6a30b10ce4f4b01f5e74c7244215ebd89adee065f7d8dbe9d8552d21f7ee8e</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.8.0.0/lib/Geco.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.8.0.0/Resources/GecoServer/GecoServer.exe</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.8.0.0/Resources/GecoServer/lib/FireAndForgetTSVReader.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.8.0.0/Resources/GecoServer/lib/FireAndForgetTSVReader.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.8.0.0/Resources/GecoServer/lib/GecoServer.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\Geco.pdb</string>
+      <string>Resources\GecoServer\GecoServer.exe</string>
+      <string>Resources\GecoServer\lib\FireAndForgetTSVReader.dll</string>
+      <string>Resources\GecoServer\lib\FireAndForgetTSVReader.pdb</string>
+      <string>Resources\GecoServer\lib\GecoServer.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="System.Windows.Interactivity" publicKeyToken="31bf3856ad364e35" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.5.0.0" newVersion="4.5.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="RestSharp" publicKeyToken="598062e77f915f75" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-106.6.1.0" newVersion="106.6.1.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>3.8.0.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
