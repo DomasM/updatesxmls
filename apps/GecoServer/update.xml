@@ -422,4 +422,34 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.2.0.0" newVersion="3.2.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>3.8.0.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.8.1.0/GecoServer.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>bafea1c28a972bf6b67b52c71614d091daa891f3e1c35e76891ffa4a0f4059d8</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+      <string>809a64c4bb8a6ee39f639c96cf8e099d0d54b537d08144f3b28f2b34e3a74fd4</string>
+      <string>8b76d43db70fa0154c4c5a07d049ee8c2c197600cb657c9eef63fff9929cb6c0</string>
+      <string>881c4735c292171de44c61a3544cf81437d9445c9d79d4cfcb9d11353603c76b</string>
+      <string>d6bdff43959ae51ea6fec227922b8d3d9c4e87338bd8fd507c8981a0f4d4fa10</string>
+      <string>e9967f218167fdced58ef5f0f437d0b14996992c9c59c8b71fa4653ed8f5fe6c</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.8.1.0/lib/exceptionLogger.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.8.1.0/lib/exceptionLogger.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.8.1.0/lib/GecoServer.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.8.1.0/lib/RestServiceHelper.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.8.1.0/lib/RestServiceHelper.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\exceptionLogger.dll</string>
+      <string>lib\exceptionLogger.pdb</string>
+      <string>lib\GecoServer.pdb</string>
+      <string>lib\RestServiceHelper.dll</string>
+      <string>lib\RestServiceHelper.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.2.0.0" newVersion="3.2.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>3.8.1.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
