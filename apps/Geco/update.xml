@@ -692,4 +692,28 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="System.Windows.Interactivity" publicKeyToken="31bf3856ad364e35" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.5.0.0" newVersion="4.5.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="RestSharp" publicKeyToken="598062e77f915f75" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-106.6.1.0" newVersion="106.6.1.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>3.8.2.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.9.0.0/Geco.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>0737a118730cdbdeca94c6b90988fb5b367e6680a4bfe265c16890df4e41dbb2</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+      <string>5d1b1871edb3ed22272aadbe39dae75acfa657f04eb9a57d7f4bb80e8e73d6d2</string>
+      <string>bbae7a13b4838a452763759138aee7e7978ef8a5ba0bad0ee073438f12047428</string>
+      <string>333a2e0555de72ce6fa332fd90a68e7944ff62a7987d735a97accfc19303cd2c</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.9.0.0/lib/Geco.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.9.0.0/Resources/GecoServer/GecoServer.exe</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.9.0.0/Resources/GecoServer/lib/GecoServer.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\Geco.pdb</string>
+      <string>Resources\GecoServer\GecoServer.exe</string>
+      <string>Resources\GecoServer\lib\GecoServer.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="System.Windows.Interactivity" publicKeyToken="31bf3856ad364e35" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.5.0.0" newVersion="4.5.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="RestSharp" publicKeyToken="598062e77f915f75" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-106.6.1.0" newVersion="106.6.1.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>3.9.0.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
