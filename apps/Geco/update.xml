@@ -716,4 +716,58 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="System.Windows.Interactivity" publicKeyToken="31bf3856ad364e35" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.5.0.0" newVersion="4.5.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="RestSharp" publicKeyToken="598062e77f915f75" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-106.6.1.0" newVersion="106.6.1.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>3.9.0.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.9.1.0/Geco.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>e9a556413ff07d2de44439ee90c00feb38af79a2eef8e58e4f4b1c1f3dd4a69f</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+      <string>26ff13124dd899e8d2a5d5fb4028dc0b889c3a1257a427e16391a1155d59e4f4</string>
+      <string>df519a94fce926223c705144f05d2b7e27c216d0ff1673461ac98f75a71e9a8d</string>
+      <string>02919e8c163b8d032879a80308ebb84154571e60cf356d072ca18857da836064</string>
+      <string>19bb141f07719f2b807d679d1386ebb6ed90884be8b24a920345cbb8e0e112e0</string>
+      <string>d4e073a9bc681052d700026e879fd4de318639fdec264468f7be56d43c7080fb</string>
+      <string>5c3b9968fb99e4c5de08cf40c6455cdbb02ccc2f360c289b865b295e1dfe159c</string>
+      <string>53a08e5581771a6a4c2e0c63c8b4c0ccae6083c99fe7d46a654fa77e010b9755</string>
+      <string>d2639c67a18ff6957712657121a8fe2ae4d7a8186d3ff10b08647c5b332afde6</string>
+      <string>e36783e83d0b18f9c14e08ca990b3b5d160cf3bddb9642b64502f6f57f580b98</string>
+      <string>df519a94fce926223c705144f05d2b7e27c216d0ff1673461ac98f75a71e9a8d</string>
+      <string>02919e8c163b8d032879a80308ebb84154571e60cf356d072ca18857da836064</string>
+      <string>1272106107216420ef8e2d932d01634db52ff2e1e2021639401efb2bf1ed0f5b</string>
+      <string>ee7573976f369ac2448e6d2d636705dee7345e4c522da4bded4d7aef38aad8b5</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.9.1.0/lib/alglibnet2.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.9.1.0/lib/aPowerMeter.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.9.1.0/lib/aPowerMeter.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.9.1.0/lib/aPowerMeterSelector.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.9.1.0/lib/aPowerMeterSelector.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.9.1.0/lib/FireAndForgetTSVReader.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.9.1.0/lib/FireAndForgetTSVReader.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.9.1.0/lib/Geco.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.9.1.0/Resources/GecoServer/GecoServer.exe</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.9.1.0/Resources/GecoServer/lib/aPowerMeter.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.9.1.0/Resources/GecoServer/lib/aPowerMeter.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.9.1.0/Resources/GecoServer/lib/GecoServer.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Geco/3.9.1.0/Resources/GecoServer/lib/UdpLocatorV2.dll</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\alglibnet2.dll</string>
+      <string>lib\aPowerMeter.dll</string>
+      <string>lib\aPowerMeter.pdb</string>
+      <string>lib\aPowerMeterSelector.dll</string>
+      <string>lib\aPowerMeterSelector.pdb</string>
+      <string>lib\FireAndForgetTSVReader.dll</string>
+      <string>lib\FireAndForgetTSVReader.pdb</string>
+      <string>lib\Geco.pdb</string>
+      <string>Resources\GecoServer\GecoServer.exe</string>
+      <string>Resources\GecoServer\lib\aPowerMeter.dll</string>
+      <string>Resources\GecoServer\lib\aPowerMeter.pdb</string>
+      <string>Resources\GecoServer\lib\GecoServer.pdb</string>
+      <string>Resources\GecoServer\lib\UdpLocatorV2.dll</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="System.Windows.Interactivity" publicKeyToken="31bf3856ad364e35" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.5.0.0" newVersion="4.5.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="RestSharp" publicKeyToken="598062e77f915f75" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-106.6.1.0" newVersion="106.6.1.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>3.9.1.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
