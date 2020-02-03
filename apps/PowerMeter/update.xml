@@ -1202,4 +1202,34 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.6.4.0" newVersion="1.6.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.3.12.0" newVersion="2.3.12.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>1.9.0.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.9.1.0/PowerMeter.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>8f2bf7c8b4d5bf535548580d9b8057bb2103dc65d699df1b855ee883d7aed91a</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+      <string>ac052fcddc4ab05e498c74be6f052b7b168def94726cc0d8be84b7ad63f755c9</string>
+      <string>7b015ed68e4ed9ec197de7faa4086ab07b4de2fc29f817a552b92c878b542e72</string>
+      <string>48492396e089a79edaaa62146cf484fbd03df730782b5d820edf4557a855e2ec</string>
+      <string>f606b94c5a1d5b48a703f2be0d2fa31ef7860c01096f19a638e42d4f7ea7f718</string>
+      <string>8e3edbc43b4bcee31e0c0682c74b59a9594eadef8c3d2c5b196b1a992c620666</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.9.1.0/lib/DataLogViewer.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.9.1.0/lib/DataLogViewer.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.9.1.0/lib/FileSystemHelpers.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.9.1.0/lib/FileSystemHelpers.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerMeter/1.9.1.0/lib/PowerMeter.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\DataLogViewer.dll</string>
+      <string>lib\DataLogViewer.pdb</string>
+      <string>lib\FileSystemHelpers.dll</string>
+      <string>lib\FileSystemHelpers.pdb</string>
+      <string>lib\PowerMeter.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.6.4.0" newVersion="1.6.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.3.12.0" newVersion="2.3.12.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>1.9.1.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
