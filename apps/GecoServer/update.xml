@@ -515,4 +515,37 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.2.0.0" newVersion="3.2.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>3.9.1.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.10.0.0/GecoServer.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>cc21ec422ca8c4040b71d31669349950757411df7118fe5552af6c2b543bad89</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+      <string>1db42ab41626da0632acec51d6e2739342de69468ae8d5672c336c11173b762e</string>
+      <string>02543886122823bb687a6dbe2bd2dfdb4be7b0f9141fde93d3b07d2436aaecd3</string>
+      <string>41d02c2c6d15cc8915a335d3487976a1ad226b029c795b412fbb2ffb6a46b5fd</string>
+      <string>3598cccad5b535fea6f93662107a4183bfd6167bf1d0f80260436093edc2e3af</string>
+      <string>11c40a31e4d0beafa7c9a0c5e27adfcc15d833de2cff4c031931a08877ddef88</string>
+      <string>f6df79acc54503493186b7dc1a89b7e9e4dfd40586bdee908dd07af4707df101</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.10.0.0/lib/aPowerMeter.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.10.0.0/lib/aPowerMeter.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.10.0.0/lib/GecoServer.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.10.0.0/lib/Newtonsoft.Json.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.10.0.0/lib/RestServiceHelper.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/GecoServer/3.10.0.0/lib/RestServiceHelper.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\aPowerMeter.dll</string>
+      <string>lib\aPowerMeter.pdb</string>
+      <string>lib\GecoServer.pdb</string>
+      <string>lib\Newtonsoft.Json.dll</string>
+      <string>lib\RestServiceHelper.dll</string>
+      <string>lib\RestServiceHelper.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-12.0.0.0" newVersion="12.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.2.0.0" newVersion="3.2.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>3.10.0.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
