@@ -102,4 +102,61 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.6.4.0" newVersion="1.6.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-12.0.0.0" newVersion="12.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.0" newVersion="3.3.2.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>2.2.0.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/3.0.0.0/LogViewer.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>cb95f7936791abccee00646904d5cf290250e962e90b3bb30f729a224901f218</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+      <string>e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</string>
+      <string>ac052fcddc4ab05e498c74be6f052b7b168def94726cc0d8be84b7ad63f755c9</string>
+      <string>7b015ed68e4ed9ec197de7faa4086ab07b4de2fc29f817a552b92c878b542e72</string>
+      <string>809a64c4bb8a6ee39f639c96cf8e099d0d54b537d08144f3b28f2b34e3a74fd4</string>
+      <string>8b76d43db70fa0154c4c5a07d049ee8c2c197600cb657c9eef63fff9929cb6c0</string>
+      <string>48492396e089a79edaaa62146cf484fbd03df730782b5d820edf4557a855e2ec</string>
+      <string>f606b94c5a1d5b48a703f2be0d2fa31ef7860c01096f19a638e42d4f7ea7f718</string>
+      <string>0c70517237de164896d8f759bba4b35b1b431e63e2daf95a1b634622403d8ceb</string>
+      <string>4bb863b941f833b263c06765283be2b801bf9baf1a60b9acdc2c32df183abe0d</string>
+      <string>646dcaf3961bea84d060df96ac55aeb6b173a8ead40fa4d7bff0e52ec5b521d9</string>
+      <string>dc5f35888f6c7906137642806f7800607deba304cee79c883fa65969470b036c</string>
+      <string>de461a5009f1b579af9235b8d970524e38fe3ec8a9a346cf7b462f09ed296740</string>
+      <string>01de8263d4ddfbd5121a6ff343e56e846c7b044c852c03442cd83551887a872e</string>
+      <string>3a5517548e43e65154b9994c9aafbf05ecffda186538506d53196e0d83396e0c</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/3.0.0.0/FirstRun</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/3.0.0.0/lib/DataLogViewer.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/3.0.0.0/lib/DataLogViewer.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/3.0.0.0/lib/exceptionLogger.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/3.0.0.0/lib/exceptionLogger.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/3.0.0.0/lib/FileSystemHelpers.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/3.0.0.0/lib/FileSystemHelpers.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/3.0.0.0/lib/LogViewer.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/3.0.0.0/lib/Misc.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/3.0.0.0/lib/Misc.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/3.0.0.0/lib/SylosDataLogWriter.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/3.0.0.0/lib/SylosDataLogWriter.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/3.0.0.0/lib/SylosLogFileReader.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/3.0.0.0/lib/SylosLogFileReader.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>FirstRun</string>
+      <string>lib\DataLogViewer.dll</string>
+      <string>lib\DataLogViewer.pdb</string>
+      <string>lib\exceptionLogger.dll</string>
+      <string>lib\exceptionLogger.pdb</string>
+      <string>lib\FileSystemHelpers.dll</string>
+      <string>lib\FileSystemHelpers.pdb</string>
+      <string>lib\LogViewer.pdb</string>
+      <string>lib\Misc.dll</string>
+      <string>lib\Misc.pdb</string>
+      <string>lib\SylosDataLogWriter.dll</string>
+      <string>lib\SylosDataLogWriter.pdb</string>
+      <string>lib\SylosLogFileReader.dll</string>
+      <string>lib\SylosLogFileReader.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.6.4.0" newVersion="1.6.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-12.0.0.0" newVersion="12.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.0" newVersion="3.3.2.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>3.0.0.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
