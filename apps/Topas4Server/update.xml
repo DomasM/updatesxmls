@@ -3176,4 +3176,115 @@
     <configRuntimeInfo>&lt;legacyCorruptedStateExceptionsPolicy enabled="true" /&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Microsoft.Owin" publicKeyToken="31bf3856ad364e35" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.0.1.0" newVersion="3.0.1.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.1.0.0" newVersion="2.3.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" culture="neutral" publicKeyToken="384d532d7e88985d" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.10.21623.0" newVersion="2.10.21623.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.6.0.0" newVersion="1.6.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="PostSharp" publicKeyToken="b13fd38b8f9c99d7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-5.0.35.0" newVersion="5.0.35.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="System.Reactive.Linq" publicKeyToken="94bc3704cddfc263" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.0.0.0" newVersion="3.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>1.55.0.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/Topas4Server/1.57.0.0/Topas4Server.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>7f5af63e2991f042fc57c75d607bb24ac5b251cbef48b0271455ff5af3d6d61d</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+      <string>7d45607ac5b85061773324e3d25a7a0a38d0eb6f22b820f2791f253ecf9add0c</string>
+      <string>4cc81c806183886415ef209aefb8ea2b4bbfa8edf3268cb5359312e2ee4944e0</string>
+      <string>56160bf835f730938e1efad5ad8051fb4365e444933ce3408a6b68fa195485ed</string>
+      <string>20b87dd6926ecd84741b3f2d6f0e74ba437de028d7eaa5adc1b5ca649deeedfa</string>
+      <string>53b306eb33bf51876da2fdb6adab9b10e70a0e78f6c56e4bf9ac90131e8c15a4</string>
+      <string>08c630eeec930b4bf279dda7fbdd8526dee988bc9da61a1a74001cd6c85706fc</string>
+      <string>e3867ff246ac58eea657bc169988abcb2bad6cef964cb7835e044fe86f280175</string>
+      <string>f311a28326870cc9eedf7460af1cd2b7fe362de0833bbc1448baf5e54794be0b</string>
+      <string>71d2eff251bb3cb7b7e1439def9a7b1245eca19fd0c2bff181b2aa5ce542ddac</string>
+      <string>c7deaa7805c45d2e93eda2a234ef734b2f1be5cc121cdb51b7ec8c490f61e88d</string>
+      <string>8c825891bc20b19e99449760ad1057ca52957dc220113f9ceb7fc4f808964b29</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Topas4Server/1.57.0.0/lib/ApplicationInsightsWeaver.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Topas4Server/1.57.0.0/lib/ApplicationInsightsWeaver.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Topas4Server/1.57.0.0/lib/ApplicationsInsightsHelper.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Topas4Server/1.57.0.0/lib/ApplicationsInsightsHelper.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Topas4Server/1.57.0.0/lib/RestServiceHelper.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Topas4Server/1.57.0.0/lib/RestServiceHelper.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Topas4Server/1.57.0.0/lib/SylosDataLogWriter.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Topas4Server/1.57.0.0/lib/SylosDataLogWriter.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Topas4Server/1.57.0.0/lib/Topas4Server.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Topas4Server/1.57.0.0/lib/UdpLocatorV2.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Topas4Server/1.57.0.0/lib/UdpLocatorV2.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\ApplicationInsightsWeaver.dll</string>
+      <string>lib\ApplicationInsightsWeaver.pdb</string>
+      <string>lib\ApplicationsInsightsHelper.dll</string>
+      <string>lib\ApplicationsInsightsHelper.pdb</string>
+      <string>lib\RestServiceHelper.dll</string>
+      <string>lib\RestServiceHelper.pdb</string>
+      <string>lib\SylosDataLogWriter.dll</string>
+      <string>lib\SylosDataLogWriter.pdb</string>
+      <string>lib\Topas4Server.pdb</string>
+      <string>lib\UdpLocatorV2.dll</string>
+      <string>lib\UdpLocatorV2.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;legacyCorruptedStateExceptionsPolicy enabled="true" /&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Microsoft.Owin" publicKeyToken="31bf3856ad364e35" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.0.1.0" newVersion="3.0.1.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.1.0.0" newVersion="2.3.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" culture="neutral" publicKeyToken="384d532d7e88985d" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.10.21623.0" newVersion="2.10.21623.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.6.0.0" newVersion="1.6.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="PostSharp" publicKeyToken="b13fd38b8f9c99d7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-5.0.35.0" newVersion="5.0.35.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="System.Reactive.Linq" publicKeyToken="94bc3704cddfc263" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.0.0.0" newVersion="3.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>1.57.0.0</versionSerialized>
+  </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/Topas4Server/1.58.0.0/Topas4Server.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>26991fc3d32d39692d7fd5cc8d068b7ead0a43ba83709417ec471eff8a87ed01</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+      <string>dad0c283ee72082597ef57116c97058ea38d9dbb34aea18db39889c69d88ae3d</string>
+      <string>93d7980be820b08fc8518cdf205ac8e7495246d5c7edc841843704a9f020e0a3</string>
+      <string>36af987b45285dfda19b841698d79f5b3f1adfb388771bfee07c80bd6240102a</string>
+      <string>674164a41702957654fca1ac6e4d1798b83ed89049d54c387b384295f3baeca6</string>
+      <string>01dac2fbc14bd81488e6f1307d41470a4f23cf52b1ed02de8725694462a1448a</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Topas4Server/1.58.0.0/lib/SylosDataLogWriter.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Topas4Server/1.58.0.0/lib/SylosDataLogWriter.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Topas4Server/1.58.0.0/lib/Topas4Server.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Topas4Server/1.58.0.0/lib/UdpLocatorV2.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Topas4Server/1.58.0.0/lib/UdpLocatorV2.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\SylosDataLogWriter.dll</string>
+      <string>lib\SylosDataLogWriter.pdb</string>
+      <string>lib\Topas4Server.pdb</string>
+      <string>lib\UdpLocatorV2.dll</string>
+      <string>lib\UdpLocatorV2.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;legacyCorruptedStateExceptionsPolicy enabled="true" /&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Microsoft.Owin" publicKeyToken="31bf3856ad364e35" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.0.1.0" newVersion="3.0.1.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.1.0.0" newVersion="2.3.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" culture="neutral" publicKeyToken="384d532d7e88985d" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.10.21623.0" newVersion="2.10.21623.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.6.0.0" newVersion="1.6.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="PostSharp" publicKeyToken="b13fd38b8f9c99d7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-5.0.35.0" newVersion="5.0.35.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="System.Reactive.Linq" publicKeyToken="94bc3704cddfc263" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.0.0.0" newVersion="3.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>1.58.0.0</versionSerialized>
+  </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/Topas4Server/1.61.0.0/Topas4Server.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>c2d0c5335473e34038aa56adb2099cd52f0605f03591713a49d6b6906e62d321</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+      <string>dad0c283ee72082597ef57116c97058ea38d9dbb34aea18db39889c69d88ae3d</string>
+      <string>93d7980be820b08fc8518cdf205ac8e7495246d5c7edc841843704a9f020e0a3</string>
+      <string>ae0a7e5b3763f5bf61354a2fc0ce0f63332795f5ca1228c3fe61606774941416</string>
+      <string>674164a41702957654fca1ac6e4d1798b83ed89049d54c387b384295f3baeca6</string>
+      <string>01dac2fbc14bd81488e6f1307d41470a4f23cf52b1ed02de8725694462a1448a</string>
+      <string>0d73f53de1c8a203815422e53444a52344a52a50c4e7f76f0857aa4188f00d7e</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Topas4Server/1.61.0.0/lib/SylosDataLogWriter.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Topas4Server/1.61.0.0/lib/SylosDataLogWriter.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Topas4Server/1.61.0.0/lib/Topas4Server.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Topas4Server/1.61.0.0/lib/UdpLocatorV2.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Topas4Server/1.61.0.0/lib/UdpLocatorV2.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Topas4Server/1.61.0.0/Resources/WebServer/htdocs/assets/js/topas4.js</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\SylosDataLogWriter.dll</string>
+      <string>lib\SylosDataLogWriter.pdb</string>
+      <string>lib\Topas4Server.pdb</string>
+      <string>lib\UdpLocatorV2.dll</string>
+      <string>lib\UdpLocatorV2.pdb</string>
+      <string>Resources\WebServer\htdocs\assets\js\topas4.js</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;legacyCorruptedStateExceptionsPolicy enabled="true" /&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Microsoft.Owin" publicKeyToken="31bf3856ad364e35" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.0.1.0" newVersion="3.0.1.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="protobuf-net" publicKeyToken="257b51d87d2e4d67" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.1.0.0" newVersion="2.3.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" culture="neutral" publicKeyToken="384d532d7e88985d" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.10.21623.0" newVersion="2.10.21623.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.6.0.0" newVersion="1.6.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="PostSharp" publicKeyToken="b13fd38b8f9c99d7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-5.0.35.0" newVersion="5.0.35.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="System.Reactive.Linq" publicKeyToken="94bc3704cddfc263" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.0.0.0" newVersion="3.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>1.61.0.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
