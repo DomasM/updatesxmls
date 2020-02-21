@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfVersionInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/LogsConverter/1.2.0.0/LogsConverter.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>602bf01cb809a6d3e728b081101fa49163e5ce8ab2c5903200063f02e0ff78d1</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+      <string>a3331d21fd6c4c24272ed3e2ab3de43a614fdc3a7276f32a3571dff394782bb4</string>
+      <string>60a234e67d758a1981fe026f1e4023b1e65571d09baf01dd93efbe4e491826b6</string>
+      <string>bbe352c3a4b0feb202ee4886b133b9642e045e2637d9854a0ef645f57be68e00</string>
+      <string>2f63da64b0ff7362f703304ba9f52ebbe68600a2d64b3b0834b3e254d4acd376</string>
+      <string>761bd976dc7c31a61a9f82fd70592570187d9142cc60270f154aa93f059dd592</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogsConverter/1.2.0.0/lib/LogsConverter.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogsConverter/1.2.0.0/lib/SylosDataLogWriter.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogsConverter/1.2.0.0/lib/SylosDataLogWriter.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogsConverter/1.2.0.0/lib/SylosLogFileReader.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogsConverter/1.2.0.0/lib/SylosLogFileReader.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\LogsConverter.pdb</string>
+      <string>lib\SylosDataLogWriter.dll</string>
+      <string>lib\SylosDataLogWriter.pdb</string>
+      <string>lib\SylosLogFileReader.dll</string>
+      <string>lib\SylosLogFileReader.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="NetMQ" publicKeyToken="a6decef4ddc58b3a" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.2" newVersion="3.3.2.2" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.1.1.0" newVersion="3.1.1.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>1.2.0.0</versionSerialized>
+  </VersionInfo>
+</ArrayOfVersionInfo>
