@@ -1828,4 +1828,43 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="NetMQ" publicKeyToken="a6decef4ddc58b3a" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.3" newVersion="3.3.2.3" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.3.0.0" newVersion="1.3.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-12.0.0.0" newVersion="12.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.10.0.0" newVersion="2.10.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Microsoft.ApplicationInsights" publicKeyToken="31bf3856ad364e35" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.2.0.0" newVersion="2.2.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="PostSharp" publicKeyToken="b13fd38b8f9c99d7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-5.0.35.0" newVersion="5.0.35.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>1.10.0.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner-T4/1.11.0.0/PowerScanner-T4.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>8ad529b6afb9b825e595137d388d3693e4aff4ce5ff5a554c158bb1ecfd775b4</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+      <string>32a18ae2a9234216c6783d4165de172cd6cdd991e072396b668bbd5e0630793a</string>
+      <string>675abb9a49286c4c8fc86287fa666d43e4f0c5e03ec1de700ae12e6c12192ba9</string>
+      <string>e429ca7921fac2e1ff3760b0aaa0390733e745dd3aba0d8eeb3454f7c5d03a07</string>
+      <string>7bff157300982f728ec78612b00ebacb8149f6636932d8d53d1b1a0d88e46543</string>
+      <string>64b869087f082674786929d3fffa0a924611c2eed1ee95320544a613c56c819c</string>
+      <string>55482617e2a74f0cf46ea4b1d22f906c4cbf4e8ce0db5fd92d2a0da4c4eb196d</string>
+      <string>eef0c72f202af577b877ce6733bcafeaaca616b3552192ea0377e7a14a5d20fa</string>
+      <string>ab800316714c583fb7d8db2010a8e305d02ee5ce50c11aa68c61938bfca616b9</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner-T4/1.11.0.0/lib/aPowerMeter.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner-T4/1.11.0.0/lib/aPowerMeter.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner-T4/1.11.0.0/lib/aPowerMeterSelector.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner-T4/1.11.0.0/lib/aPowerMeterSelector.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner-T4/1.11.0.0/lib/PowerScanner-T4.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner-T4/1.11.0.0/lib/WinTopas4.exe</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner-T4/1.11.0.0/lib/WPFUtils.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/PowerScanner-T4/1.11.0.0/lib/WPFUtils.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\aPowerMeter.dll</string>
+      <string>lib\aPowerMeter.pdb</string>
+      <string>lib\aPowerMeterSelector.dll</string>
+      <string>lib\aPowerMeterSelector.pdb</string>
+      <string>lib\PowerScanner-T4.pdb</string>
+      <string>lib\WinTopas4.exe</string>
+      <string>lib\WPFUtils.dll</string>
+      <string>lib\WPFUtils.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="NetMQ" publicKeyToken="a6decef4ddc58b3a" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.3" newVersion="3.3.2.3" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.3.0.0" newVersion="1.3.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-12.0.0.0" newVersion="12.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.10.0.0" newVersion="2.10.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Microsoft.ApplicationInsights" publicKeyToken="31bf3856ad364e35" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.2.0.0" newVersion="2.2.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="PostSharp" publicKeyToken="b13fd38b8f9c99d7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-5.0.35.0" newVersion="5.0.35.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>1.11.0.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
