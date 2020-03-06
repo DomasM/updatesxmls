@@ -171,7 +171,6 @@
       <string>89c1385a864ae3828b23435fbd10c00f543b81b60fb5d5a4f6a8a1c734b97de1</string>
       <string>435c3bc1b4c0224c37647aae9f6a7a67ad0994e298700eace8ea42dbcdf5b663</string>
       <string>6dd296662f85f4015348e67f1e1ffcf8db742695f67a9633176da683e32d4043</string>
-      <string>29522d1d5e6c0f47b7861f463ffc33d8829c4ede62669713e8110d4bf35bb4f3</string>
       <string>1f2404f7d1bd7a7a951f9568a328cfe8b97192994a491373493f0cdf3354b8c8</string>
       <string>b64357fb1e190eb44393748d9cc921d79f1cbe8626d085acd94db0e971e7b97c</string>
       <string>9b50b3ecbe53024dc681e266d6aa999e1c64ae95e18edd53c32aa89e521038ec</string>
@@ -213,7 +212,6 @@
       <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/4.0.0.0/lib/Autofac.Extras.DynamicProxy.pdb</string>
       <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/4.0.0.0/lib/Autofac.Integration.Wcf.dll</string>
       <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/4.0.0.0/lib/Autofac.pdb</string>
-      <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/4.0.0.0/lib/azlog.dll</string>
       <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/4.0.0.0/lib/BloomFilterCore.dll</string>
       <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/4.0.0.0/lib/BloomFilterCore.pdb</string>
       <string>https://lightconupdater.blob.core.windows.net/take00/apps/LogViewer/4.0.0.0/lib/Caching.dll</string>
@@ -291,7 +289,6 @@
       <string>lib\WPFUtils.pdb</string>
     </filesToCopyDestination>
     <filesToDelete>
-      <string>FirstRun</string>
     </filesToDelete>
     <configRuntimeInfo>&lt;gcAllowVeryLargeObjects enabled="true" /&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.6.4.0" newVersion="1.6.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-12.0.0.0" newVersion="12.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.0" newVersion="3.3.2.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="System.ValueTuple" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.0.3.0" newVersion="4.0.3.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="System.Threading.Tasks.Extensions" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.2.0.1" newVersion="4.2.0.1" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>4.0.0.0</versionSerialized>
