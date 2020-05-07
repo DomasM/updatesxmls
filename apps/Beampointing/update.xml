@@ -1073,4 +1073,31 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="NetMQ" publicKeyToken="a6decef4ddc58b3a" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.2" newVersion="3.3.2.2" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.2.4.0" newVersion="1.2.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-12.0.0.0" newVersion="12.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="System.ValueTuple" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.0.3.0" newVersion="4.0.3.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="SciChart.Charting" publicKeyToken="b55dd9efe817e823" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-6.1.1.13136" newVersion="6.1.1.13136" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="SciChart.Data" publicKeyToken="b55dd9efe817e823" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-6.1.1.13136" newVersion="6.1.1.13136" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.0" newVersion="3.3.2.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>1.6.0.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/Beampointing/1.7.0.0/BeamPointing.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>005231879e534f461c1220ab82d3de6df9764339f9a320b9f951b0c792d8cf3d</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+      <string>98f80853b883929baa9183fc47bae4de85520de239769a6b974105cbf656c2cc</string>
+      <string>917f912853260729c4295384f9fbc6f0328f71ec5e202224b7c0e7f740362ba9</string>
+      <string>7e98cf0d4e8abe99cd25124781837d356377a3ab9eeda23baf452fe29412f20a</string>
+      <string>836670ac97bcd5e062e02670fa95c3597fb7e1ed9d2d4b425568638138c72f69</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Beampointing/1.7.0.0/BeamPointing.pssym</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Beampointing/1.7.0.0/lib/BeamPointing.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Beampointing/1.7.0.0/lib/ScichartV6Helpers.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/Beampointing/1.7.0.0/lib/ScichartV6Helpers.pdb</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>BeamPointing.pssym</string>
+      <string>lib\BeamPointing.pdb</string>
+      <string>lib\ScichartV6Helpers.dll</string>
+      <string>lib\ScichartV6Helpers.pdb</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="NetMQ" publicKeyToken="a6decef4ddc58b3a" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.2" newVersion="3.3.2.2" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.2.4.0" newVersion="1.2.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-12.0.0.0" newVersion="12.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="System.ValueTuple" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.0.3.0" newVersion="4.0.3.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="SciChart.Charting" publicKeyToken="b55dd9efe817e823" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-6.1.1.13136" newVersion="6.1.1.13136" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="SciChart.Data" publicKeyToken="b55dd9efe817e823" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-6.1.1.13136" newVersion="6.1.1.13136" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.3.2.0" newVersion="3.3.2.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.0.0" newVersion="4.9.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>1.7.0.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
