@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfVersionInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/take00/apps/IPAssistant/0.2.1.0/IPAssistant.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>34ca9c9201708016e172ad9a8b6bbe3add343808027e1600a9848ab369611f98</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+      <string>22dbe4ee681146209bbf2880d4513347f70b2c0567eaadc3a5a7fca0ffcbb31a</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/take00/apps/IPAssistant/0.2.1.0/lib/IPAssistant.pssym</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\IPAssistant.pssym</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="3.3.2.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="12.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="PostSharp" publicKeyToken="b13fd38b8f9c99d7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="6.6.14.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="PostSharp.Patterns.Aggregation" publicKeyToken="e7f631e6ce13f078" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="6.6.14.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="PostSharp.Patterns.Common" publicKeyToken="e7f631e6ce13f078" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="6.6.14.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="PostSharp.Patterns.Model" publicKeyToken="e7f631e6ce13f078" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="6.6.14.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="PostSharp.Patterns.Xaml" publicKeyToken="e7f631e6ce13f078" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="6.6.14.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="PropertyChanged" publicKeyToken="ee3ee20bcf148ddd" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="3.3.1.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="System.ValueTuple" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="4.0.3.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="System.Windows.Interactivity" publicKeyToken="31bf3856ad364e35" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="4.5.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <versionSerialized>0.2.1.0</versionSerialized>
+  </VersionInfo>
+</ArrayOfVersionInfo>
