@@ -3,6 +3,34 @@
     "releases": [
 
 
+      {
+        "date": "",
+        "version": "0.72.0",
+        "beta": {
+          "date": "2021-09-15"
+        },
+        "title": "Enable automatic updates for beta releases",
+        "changes": [
+          {
+            "title": "Automatic updates for beta releases",
+            "details": "Application is updated automatically inside Light Conversion. If update is available when application is starting, it is downloaded and applied immediately.",
+            "workDocs": [
+              {
+                "url": "https://trello.com/c/oFnaZdNf"
+              }
+            ],
+            "tags": [
+              "New"
+            ],
+            "img": {
+              "url": "https://changelogs.blob.core.windows.net/cronus/img/a859b816-57a1-4c92-b77c-d7ab80739a34.PNG",
+              "width": "350"
+            }
+          }
+        ]
+      },
+
+
         {
             "date": "2021-09-13",
             "version": "0.71.0",
