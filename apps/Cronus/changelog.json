@@ -186,10 +186,10 @@
             ],
             "title": "Add tool to dump device state to json file.",
             "details": "Saved information includes current device state, parts of configuration and other system information. Accessible via 'Dump state to file' button in service window, tools tab. Dump files are saved to C:\\Programs\\Cronus\\StateDumps",
-            "img": {
-                "url": "https://img.announcekit.app/cefc45aef30a00bb55927a6ec42c4e2b?w=846&s=a0d7deecee8b7c43ecaaed68f3ef83d3",
-                "width": 300
-            },
+          "img": {
+            "url": "https://changelogs.blob.core.windows.net/cronus/img/b88bbb5b-6f06-4d4e-8fdc-cd4f0aabce16.png",
+            "width": 300
+          },
             "workDocs":[
                 {
                     "url": "https://trello.com/c/VNn5O5Hr"
@@ -212,10 +212,10 @@
             ],
             "title": "Target .NET 4.7.2 framework",
             "details": "Targeted .NET framework version changes from 4.6.2 to 4.7.2. Some users might need to install a new version of .NET runtime on their PCs to launch application.",
-            "img" : {
-"url":"https://dotnet.microsoft.com/static/images/illustrations/free-code-editor-tools-bot-desk.svg?v=WWIDocc21QEOeLjT9jofZosRF7KhqeGcGtaQr2ZB7TE",
-"width": 500
-            }
+          "img": {
+            "url": "https://changelogs.blob.core.windows.net/cronus/img/b957767e-b4d6-4b00-bd38-0c847bbff811.svg",
+            "width": 500
+          }
         }
     ]
 },
