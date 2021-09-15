@@ -108,7 +108,7 @@
                         "Improved"
                     ],
                     "title": "Various changes regarding 'Full Power', 'Adjustment Mode', and 'Standby' states",
-                    "details": "+ Add 'Enter Standby Mode' button to service window\n+ Wavelength stabilization is turned off when entering 'Standby'\n+  Other fixes to power modes handling\n",
+                    "details": "+ Add 'Enter Standby Mode' button to service window\n+ Wavelength stabilization is turned off when entering 'Standby'\n+ Set output again when leaving standby mode\n+ Other fixes to power modes handling\n",
                     "img": {
                         "url": "",
                         "width": ""
