@@ -1,0 +1,284 @@
+{
+    "pageTitle": "Cronus App Changelog",
+    "releases": [
+
+
+        {
+            "date": "2021-09-13",
+            "version": "0.71.0",
+            "beta": {
+                "date": ""
+            },
+            "title": "Add tool to dump device state to json file",
+            "changes": [
+                {
+                    "title": "Add adjustment mode calibration tool",
+                    "details": "Power delivery motor positions can be calibrated as wavelength functions from target power levels in the Configuration\\ChX\\ AdjustmentModePower.dat file. File should contain columns of wavelength in nm and power in mW.\n",
+                    "workDocs": [
+                        {
+                            "url": "https://trello.com/c/Ja0QA02J"
+                        }
+                    ],
+                    "tags": [
+                        "New"
+                    ]
+                },
+                {
+                    "title": "Expose internal power meters for PowerScanner",
+                    "details": "PowerScanner can now use internal power meters. User has to select correct meter manually by serial nubmer.",
+                    "workDocs": [
+                        {
+                            "url": "https://trello.com/c/z25bNfUk"
+                        }
+                    ],
+                    "tags": [
+                        "New"
+                    ]
+                },
+                {
+                    "title": "Update logs system",
+                    "details": "+ Device performance logs can be synced on request at any time\n+ New model for logs syncing authorization",
+                    "workDocs": [],
+                    "tags": [
+                        "Improved"
+                    ]
+                }
+            ]
+        },
+
+
+        {
+            "date": "2021-09-16",
+            "version": "0.70.3",
+            "beta": {
+                "date": ""
+            },
+            "title": "Fix testing procedure for control COM port",
+            "changes": [
+                {
+                    "title": "Fix testing procedure for control COM port",
+                    "details": "Timeout increased to 25 seconds",
+                    "workDocs": [],
+                    "tags": [
+                        "Fixed"
+                    ]
+                }
+            ]
+        },
+
+
+        {
+            "date": "2021-08-02",
+            "version": "0.69.0",
+            "beta": {
+                "date": ""
+            },
+            "title": "Power modes overhaul, internal diodes calibration",
+            "changes": [
+                {
+                    "tags": [
+                        "Improved"
+                    ],
+                    "title": "Various changes regarding 'Full Power', 'Adjustment Mode', and 'Standby' states",
+                    "details": "+ Add 'Enter Standby Mode' button to service window\n+ Wavelength stabilization is turned off when entering 'Standby'\n+  Other fixes to power modes handling\n",
+                    "img": {
+                        "url": "",
+                        "width": ""
+                    },
+                    "workDocs": [
+                        {
+                            "url": "https://trello.com/c/rwjoERfo"
+                        }
+                    ]
+                },
+                {
+                    "tags": [
+                        "New"
+                    ],
+                    "title": "Add internal power meter calibration via external power meter",
+                    "details": "'Power Calibration tool' in service window allows to calibrate internal power meters by wavelength if external power meter is connected",
+                    "workDocs": [
+                        {
+                            "url": "https://trello.com/c/rwjoERfo"
+                        }
+                    ]
+                },
+                {
+                    "title": "Wavelength setting might fail in rare cases while optimizing power in any stage",
+                    "details": "",
+                    "workDocs": [],
+                    "tags": [
+                        "Fixed"
+                    ]
+                },
+                {
+                    "title": "Delete huge tracelog files on app startup",
+                    "details": "",
+                    "workDocs": [],
+                    "tags": [
+                        "Fixed"
+                    ]
+                },
+                {
+                    "title": "Add cherry-picked info to the top of device dump file",
+                    "details": "",
+                    "workDocs": [
+                        {
+                            "url": "https://trello.com/c/VNn5O5Hr"
+                        }
+                    ],
+                    "tags": [
+                        "Improved"
+                    ]
+                },
+                {
+                    "title": "Tweak beam stabilization end check",
+                    "details": "",
+                    "workDocs": [],
+                    "tags": [
+                        "Changed"
+                    ]
+                }
+            ]
+        },
+        
+        
+        
+        {
+        "date": "",
+        "version": "0.66.0",
+        "beta":
+        {
+            "date": ""
+        },
+        "title": "Add tool to dump device state to json file",
+        "changes": [{
+            "tags": [
+                "New"
+            ],
+            "title": "Add tool to dump device state to json file.",
+            "details": "Saved information includes current device state, parts of configuration and other system information. Accessible via 'Dump state to file' button in service window, tools tab. Dump files are saved to C:\\Programs\\Cronus\\StateDumps",
+            "img": {
+                "url": "https://img.announcekit.app/cefc45aef30a00bb55927a6ec42c4e2b?w=846&s=a0d7deecee8b7c43ecaaed68f3ef83d3",
+                "width": 300
+            },
+            "workDocs":[
+                {
+                    "url": "https://trello.com/c/VNn5O5Hr"
+                },
+                {
+                    "url": "https://dev.azure.com/LCURS/Main/_git/Cronus/commit/a7fa9cb28adecae6224e5d3be6eb934ec795fbbc?refName=refs%2Fheads%2Fmaster"
+                }
+            ]
+        },
+        {
+            "tags": [
+                "Changed"
+            ],
+            "title": "Change default value for ShutterWatcherToZero in Main.json",
+            "details": "Onward from this version default value for this option is **true**. If this option is omitted from Main.json configuration file, system will go to standby state (instead of adjustment mode) after shutters are closed for ShutterWatcherTimeoutSeconds."
+        },
+        {
+            "tags": [
+                "Changed"
+            ],
+            "title": "Target .NET 4.7.2 framework",
+            "details": "Targeted .NET framework version changes from 4.6.2 to 4.7.2. Some users might need to install a new version of .NET runtime on their PCs to launch application.",
+            "img" : {
+"url":"https://dotnet.microsoft.com/static/images/illustrations/free-code-editor-tools-bot-desk.svg?v=WWIDocc21QEOeLjT9jofZosRF7KhqeGcGtaQr2ZB7TE",
+"width": 500
+            }
+        }
+    ]
+},
+{
+    "date": "2021-06-11",
+    "version": "0.65.0",
+    "beta":
+    {
+        "date": ""
+    },
+    "title": "Fix warmup timer display🤦",
+    "changes": [{
+        "tags": [
+            "Fixed"
+        ],
+        "title": "Fix warmup timer display.",
+        "details": "Warmup timer now correctly goes down from 01:30:00 to 00:00:00 instead of starting again after 30 minutes"
+    },
+    {
+        "tags": [
+            "New"
+        ],
+        "title": "Extend API to allow set output with specific GDD filter wheel position.",
+        "details": ""
+    }
+    
+]
+},
+{
+    "date": "2021-05-13",
+    "version": "0.64.1",
+    "title": "Add support for different pump oscillator",
+    "changes": [{
+        "tags": [
+            "New"
+        ],
+        "title": "Different oscillator support.",
+        "details": "Oscillators that start mode locking at pump currents where CW is already present are supported. This option must be set in Main.json to be active \r\n\r\n ` \"OscillatorType\": \"CWonML\" `"
+    }
+    
+    
+]
+},
+
+{
+    "date": "2021-05-05",
+    "version": "0.63.0",
+    "title": "Presets, extended API, other changes",
+    "changes": [{
+        "tags": [
+            "New"
+        ],
+        "title": "Output presets",
+        "details": "You can save your favorite wavelength and GDD combinations and quickly apply them.",
+        "img": {
+            "url": "https://img.announcekit.app/2c1ff0bb5482673b23a34f37b1beaaf4?w=1200&s=337266ca2bafa26456b0b3c753785ef6",
+            "width": 500
+        }
+    },
+    {
+        "tags": [
+            "New"
+        ],
+        "title": "Fast tuning option for small GDD changes",
+        "details": "Select this option if you want to quickly tune GDD while keeping the same wavelength. Beam centering will be intelligently  skipped when possible."
+    },
+    {
+        "tags": [
+            "Improved"
+        ],
+        "title": "Extend REST and Com port API",
+        "details": "API now has PUTOutput method which can be used to set required wavelength and GDD in single call. \r\n\r\n ` PUT /Output {\"Wavelength\":891.2, \"GDD\":-12000} ` \r\n\r\n [API Docs](https://gist.github.com/DomasM/2f802a24d4a354b020b66f2d89267003)"
+        
+    },
+    {
+        "tags": [
+            "New",
+            "Safety"
+        ],
+        "title": "Add Emission Warning",
+        "details": "Emission Warning in orange box is always displayed in main window when current is supplied to pump bars."
+    },
+    {
+        "tags": [
+            "Changed"
+        ],
+        "title": "Warmup duration is now 90 minutes",
+        "details": ""
+    }
+    
+]
+}
+]
+}
