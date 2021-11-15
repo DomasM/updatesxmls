@@ -9,7 +9,7 @@
       "beta": {
         "date": "2021-11-15"
       },
-      "title": "Add tool to dump device state to json file",
+      "title": "Improve GDD preset curves UI",
       "changes": [
         {
           "tags": [
