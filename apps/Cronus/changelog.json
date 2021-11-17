@@ -47,7 +47,8 @@
           "details": "User can save currently set wavelength-GDD pair to the calibration curve. This curve later can be used to select GDD when setting any new wavelength in user-calibrated range.  Curves are saved together with Topas4 calibration using GDDPRESET X naming scheme. ",
           "img": {
             "url": "https://changelogs.blob.core.windows.net/cronus/img/436faafc-cb60-4b4c-a53a-be77264c9407.webp",
-            "width": 300
+            "width": 300,
+             "height": 375
           },
           "workDocs": [
             {
@@ -103,7 +104,8 @@
           ],
           "img": {
             "url": "https://changelogs.blob.core.windows.net/cronus/img/a859b816-57a1-4c92-b77c-d7ab80739a34.webp",
-            "width": "350"
+            "width": "350",
+            "height": 323
           }
         }
       ]
