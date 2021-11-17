@@ -1,0 +1,6106 @@
+{
+  "pageTitle": "Topas4 Changelog",
+  "releases": [
+    {
+      "date": "",
+      "version": "1.128.5",
+      "beta": {
+        "date": "2021-09-15"
+      },
+      "title": "Increase max homing duration for PI delay lines to 10 seconds (was 5)",
+      "changes": [
+        {
+          "title": "Increase max homing duration for PI delay lines to 10 seconds (was 5)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2021-09-13",
+      "version": "1.128.4",
+      "beta": {
+        "date": "2021-08-31"
+      },
+      "title": "Hotfix for 1.128.2  - do not send 'RESET_TEMP_AND_HUMIDITY' commands to Eth motor boards with 6 motors ",
+      "changes": [
+        {
+          "title": "Hotfix for 1.128.2  - do not send 'RESET_TEMP_AND_HUMIDITY' commands to Eth motor boards with 6 motors ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Track interlock flag events for Eth motor bord with main shutter",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.128.3",
+      "beta": {
+        "date": "2021-08-27"
+      },
+      "title": "Fix false positive 'Simplify' option for motor position curve",
+      "changes": [
+        {
+          "title": "Fix false positive 'Simplify' option for motor position curve",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Change forbidden ranges generation logic for optical curves that contain positions equal to named motor positions",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.128.2",
+      "beta": {
+        "date": "2021-08-26"
+      },
+      "title": "Add 'Help' button to top bar, it leads to How-Tos videos",
+      "changes": [
+        {
+          "title": "Add 'Help' button to top bar, it leads to How-Tos videos",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Temperature/Humidity sensors connected to Eth motor boards are now reseted on server startup and board debug tool launch",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "List of devices that are allowed to use 10.1.1.0-2 Eth motor boards shortened",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.128.1",
+      "beta": {
+        "date": "2021-08-24"
+      },
+      "title": "Fix Cronus-3P demo configuration file is not included",
+      "changes": [
+        {
+          "title": "Fix Cronus-3P demo configuration file is not included",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.128.0",
+      "beta": {
+        "date": "2021-08-23"
+      },
+      "title": "Fix pump laser preset check for shutter might be ignored",
+      "changes": [
+        {
+          "title": "Fix pump laser preset check for shutter might be ignored",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Add 'CloseOnPumpMismatch' option to shutter configuration",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.127.0",
+      "beta": {
+        "date": "2021-08-09"
+      },
+      "title": "Try to disable 'Idle Power Saving' for Usb<>Eth adapters that are used for communication with Eth motor boards",
+      "changes": [
+        {
+          "title": "Try to disable 'Idle Power Saving' for Usb<>Eth adapters that are used for communication with Eth motor boards",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.126.0",
+      "beta": {
+        "date": "2021-08-09"
+      },
+      "title": "Tweak temperature and humidity and sensors readout to avoid unstable operation in certain situations",
+      "changes": [
+        {
+          "title": "Tweak temperature and humidity and sensors readout to avoid unstable operation in certain situations",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Block usage of Eth motor boards with addreses 10.1.1.0-2 if device is not whitelisted (Warning since 1.121.0)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.125.1",
+      "beta": {
+        "date": "2021-08-03"
+      },
+      "title": "Topas4Server will likely fail to monitor ethernet interface changes",
+      "changes": [
+        {
+          "title": "Topas4Server will likely fail to monitor ethernet interface changes",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.125.0",
+      "beta": {
+        "date": "2021-08-02"
+      },
+      "title": "Topas4Server might not exit if launched multiple times and update is ready",
+      "changes": [
+        {
+          "title": "Topas4Server might not exit if launched multiple times and update is ready",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.124.0",
+      "beta": {
+        "date": "2021-08-02"
+      },
+      "title": "Topas4Server enters infinite loop on startup if Eth motor board motor is in 'ThermalShutdown'' state and can't leave 'Busy' state ",
+      "changes": [
+        {
+          "title": "Topas4Server enters infinite loop on startup if Eth motor board motor is in 'ThermalShutdown'' state and can't leave 'Busy' state ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Add Cronus-3P demo configuration to Tools>Launch New Demo Device menu",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2021-07-09",
+      "version": "1.122.0",
+      "beta": {
+        "date": "2021-07-02"
+      },
+      "title": "Eth motor board communication tweaks (UDP ports exhaustion)",
+      "changes": [
+        {
+          "title": "Eth motor board communication tweaks (UDP ports exhaustion)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Backup device config zip to cloud",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.121.0",
+      "beta": {
+        "date": "2021-07-01"
+      },
+      "title": "Warn user if Eth motor boards with addreses 10.1.1.0-2 are used and device is not whitelisted",
+      "changes": [
+        {
+          "title": "Warn user if Eth motor boards with addreses 10.1.1.0-2 are used and device is not whitelisted",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2021-06-18",
+      "version": "1.120.1",
+      "beta": null,
+      "title": "Track installed .Net Framework version",
+      "changes": [
+        {
+          "title": "Track installed .Net Framework version",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.120.0",
+      "beta": {
+        "date": "2021-06-17"
+      },
+      "title": "Add DFX interaction.  It works the same way as DFG but with IDL instead of SIG.",
+      "changes": [
+        {
+          "title": "Add DFX interaction.  It works the same way as DFG but with IDL instead of SIG.",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2021-06-17",
+      "version": "1.119.3",
+      "beta": {
+        "date": "2021-06-07"
+      },
+      "title": "Motor reset does not work if zero offset (recalculated to microsteps) is bigger than max position",
+      "changes": [
+        {
+          "title": "Motor reset does not work if zero offset (recalculated to microsteps) is bigger than max position",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Tools>Manage Eth motor boards>Configure and debug does nothing if board name is empty",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.119.0",
+      "beta": {
+        "date": "2021-05-26"
+      },
+      "title": "Strange shutter behaviour when connected to Eth motor board and setting wavelength while shutter is open",
+      "changes": [
+        {
+          "title": "Strange shutter behaviour when connected to Eth motor board and setting wavelength while shutter is open",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Tool to setup new Eth motor boards for use with WinTopas4, extended motor boards address space from 256 to about 50k adresses",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Implicit Eth motor board naming in Motorjs.json ('auto') ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        },
+        {
+          "title": "New firmware for Eth motor board (5.5.0)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2021-05-21",
+      "version": "1.118.4",
+      "beta": {
+        "date": "2021-05-17"
+      },
+      "title": "Incease IGeneralService client timeout to 10 seconds because save device config as zip file timeouts sometimes (temporary fix)",
+      "changes": [
+        {
+          "title": "Incease IGeneralService client timeout to 10 seconds because save device config as zip file timeouts sometimes (temporary fix)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Update dependencies to solve issues with HtmlAgilityPack mismatch",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.118.1",
+      "beta": {
+        "date": "2021-05-14"
+      },
+      "title": "No warnings for trailing and leading whitespaces in optical and separation configuration interaction names.",
+      "changes": [
+        {
+          "title": "No warnings for trailing and leading whitespaces in optical and separation configuration interaction names.",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.118.0",
+      "beta": {
+        "date": "2021-05-04"
+      },
+      "title": "Can't save device configuration to zip file and access some other functions if device has hardware failure  (since v1.99.0)",
+      "changes": [
+        {
+          "title": "Can't save device configuration to zip file and access some other functions if device has hardware failure  (since v1.99.0)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Laser location REST method might never return in some circumstances - laser location in WinTopas4 shows no lasers",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Changed 'Hardware failure' to \"Connection to device lost\" in some places. Tentative",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.117.0",
+      "beta": {
+        "date": "2021-04-29"
+      },
+      "title": "New bootloader for Eth motor board (4.16.0) - fix IP address saved in memory not honored by bootloader, reverts to DIP switches",
+      "changes": [
+        {
+          "title": "New bootloader for Eth motor board (4.16.0) - fix IP address saved in memory not honored by bootloader, reverts to DIP switches",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        },
+        {
+          "title": "Eth motor board configuration and debug tool correctly handles board in bootloader mode",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.116.0",
+      "beta": {
+        "date": "2021-04-27"
+      },
+      "title": "Add Eth motor board configuration and debug too",
+      "changes": [
+        {
+          "title": "Add Eth motor board configuration and debug too",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Fix integrated power meters with wavelength calibration math",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        },
+        {
+          "title": "Motor reset always return correct difference between expected and actual steps till switch, not just for subsequent resets from Testing Workbench",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "If motor settings pop-up is opened in via right click on motor control, it is impossible to enter 'i' and 'k' letters in any textboxes ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Further tweaks to laser output control when used together with OPA shutter",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.115.0",
+      "beta": {
+        "date": "2021-04-16"
+      },
+      "title": "Closing v1.114.0 update notice window closes application",
+      "changes": [
+        {
+          "title": "Closing v1.114.0 update notice window closes application",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Eth motor board firmware update to 5.2.2, bootloader to 4.14.0",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.114.0",
+      "beta": {
+        "date": "2021-04-15"
+      },
+      "title": "Server application runs minimized to tray",
+      "changes": [
+        {
+          "title": "Server application runs minimized to tray",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Change forbidden ranges generation logic to exclude separation configuration ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Add 'Opera-F' as valid device model",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed"
+          ],
+          "img": null
+        },
+        {
+          "title": "Add piezo actuators support (direct voltage control and slip-stick)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Expand Motors->Add\\Remove\\Reorder capabilities: configure motor boards, comboboxes for some motor properties, add piezo motor buttons",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Track strange motor end switch changes (when motor is not moving)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Shutter/laser shutter might change state erratically when sending multiple requsts to change shutter state ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Motors->Add\\Remove\\Reorder deleting motor might change motor board index for other motors",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.112.0",
+      "beta": {
+        "date": "2021-04-02"
+      },
+      "title": "Changing shutter state might cause shutter flag to travel through beam even if using laser's output control to avoid that",
+      "changes": [
+        {
+          "title": "Changing shutter state might cause shutter flag to travel through beam even if using laser's output control to avoid that",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Track ethernet interfaces count if using Eth motor boards",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Allow server activation in Selfhosts Manager",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2021-03-31",
+      "version": "1.111.0",
+      "beta": null,
+      "title": "First public release since 1.97.0, show UI changes notification",
+      "changes": [
+        {
+          "title": "First public release since 1.97.0, show UI changes notification",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.110.0",
+      "beta": {
+        "date": "2021-03-25"
+      },
+      "title": "Forbidden ranges generation from optical configuration and named motor positions",
+      "changes": [
+        {
+          "title": "Forbidden ranges generation from optical configuration and named motor positions",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        },
+        {
+          "title": "Other changes related to forbidden ranges: global enable, global disable, any disabled ranges warning",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Support for position sensors used with Eth motor board shutters",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Required Access Level for motor is not persisted anywhere (and never was!!)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        },
+        {
+          "title": "Tools>Self hosts>Manage devices might crash or leave servers in inconsistent  state (various cases fixed)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        },
+        {
+          "title": "Tools>Topas3>Convert Topas3 Configuration, launch server as demo, save device as zip, launch as real device from this zip: USB-board specific motor parameters are lost, all motors will fail to move (introduced in 1.42.0)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.109.0",
+      "beta": {
+        "date": "2021-03-24"
+      },
+      "title": "User interface for additional shutters ",
+      "changes": [
+        {
+          "title": "User interface for additional shutters ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.107.0",
+      "beta": {
+        "date": "2021-03-17"
+      },
+      "title": "When output of one device is used by another shutter of secondary device will be closed but not opened if setting wavelength for primary device with small wavelength difference (as shutter is not closed for primary device)",
+      "changes": [
+        {
+          "title": "When output of one device is used by another shutter of secondary device will be closed but not opened if setting wavelength for primary device with small wavelength difference (as shutter is not closed for primary device)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        },
+        {
+          "title": "Topas4Server might not exit cleanly and leave zombie process if Eth motor board is used and there has been 'Hardware Failure'",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        },
+        {
+          "title": "Revert to motor curve view which shows both chart and table view",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.106.0",
+      "beta": {
+        "date": "2021-03-12"
+      },
+      "title": "Many additional configuration options for integrated power meters",
+      "changes": [
+        {
+          "title": "Many additional configuration options for integrated power meters",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        },
+        {
+          "title": "General UI tweaks",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.105.0",
+      "beta": {
+        "date": "2021-03-04"
+      },
+      "title": "Power as measured by internal power meters/diodes is incorrectly divided by laser pulse picker",
+      "changes": [
+        {
+          "title": "Power as measured by internal power meters/diodes is incorrectly divided by laser pulse picker",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.104.0",
+      "beta": {
+        "date": "2021-02-26"
+      },
+      "title": "Add A0 and A1 sockets as valid selections for Eth motor board diode sensors",
+      "changes": [
+        {
+          "title": "Add A0 and A1 sockets as valid selections for Eth motor board diode sensors",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.103.0",
+      "beta": {
+        "date": "2021-02-22"
+      },
+      "title": "Ground-up shutter behaviour changes when output of one device is used by another. Shutter control is now synced to primary device. Shutter is closed for secondary device when leaving such interaction in primary device. ",
+      "changes": [
+        {
+          "title": "Ground-up shutter behaviour changes when output of one device is used by another. Shutter control is now synced to primary device. Shutter is closed for secondary device when leaving such interaction in primary device. ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "If other device curve is used in calibration other device might show 'Waiting for user' message while main device thinks that wavelenght setting has been completed",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.102.0",
+      "beta": {
+        "date": "2021-02-11"
+      },
+      "title": "Reference-only power meter: add PowerScanner measurement file to OPA, expected output power is shown when wavelength is set",
+      "changes": [
+        {
+          "title": "Reference-only power meter: add PowerScanner measurement file to OPA, expected output power is shown when wavelength is set",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        },
+        {
+          "title": "Linked devices for shutter control: close shutter for other devices when motor is homing or in forbidden range",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        },
+        {
+          "title": "Add optical configuration sanity checks for GDD calibration curves ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        },
+        {
+          "title": "In 'Shutter is closed for safety reasons' tooltip duplicate reasons might appear",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.101.0",
+      "beta": {
+        "date": "2021-01-29"
+      },
+      "title": "Add units indicator near wavelength textbox",
+      "changes": [
+        {
+          "title": "Add units indicator near wavelength textbox",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Ask user whether he  wants to set wavelength using any interaction if selected interactions do not support selected wavelength",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Change textbox style",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Change format of current output info in 'Main' tab",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Replace cm-1 with superscripted version everywhere",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Align pump laser controls with shutter and wavelength controls",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Other UI tweaks",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.99.0",
+      "beta": {
+        "date": "2021-01-24"
+      },
+      "title": "'Misc' tab reorganized and moved to Output control settings",
+      "changes": [
+        {
+          "title": "'Misc' tab reorganized and moved to Output control settings",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Saved motor positions are not available in User access level",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Reorganized 'Main' tab: no expanders in User access level",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Image tooltip in messages no longer shown if image is already quite big",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "'Main' and 'Misc' selector no longer visible in User access level",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Motors section might contain only one column of motors with lots of white space instead of two columns",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.98.0",
+      "beta": {
+        "date": "2021-01-22"
+      },
+      "title": "Motor super units range min and range max might be reset to default values (tentative fix)",
+      "changes": [
+        {
+          "title": "Motor super units range min and range max might be reset to default values (tentative fix)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Motor control tweaks",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed"
+          ],
+          "img": null
+        },
+        {
+          "title": "When shutter is closed for safety reasons they are listed in indicator tooltip",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2021-01-13",
+      "version": "1.97.0",
+      "beta": null,
+      "title": "New icons",
+      "changes": [
+        {
+          "title": "New icons",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.96.0",
+      "beta": {
+        "date": "2020-12-30"
+      },
+      "title": "Each optical configuration can be assigned required pump laser preset. Shutter cannot be opened if currently active laser preset is incorrect or there is no communication with laser",
+      "changes": [
+        {
+          "title": "Each optical configuration can be assigned required pump laser preset. Shutter cannot be opened if currently active laser preset is incorrect or there is no communication with laser",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.95.1",
+      "beta": {
+        "date": "2020-12-23"
+      },
+      "title": "Timeout for communication with Eth motor board increased",
+      "changes": [
+        {
+          "title": "Timeout for communication with Eth motor board increased",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.95.0",
+      "beta": {
+        "date": "2020-12-14"
+      },
+      "title": "'Enter wavelength' text displayed instead of -1 when wavelength is not set",
+      "changes": [
+        {
+          "title": "'Enter wavelength' text displayed instead of -1 when wavelength is not set",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Focus wavelength textbox hotkey changed to Alt+D",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Change views in mini mode hotkey changed to Alt+D",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.94.0",
+      "beta": {
+        "date": "2020-12-11"
+      },
+      "title": "Support for Ophir, Fode power meters",
+      "changes": [
+        {
+          "title": "Support for Ophir, Fode power meters",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Power meter value latching, reference curve selection by named motor position and power logging",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        },
+        {
+          "title": "Support for Pharos2 and Pharos+HBPC laser control from WinTopas4",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.93.0",
+      "beta": {
+        "date": "2020-12-08"
+      },
+      "title": "UI for laser control configuration",
+      "changes": [
+        {
+          "title": "UI for laser control configuration",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        },
+        {
+          "title": "Extended laser control capabilities: preset selection, go to standby, show current status",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        },
+        {
+          "title": "Support for mixed-hardware shutters (use USB motor board and  Eth motor board shutters in the same device)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Adjustment mode in laser controls changes not only attenuator but pulse picker too",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.92.2",
+      "beta": {
+        "date": "2020-12-03"
+      },
+      "title": "WinTopas4 installer contains corrupt drivers for USB motor board",
+      "changes": [
+        {
+          "title": "WinTopas4 installer contains corrupt drivers for USB motor board",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.92.1",
+      "beta": {
+        "date": "2020-11-23"
+      },
+      "title": "Motors panel is resized in fixed increments",
+      "changes": [
+        {
+          "title": "Motors panel is resized in fixed increments",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Target .Net 4.6.2 framework",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.90.0",
+      "beta": {
+        "date": "2020-11-09"
+      },
+      "title": "Integrated power meters: calibration by wavelenght and interaction, conditional enable, live comparision with reference data ",
+      "changes": [
+        {
+          "title": "Integrated power meters: calibration by wavelenght and interaction, conditional enable, live comparision with reference data ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        },
+        {
+          "title": "Delete oversized tracelog for WinTopas4 on application startup",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Tweak UDP communication to avoid misaligned query-response pairing",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Bump Eth motor board firmware to 4.3.0, bootloader to 4.13.3",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2020-10-06",
+      "version": "1.89.2",
+      "beta": null,
+      "title": "Handle CAN timeouts for Eth motor board",
+      "changes": [
+        {
+          "title": "Handle CAN timeouts for Eth motor board",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.89.1",
+      "beta": {
+        "date": "2020-09-08"
+      },
+      "title": "Buttons for motors with named positions in quick selection/search dialog",
+      "changes": [
+        {
+          "title": "Buttons for motors with named positions in quick selection/search dialog",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.89.0",
+      "beta": {
+        "date": "2020-09-04"
+      },
+      "title": "Add motor single selected motor control next to output control in elevated access level",
+      "changes": [
+        {
+          "title": "Add motor single selected motor control next to output control in elevated access level",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Add quick motor selection/search dialog via hotkey Alt+X or Ctrl+F",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Switch to UDP communication with Eth motor boards (FW >= 4.0.0)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.88.8",
+      "beta": {
+        "date": "2020-08-31"
+      },
+      "title": "Enable firmware updates for Eth motor boards",
+      "changes": [
+        {
+          "title": "Enable firmware updates for Eth motor boards",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Track Eth motor board temperature",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.88.7",
+      "beta": {
+        "date": "2020-08-31"
+      },
+      "title": "Do not send FRAM_SAVE command to Eth motor board, because it has been remove since fw 3.39.0",
+      "changes": [
+        {
+          "title": "Do not send FRAM_SAVE command to Eth motor board, because it has been remove since fw 3.39.0",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.88.6",
+      "beta": {
+        "date": "2020-08-31"
+      },
+      "title": "Connection to Eth motor board is lost during startup if firmware version >3.36.0",
+      "changes": [
+        {
+          "title": "Connection to Eth motor board is lost during startup if firmware version >3.36.0",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.88.1",
+      "beta": {
+        "date": "2020-08-17"
+      },
+      "title": "Six motor Eth boards are treated like they have four shutters too",
+      "changes": [
+        {
+          "title": "Six motor Eth boards are treated like they have four shutters too",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.88.0",
+      "beta": {
+        "date": "2020-08-14"
+      },
+      "title": "Shutter is closed for twin OPA device while motor is in forbidden range or reseting. Servers for both devices should be located inside same C:\\Programs\\WinTopas4\\Resources\\SelfHostedServer folder, serials numbers should look like (15414,A5414) or (PA9300,P19300) and both devices should be running.",
+      "changes": [
+        {
+          "title": "Shutter is closed for twin OPA device while motor is in forbidden range or reseting. Servers for both devices should be located inside same C:\\Programs\\WinTopas4\\Resources\\SelfHostedServer folder, serials numbers should look like (15414,A5414) or (PA9300,P19300) and both devices should be running.",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.87.0",
+      "beta": {
+        "date": "2020-08-12"
+      },
+      "title": "Motor reset logic tweaks for motors with big zero offset",
+      "changes": [
+        {
+          "title": "Motor reset logic tweaks for motors with big zero offset",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Shutters connected to Eth motor board are opend and closed softly",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Add option to swap limit switches for Eth motor board motors (SwapSwitches)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2020-07-29",
+      "version": "1.85.0",
+      "beta": {
+        "date": "2020-07-08"
+      },
+      "title": "Optionally close shutter during each wavelength change (Shutter.json > \"AlwaysCloseShutterOnWavelengthChange\":true)",
+      "changes": [
+        {
+          "title": "Optionally close shutter during each wavelength change (Shutter.json > \"AlwaysCloseShutterOnWavelengthChange\":true)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.84.0",
+      "beta": {
+        "date": "2020-07-07"
+      },
+      "title": "Various shutter logic issues",
+      "changes": [
+        {
+          "title": "Various shutter logic issues",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        },
+        {
+          "title": "In devices with a lot of motors some of them might be invisble in saved motor positions filter view",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        },
+        {
+          "title": "Enable automatic firmware update for Eth motor boards",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.81.0",
+      "beta": {
+        "date": "2020-06-23"
+      },
+      "title": "Flat grey shutter button",
+      "changes": [
+        {
+          "title": "Flat grey shutter button",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Optionally sync laser output control to OPA shutter (Shutter.json > \"SyncLaserOutputControl\":true)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.77.0",
+      "beta": {
+        "date": "2020-06-03"
+      },
+      "title": "Minor output control UI tweaks",
+      "changes": [
+        {
+          "title": "Minor output control UI tweaks",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Add custom motor homing logic: \"Skip\" ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.76.0",
+      "beta": {
+        "date": "2020-05-25"
+      },
+      "title": "Shutter button moved to the left, interaction selection button and interlock indicator to the right, other UI tweaks",
+      "changes": [
+        {
+          "title": "Shutter button moved to the left, interaction selection button and interlock indicator to the right, other UI tweaks",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2020-05-25",
+      "version": "1.74.0",
+      "beta": {
+        "date": "2020-04-24"
+      },
+      "title": "Hotfix for 1.73.0, device with Eth motor board might crash on startup",
+      "changes": [
+        {
+          "title": "Hotfix for 1.73.0, device with Eth motor board might crash on startup",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.73.0",
+      "beta": {
+        "date": "2020-04-23"
+      },
+      "title": "For devices with multiple Eth motor boards shutters on all boards are accessible",
+      "changes": [
+        {
+          "title": "For devices with multiple Eth motor boards shutters on all boards are accessible",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Added optinal 'Alias' in Loggers configuration, which will be used instead of device SN",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.72.0",
+      "beta": {
+        "date": "2020-04-22"
+      },
+      "title": "Change communication with Eth motor board timout logic",
+      "changes": [
+        {
+          "title": "Change communication with Eth motor board timout logic",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.71.0",
+      "beta": {
+        "date": "2020-04-15"
+      },
+      "title": "Round calibration points input value to 0.001 for all curves, round calibration points output value to 0.001 for interaction input-output relationship curve ",
+      "changes": [
+        {
+          "title": "Round calibration points input value to 0.001 for all curves, round calibration points output value to 0.001 for interaction input-output relationship curve ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed"
+          ],
+          "img": null
+        },
+        {
+          "title": "'Change Pump wavelength' tool might not correctly set same input values for range end motor curves points",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.70.0",
+      "beta": {
+        "date": "2020-04-10"
+      },
+      "title": "Internal IL weaving changes",
+      "changes": [
+        {
+          "title": "Internal IL weaving changes",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed"
+          ],
+          "img": null
+        },
+        {
+          "title": "Close shutter if any motor from separation configuration moves while setting wavelength",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2020-04-10",
+      "version": "1.67.0",
+      "beta": {
+        "date": "2020-03-25"
+      },
+      "title": "Use diffent commands to query Eth motor board periodically ",
+      "changes": [
+        {
+          "title": "Use diffent commands to query Eth motor board periodically ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.66.0",
+      "beta": {
+        "date": "2020-03-25"
+      },
+      "title": "Explicit usable wavelength range not used for possible output range calculation if interaction has parent interaction",
+      "changes": [
+        {
+          "title": "Explicit usable wavelength range not used for possible output range calculation if interaction has parent interaction",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.65.0",
+      "beta": {
+        "date": "2020-03-19"
+      },
+      "title": "Explicit usable wavelength range can be set for each interaction",
+      "changes": [
+        {
+          "title": "Explicit usable wavelength range can be set for each interaction",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.64.0",
+      "beta": {
+        "date": "2020-03-19"
+      },
+      "title": "Check max maximal motor position on startup",
+      "changes": [
+        {
+          "title": "Check max maximal motor position on startup",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Alt+number sets focus on motor calibration curve even for motors without slider control",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Device nicknames in multiple devices view",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2020-03-18",
+      "version": "1.62.0",
+      "beta": {
+        "date": "2020-02-14"
+      },
+      "title": "Topas device location responses contains MotorBoards info",
+      "changes": [
+        {
+          "title": "Topas device location responses contains MotorBoards info",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2020-02-14",
+      "version": "1.61.0",
+      "beta": {
+        "date": "2020-01-22"
+      },
+      "title": "Fix wrong acceleration values are set for Eth motor board from presets",
+      "changes": [
+        {
+          "title": "Fix wrong acceleration values are set for Eth motor board from presets",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2020-01-13",
+      "version": "1.57.0",
+      "beta": null,
+      "title": "Add Newport MFA-PP motor parameters template",
+      "changes": [
+        {
+          "title": "Add Newport MFA-PP motor parameters template",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2019-01-13",
+      "version": "1.55.0",
+      "beta": {
+        "date": "2019-12-23"
+      },
+      "title": "Add 'Manage Eth motor boards' tool",
+      "changes": [
+        {
+          "title": "Add 'Manage Eth motor boards' tool",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2019-12-23",
+      "version": "1.54.0",
+      "beta": {
+        "date": "2019-11-21"
+      },
+      "title": "Phrase 'due safety reasons' corrected to 'for safety reasons'",
+      "changes": [
+        {
+          "title": "Phrase 'due safety reasons' corrected to 'for safety reasons'",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Add motors positions logger (Configuration\\Settings\\Loggers.json > MotorPositions)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "'Configuration\\Settings\\Logger.json' file no is longer used",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2019-11-21",
+      "version": "1.53.0",
+      "beta": {
+        "date": "2019-11-19"
+      },
+      "title": "'Connect' button next to serial number is very buggy in case tab is already waiting for connection to another device",
+      "changes": [
+        {
+          "title": "'Connect' button next to serial number is very buggy in case tab is already waiting for connection to another device",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Fix add/remove/reoder motors tool, add motor from .zip crashes WinTopas4 when sending configuration to server or checking sanity",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2019-10-30",
+      "version": "1.51.0",
+      "beta": null,
+      "title": "Fix configuration history difference generation in cases when new file appears",
+      "changes": [
+        {
+          "title": "Fix configuration history difference generation in cases when new file appears",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2019-10-29",
+      "version": "1.50.0",
+      "beta": null,
+      "title": "Do not try to read ADC and temperature/humidity sensor values from boards with 6 motors",
+      "changes": [
+        {
+          "title": "Do not try to read ADC and temperature/humidity sensor values from boards with 6 motors",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.48.0",
+      "beta": {
+        "date": "2019-10-10"
+      },
+      "title": "Ignore limit switch parameters are restored incorrectly after motor reset in some cases",
+      "changes": [
+        {
+          "title": "Ignore limit switch parameters are restored incorrectly after motor reset in some cases",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Application crashes when new motor is added in 'Motors>Add/Remove/Reorder tool'",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.46.0",
+      "beta": {
+        "date": "2019-10-08"
+      },
+      "title": "Add 'Move motor sometimes' tool",
+      "changes": [
+        {
+          "title": "Add 'Move motor sometimes' tool",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.45.0",
+      "beta": {
+        "date": "2019-09-26"
+      },
+      "title": "Fixes for limit switch swapping/eanbling for Eth motor board",
+      "changes": [
+        {
+          "title": "Fixes for limit switch swapping/eanbling for Eth motor board",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.44.0",
+      "beta": {
+        "date": "2019-09-25"
+      },
+      "title": "Hotfix for 1.43.0, RampDivision, PulseDivision and StepDivision not set at startup for Topas3 board",
+      "changes": [
+        {
+          "title": "Hotfix for 1.43.0, RampDivision, PulseDivision and StepDivision not set at startup for Topas3 board",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.43.0",
+      "beta": {
+        "date": "2019-09-25"
+      },
+      "title": "Public API authentication service is behind authentication firewall, thus making it quite pointless",
+      "changes": [
+        {
+          "title": "Public API authentication service is behind authentication firewall, thus making it quite pointless",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.42.0",
+      "beta": {
+        "date": "2019-09-25"
+      },
+      "title": "Ignore left/right switch parameters were not handled correctly with Eth motor board",
+      "changes": [
+        {
+          "title": "Ignore left/right switch parameters were not handled correctly with Eth motor board",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Use 'NoGUI' PI_GCS2_DL to control PI motor boards to avoid 'Cannot initialize OLE' pop-up",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "RampDivision, PulseDivision moved to Topas3-only motor board configuration, removed from WinTopas4 motor properties view",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed"
+          ],
+          "img": null
+        },
+        {
+          "title": "StepDivision can be set only on board startup, removed from WinTopas4 motor properties view",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed"
+          ],
+          "img": null
+        },
+        {
+          "title": "Support for multiple shutters on Eht motor board",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Add REST endpoint for pass-trough commands for Eth motor board",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.41.0",
+      "beta": {
+        "date": "2019-09-05"
+      },
+      "title": "Give more power to 'Don't close shutter' option in wavelength setting options. Shutter won't be closed when current output is undefined or messages are not critical ",
+      "changes": [
+        {
+          "title": "Give more power to 'Don't close shutter' option in wavelength setting options. Shutter won't be closed when current output is undefined or messages are not critical ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.40.0",
+      "beta": {
+        "date": "2019-09-03"
+      },
+      "title": "Fix shutter might be reported as open even if it is closed when device is started and no shutter operations have been performed ",
+      "changes": [
+        {
+          "title": "Fix shutter might be reported as open even if it is closed when device is started and no shutter operations have been performed ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.39.0",
+      "beta": {
+        "date": "2019-09-03"
+      },
+      "title": "Fix connection code if two Eth motor boards are used in single device",
+      "changes": [
+        {
+          "title": "Fix connection code if two Eth motor boards are used in single device",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2019-09-09",
+      "version": "1.38.0",
+      "beta": {
+        "date": "2019-08-28"
+      },
+      "title": "Loss of connection to board is reported if device contains multiple motor boards and any of the motors are in forbidden range on startup",
+      "changes": [
+        {
+          "title": "Loss of connection to board is reported if device contains multiple motor boards and any of the motors are in forbidden range on startup",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.37.0",
+      "beta": {
+        "date": "2019-08-22"
+      },
+      "title": "Ignore/inverse limit switches for Eth motor board",
+      "changes": [
+        {
+          "title": "Ignore/inverse limit switches for Eth motor board",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        },
+        {
+          "title": "Named motor positions buttons presses sometimes ignored if they are rapid ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Wavelength setting never finishes if other device curve is in calibration and messages from other device should be shown",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2019-08-22",
+      "version": "1.36.0",
+      "beta": {
+        "date": "2019-07-19"
+      },
+      "title": "Multiple Eth motor board related fixes",
+      "changes": [
+        {
+          "title": "Multiple Eth motor board related fixes",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.35.0",
+      "beta": {
+        "date": "2019-07-05"
+      },
+      "title": "Multiple Eth motor board related fixes",
+      "changes": [
+        {
+          "title": "Multiple Eth motor board related fixes",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.33.3",
+      "beta": {
+        "date": "2019-06-25"
+      },
+      "title": "Eth motor board related changes",
+      "changes": [
+        {
+          "title": "Eth motor board related changes",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.33.1",
+      "beta": {
+        "date": "2019-06-17"
+      },
+      "title": "New motor board (Eth) shutter state serialization changes",
+      "changes": [
+        {
+          "title": "New motor board (Eth) shutter state serialization changes",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.33.0",
+      "beta": {
+        "date": "2019-06-06"
+      },
+      "title": "Support for new motor board (Eth)",
+      "changes": [
+        {
+          "title": "Support for new motor board (Eth)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        },
+        {
+          "title": "'Create installer with current configuration' functionality has been disabled due to introduction of signed installers. Please use zipped configurations and vanilla installer.",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2019-05-29",
+      "version": "1.30.1",
+      "beta": null,
+      "title": "Hotfix for 1.28.0:  Background motor for interaction is set to the first curve in interaction on server startup",
+      "changes": [
+        {
+          "title": "Hotfix for 1.28.0:  Background motor for interaction is set to the first curve in interaction on server startup",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2019-05-22",
+      "version": "1.28.0",
+      "beta": null,
+      "title": "Background motor index for interaction can become out-of-sync with current motor curves",
+      "changes": [
+        {
+          "title": "Background motor index for interaction can become out-of-sync with current motor curves",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.27.1",
+      "beta": {
+        "date": "2019-05-02"
+      },
+      "title": "Change order of separation-like messages shown when optical configuration is activated",
+      "changes": [
+        {
+          "title": "Change order of separation-like messages shown when optical configuration is activated",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.27.0",
+      "beta": {
+        "date": "2019-04-30"
+      },
+      "title": "Separation-like messages can be added to optical configuration. They are shown when optical configuration is activated",
+      "changes": [
+        {
+          "title": "Separation-like messages can be added to optical configuration. They are shown when optical configuration is activated",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2019-04-12",
+      "version": "1.26.7",
+      "beta": null,
+      "title": "Moving motor in one direction by holding down arrow key while calibration curve is visible makes motor jumpy: it skips back every second or so ",
+      "changes": [
+        {
+          "title": "Moving motor in one direction by holding down arrow key while calibration curve is visible makes motor jumpy: it skips back every second or so ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2019-04-11",
+      "version": "1.26.6",
+      "beta": null,
+      "title": "'Set offset' button in motor curve calibration window sets offset value to NaN (Not a Number) if the same motor is included in neutral positions",
+      "changes": [
+        {
+          "title": "'Set offset' button in motor curve calibration window sets offset value to NaN (Not a Number) if the same motor is included in neutral positions",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2019-04-10",
+      "version": "1.26.5",
+      "beta": null,
+      "title": "Remove 'Send feedback' function",
+      "changes": [
+        {
+          "title": "Remove 'Send feedback' function",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2019-03-20",
+      "version": "1.26.2",
+      "beta": null,
+      "title": "Separation configuration tables have scrollbars",
+      "changes": [
+        {
+          "title": "Separation configuration tables have scrollbars",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Change legal company name to Light Conversion, UAB",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.26.0",
+      "beta": {
+        "date": "2019-02-26"
+      },
+      "title": "Harpia motor board motor configuration: add new properties and other changes",
+      "changes": [
+        {
+          "title": "Harpia motor board motor configuration: add new properties and other changes",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Inform user when he tries to launch device with the same serial number that is already in use on this PC instead of failing later on ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "On optical configuration change: close shutter, set wavelength using new configuration, and inform user with pop-up dialog in WinTopas4",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed"
+          ],
+          "img": null
+        },
+        {
+          "title": "Motors can be set to be accessible only with elevated access level",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2019-02-19",
+      "version": "1.25.0",
+      "beta": {
+        "date": "2018-12-19"
+      },
+      "title": "Spline interpolation in calibration curves",
+      "changes": [
+        {
+          "title": "Spline interpolation in calibration curves",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        },
+        {
+          "title": "Harpia motor board exit on hardware error",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2018-11-30",
+      "version": "1.24.0",
+      "beta": null,
+      "title": "Harpia motor board reset procedure bug fixes",
+      "changes": [
+        {
+          "title": "Harpia motor board reset procedure bug fixes",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.23.0",
+      "beta": {
+        "date": "2018-11-12"
+      },
+      "title": "Add CustomHomingLogic values: 'Try5Times' and 'Try10Times'",
+      "changes": [
+        {
+          "title": "Add CustomHomingLogic values: 'Try5Times' and 'Try10Times'",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.22.2",
+      "beta": {
+        "date": "2018-11-09"
+      },
+      "title": "Add 'Move all postions by offset' button to named motor positions control",
+      "changes": [
+        {
+          "title": "Add 'Move all postions by offset' button to named motor positions control",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-11-09",
+      "version": "1.22.1",
+      "beta": {
+        "date": "2018-09-21"
+      },
+      "title": "Device location might stop working after some time when when server is running",
+      "changes": [
+        {
+          "title": "Device location might stop working after some time when when server is running",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.22.0",
+      "beta": {
+        "date": "2018-09-17"
+      },
+      "title": "Motor sometimes briefly moves in the opposite direction when position is incremented/decremented from UI",
+      "changes": [
+        {
+          "title": "Motor sometimes briefly moves in the opposite direction when position is incremented/decremented from UI",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Saved motor positions use units instead of steps",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed"
+          ],
+          "img": null
+        },
+        {
+          "title": "Min/max possible wavelength hint in 'Calibration>Optical>Create'",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Change pump wavelength tool: option to choose whether to keep input or output wavelengths the same ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Option to recreate input-output curve in 'Calibration>Optical>Create' ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2018-09-12",
+      "version": "1.21.0",
+      "beta": {
+        "date": "2018-08-28"
+      },
+      "title": "TurnOnLeftSwitchForHomingOnly custom homing logic",
+      "changes": [
+        {
+          "title": "TurnOnLeftSwitchForHomingOnly custom homing logic",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Add copy-paste commands for motor calibration curves in tree view",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.20.4",
+      "beta": {
+        "date": "2018-08-22"
+      },
+      "title": "Device tabs change order randomly on selection after application start",
+      "changes": [
+        {
+          "title": "Device tabs change order randomly on selection after application start",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.20.3",
+      "beta": {
+        "date": "2018-08-14"
+      },
+      "title": "'Misc>Configuration>Save device configuration as .zip file' sometimes fails silently",
+      "changes": [
+        {
+          "title": "'Misc>Configuration>Save device configuration as .zip file' sometimes fails silently",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        },
+        {
+          "title": "Beta support for HarpiaV0 motor board",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-07-20",
+      "version": "1.20.2",
+      "beta": {
+        "date": "2018-07-18"
+      },
+      "title": "Assembly binding redirects",
+      "changes": [
+        {
+          "title": "Assembly binding redirects",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.20.1",
+      "beta": {
+        "date": "2018-07-18"
+      },
+      "title": "Launch new device from zipped configuration + change SN does not work",
+      "changes": [
+        {
+          "title": "Launch new device from zipped configuration + change SN does not work",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Persist laser control adjustment mode attenuator value ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Optical device view does not have vertical scrollbar",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Right corner buttons (minimize,close etc) not visible if window is narrow",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Show 'Hardware failure' indication instead of shutter&wavelength control in case of 'Hardware failure'",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Add Carbide laser control ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Add/remove/reorder motors tool: can import motor from zipped configuration",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2018-06-18",
+      "version": "1.20.0",
+      "beta": null,
+      "title": "'Tools > Launch device from zipped configuration' asks whether user wants to launch device as demo or as real one, if configuration is demo",
+      "changes": [
+        {
+          "title": "'Tools > Launch device from zipped configuration' asks whether user wants to launch device as demo or as real one, if configuration is demo",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Mobile app promo",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.19.0",
+      "beta": {
+        "date": "2018-05-31"
+      },
+      "title": "Each device can have a nickname for easier identification",
+      "changes": [
+        {
+          "title": "Each device can have a nickname for easier identification",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        },
+        {
+          "title": "Six letter serial numbers can be used for Topas3 boards",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Motor properties pop-up is closed after pressing 'Apply' button",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "'Done' check mark near separation messages is on the left side of the message",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2018-05-31",
+      "version": "1.18.1",
+      "beta": {
+        "date": "2018-04-26"
+      },
+      "title": "Bring back application wide accent color selection, keep device specific color too",
+      "changes": [
+        {
+          "title": "Bring back application wide accent color selection, keep device specific color too",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.18.0",
+      "beta": {
+        "date": "2018-04-25"
+      },
+      "title": "Each device has its own color (instead of application wide color selection)",
+      "changes": [
+        {
+          "title": "Each device has its own color (instead of application wide color selection)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "When launching device from zipped configuration AccessControl.OverrideAllowAll is set to false for non-Demo devices",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2018-04-10",
+      "version": "1.17.1",
+      "beta": {
+        "date": "2018-04-04"
+      },
+      "title": "Default (aka neutral) positions with invalid named position are not reported by optical configuration sanity checker",
+      "changes": [
+        {
+          "title": "Default (aka neutral) positions with invalid named position are not reported by optical configuration sanity checker",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        },
+        {
+          "title": "Reverse direction property is not correctly initialized on startup",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        },
+        {
+          "title": "Remove 'possible nonsense' trace after motor reset",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.17.0",
+      "beta": {
+        "date": "2018-03-30"
+      },
+      "title": "Do not try to get diagnostics information for motor connected to Topas3 extension board",
+      "changes": [
+        {
+          "title": "Do not try to get diagnostics information for motor connected to Topas3 extension board",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        },
+        {
+          "title": "Long motor titles",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        },
+        {
+          "title": "Descriptions for interactions (shown as tooltip in interaction selection control)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2018-03-11",
+      "version": "1.16.0",
+      "beta": {
+        "date": "2018-03-07"
+      },
+      "title": "Demo device can control real Pharos laser without authentication",
+      "changes": [
+        {
+          "title": "Demo device can control real Pharos laser without authentication",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        },
+        {
+          "title": "Neutral positions have interaction filter, like motors and messages in separation logic",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        },
+        {
+          "title": "Demo devices have the same motors configuration, global property 'IsDemo' in General.json is used instead",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed"
+          ],
+          "img": null
+        },
+        {
+          "title": "Messages window can't be minimized",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2018-02-28",
+      "version": "1.15.4",
+      "beta": {
+        "date": "2018-02-26"
+      },
+      "title": "Both optical and separation devices can be renamed",
+      "changes": [
+        {
+          "title": "Both optical and separation devices can be renamed",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Prepare 'Create new interaction' tool for calibration with negative \"wavelength\" values",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.15.3",
+      "beta": {
+        "date": "2018-02-15"
+      },
+      "title": "Motor configuration sanity checker is silent about some mistakes in configuration (motor address, zero offset, etc)",
+      "changes": [
+        {
+          "title": "Motor configuration sanity checker is silent about some mistakes in configuration (motor address, zero offset, etc)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.15.2",
+      "beta": {
+        "date": "2018-02-13"
+      },
+      "title": "Server application might crash when deleting interaction which is parent for another one",
+      "changes": [
+        {
+          "title": "Server application might crash when deleting interaction which is parent for another one",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.15.1",
+      "beta": {
+        "date": "2018-02-07"
+      },
+      "title": "In motor configuration use new property ForceNoDUSB in place of old DUSB with default value false ",
+      "changes": [
+        {
+          "title": "In motor configuration use new property ForceNoDUSB in place of old DUSB with default value false ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.15.0",
+      "beta": {
+        "date": "2018-02-07"
+      },
+      "title": "Motor property 'Reverse Direction' is accessible via REST API, can be imported from zipped configuration",
+      "changes": [
+        {
+          "title": "Motor property 'Reverse Direction' is accessible via REST API, can be imported from zipped configuration",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        },
+        {
+          "title": "When creating new interaction start/end wavelengths might be calculated incorrectly in some cases",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.14.0",
+      "beta": {
+        "date": "2018-02-05"
+      },
+      "title": "Direct USB communication is used everywhere instead of Topas3API. API slot number checks removed.",
+      "changes": [
+        {
+          "title": "Direct USB communication is used everywhere instead of Topas3API. API slot number checks removed.",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Press F10 to enumerate all Topas3 boards connected to the PC. Board already in use won't be reported.",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.12.4",
+      "beta": {
+        "date": "2018-02-01"
+      },
+      "title": "Delete/inactivate self hosted server does not work if server is stopped, but application is open. Faster delete/inactivate",
+      "changes": [
+        {
+          "title": "Delete/inactivate self hosted server does not work if server is stopped, but application is open. Faster delete/inactivate",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2018-02-01",
+      "version": "1.12.3",
+      "beta": {
+        "date": "2018-01-31"
+      },
+      "title": "Motor reset is canceled after 3 minutes, clients are not notified about failure",
+      "changes": [
+        {
+          "title": "Motor reset is canceled after 3 minutes, clients are not notified about failure",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "'Interactions' button indicates when there is more than one interaction that supports current wavelength",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2018-01-31",
+      "version": "1.12.2",
+      "beta": {
+        "date": "2018-01-26"
+      },
+      "title": "Multiple instances of Step scanner window can be opened, leading to erratic behavior",
+      "changes": [
+        {
+          "title": "Multiple instances of Step scanner window can be opened, leading to erratic behavior",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Wavelengths set by Step scanner  might be off by about by about 1E-11 nm",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2018-01-26",
+      "version": "1.12.1",
+      "beta": {
+        "date": "2018-01-24"
+      },
+      "title": "All hardware failures are reported as critical and affecting authentication possibility",
+      "changes": [
+        {
+          "title": "All hardware failures are reported as critical and affecting authentication possibility",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.12.0",
+      "beta": {
+        "date": "2018-01-17"
+      },
+      "title": "When user tries to set wavelength which can not be set, message is displayed two or three times",
+      "changes": [
+        {
+          "title": "When user tries to set wavelength which can not be set, message is displayed two or three times",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "'Change pump wavelength' might leave input-output and motor curves with slightly different ranges ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Interaction can be marked as for as for indirect use only (i.e. only as intermediate for other interactions, but not as the output itself)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        },
+        {
+          "title": "Software motor power down (set current to 0 after 5 seconds of inactivity)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Try to stop/start server when PC goes to sleep/wake ups",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2018-01-08",
+      "version": "1.11.7",
+      "beta": {
+        "date": "2017-12-22"
+      },
+      "title": "Motor \"Find position\" tool can fail to restore maximal motor speed to original (partial fix)",
+      "changes": [
+        {
+          "title": "Motor \"Find position\" tool can fail to restore maximal motor speed to original (partial fix)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.11.6",
+      "beta": {
+        "date": "2017-12-14"
+      },
+      "title": "Output can not be set if it contains no motor positions",
+      "changes": [
+        {
+          "title": "Output can not be set if it contains no motor positions",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Can't save device configuration as zip file if resulting zip file is larger than 10MB",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Completed actions in separation images are no longer grayed out",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.11.5",
+      "beta": {
+        "date": "2017-12-13"
+      },
+      "title": "Existing curve offset is not taken into account when calculating motor position in 'Calibration>Optical>Create new'",
+      "changes": [
+        {
+          "title": "Existing curve offset is not taken into account when calculating motor position in 'Calibration>Optical>Create new'",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.11.4",
+      "beta": {
+        "date": "2017-12-13"
+      },
+      "title": "Can't set device model",
+      "changes": [
+        {
+          "title": "Can't set device model",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.11.3",
+      "beta": {
+        "date": "2017-12-12"
+      },
+      "title": "Shutter can be reported as open  even if interlock is activated",
+      "changes": [
+        {
+          "title": "Shutter can be reported as open  even if interlock is activated",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.11.2",
+      "beta": {
+        "date": "2017-12-11"
+      },
+      "title": "Set wavelength, move motors, so wavelength is unset, OutputData.IsWaitingForUserAction is reported as true",
+      "changes": [
+        {
+          "title": "Set wavelength, move motors, so wavelength is unset, OutputData.IsWaitingForUserAction is reported as true",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.11.1",
+      "beta": {
+        "date": "2017-12-08"
+      },
+      "title": "Hotfix for 1.10.0, websocket client is supported only from Windows 8",
+      "changes": [
+        {
+          "title": "Hotfix for 1.10.0, websocket client is supported only from Windows 8",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.11.0",
+      "beta": {
+        "date": "2017-12-08"
+      },
+      "title": "Internal changes to make code compatible with .NET Standard 2.0",
+      "changes": [
+        {
+          "title": "Internal changes to make code compatible with .NET Standard 2.0",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed"
+          ],
+          "img": null
+        },
+        {
+          "title": "More push notifications via websocket",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Disable separation images tooltip",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "On separation images upload check their resolution",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-12-08",
+      "version": "1.10.0",
+      "beta": {
+        "date": "2017-11-29"
+      },
+      "title": "DIY installer creator packs disabled devices in installer",
+      "changes": [
+        {
+          "title": "DIY installer creator packs disabled devices in installer",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Grating motor curve is recalculated even if it exists when modifying interaction",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Additive calibration curves might cause false positive sanity check error ('Motor position is out of range') ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Motor maximal and minimal velocities are checked to be lower than 4096",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Neutral positions in optical calibration can use named motor positions",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        },
+        {
+          "title": "Support for motors with custom reset logic",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Position of named motor position can be quickly changed to current motor position from main motor control, by right clicking on the button or combo-box entry",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        },
+        {
+          "title": "Default curve interpolation mode is linear (was spline)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Check DIY installer creator executable file size",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-10-19",
+      "version": "1.9.1",
+      "beta": null,
+      "title": "Show number of wavelength range gaps in calibration and where they are (except in User access level)",
+      "changes": [
+        {
+          "title": "Show number of wavelength range gaps in calibration and where they are (except in User access level)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Separation messages are no longer grouped by device when shown to user, new way of arrangement and sizing, picture enlargement tooltip ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "On optical device import do not skip interactions that already exist (i.e. interactions with the same name)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-10-12",
+      "version": "1.9.0",
+      "beta": null,
+      "title": "In 'Calibration>Optical>Create new' input-output curve points have wrong range if parent interaction supports bigger range than user selected to calibrate",
+      "changes": [
+        {
+          "title": "In 'Calibration>Optical>Create new' input-output curve points have wrong range if parent interaction supports bigger range than user selected to calibrate",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Mixed motors hardware support",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Physik Instrumente (PI) delay stages support",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "User can be prompted to accept EULA anytime ('Tools>Request accept user license agreement')",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-09-29",
+      "version": "1.8.3",
+      "beta": null,
+      "title": "Some buttons where invisible in motor properties view (since 1.8.2)",
+      "changes": [
+        {
+          "title": "Some buttons where invisible in motor properties view (since 1.8.2)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-09-26",
+      "version": "1.8.2",
+      "beta": null,
+      "title": "Motor can be frozen, meaning it won't move (server-side)",
+      "changes": [
+        {
+          "title": "Motor can be frozen, meaning it won't move (server-side)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        },
+        {
+          "title": "Direct communication with motor board using WinUSB is enabled inside LC by default",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Set wavelength, move motor so that wavelength is not strict, press enter on wavelength textbox, nothing happens (since 1.8.0)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-09-26",
+      "version": "1.8.1",
+      "beta": null,
+      "title": "Tool to recalculate input-output wavelength relationship with new pump wavelength (SF, DFP, DFG)",
+      "changes": [
+        {
+          "title": "Tool to recalculate input-output wavelength relationship with new pump wavelength (SF, DFP, DFG)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "'Create/Modify interaction' renamed to 'Create interaction'",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-09-22",
+      "version": "1.8.0",
+      "beta": null,
+      "title": "Wavenumber (cm-1) can be used instead of wavelength to set output",
+      "changes": [
+        {
+          "title": "Wavenumber (cm-1) can be used instead of wavelength to set output",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Multi-line separation messages can be entered",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-09-13",
+      "version": "1.7.1",
+      "beta": null,
+      "title": "Interactions input-output relationship points are ordered in interaction view table",
+      "changes": [
+        {
+          "title": "Interactions input-output relationship points are ordered in interaction view table",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Correct name generation for cloned interactions",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "New shutter button style applied to mini mode window",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.7.0",
+      "beta": {
+        "date": "2017-09-06"
+      },
+      "title": "Change shutter button style and size, move 'Interactions' and 'Messages' buttons",
+      "changes": [
+        {
+          "title": "Change shutter button style and size, move 'Interactions' and 'Messages' buttons",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Remove button 'Shift curve by current difference' in motor curve view ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "First result of reset operation is ignored in 'Testing workbench'",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-09-01",
+      "version": "1.6.9",
+      "beta": null,
+      "title": "Server setting wavelength for other device on the same PC doesn't use loopback address >> no authentication",
+      "changes": [
+        {
+          "title": "Server setting wavelength for other device on the same PC doesn't use loopback address >> no authentication",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-08-31",
+      "version": "1.6.8",
+      "beta": null,
+      "title": "Reset latch difference is calculated from second movement to switch",
+      "changes": [
+        {
+          "title": "Reset latch difference is calculated from second movement to switch",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Direct communication with motor board using WinUSB enabled for boards with six-motor extension boards",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Various new access keys, 'Save current position' changed to Alt+P ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "NumPad keys can be used to focus motors too",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-08-24",
+      "version": "1.6.7",
+      "beta": null,
+      "title": "Wrong motor diagnostics status is returned for section if it contains hidden motors",
+      "changes": [
+        {
+          "title": "Wrong motor diagnostics status is returned for section if it contains hidden motors",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-08-23",
+      "version": "1.6.6",
+      "beta": null,
+      "title": "User can import separation images from zipped configuration",
+      "changes": [
+        {
+          "title": "User can import separation images from zipped configuration",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-08-21",
+      "version": "1.6.5",
+      "beta": null,
+      "title": "Affix can't be changed by entering new value, only using button 'To 0'",
+      "changes": [
+        {
+          "title": "Affix can't be changed by entering new value, only using button 'To 0'",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-08-18",
+      "version": "1.6.4",
+      "beta": null,
+      "title": "Backlash compensation ",
+      "changes": [
+        {
+          "title": "Backlash compensation ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        },
+        {
+          "title": "Function to set motor affix to such value that current position is 0 units",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-08-16",
+      "version": "1.6.3",
+      "beta": null,
+      "title": "DIY installer creator timeouts after 5 minutes, which is too soon",
+      "changes": [
+        {
+          "title": "DIY installer creator timeouts after 5 minutes, which is too soon",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "WinTopas4 can be launched with NoAutoLaunch argument (--NoAutoLaunch) to prevent self-hosts launch. 'Manage devices' tool can be used to launch device later on.",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-08-11",
+      "version": "1.6.2",
+      "beta": null,
+      "title": "Application might get stuck in zombie state on startup with no visible window",
+      "changes": [
+        {
+          "title": "Application might get stuck in zombie state on startup with no visible window",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-08-11",
+      "version": "1.6.0",
+      "beta": null,
+      "title": "Communication with motor board using WinUSB directly (TopasAPI.dll no longer used) beta, enabled inside LC only",
+      "changes": [
+        {
+          "title": "Communication with motor board using WinUSB directly (TopasAPI.dll no longer used) beta, enabled inside LC only",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Motor Diagnostics tool has nicer UI",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-08-09",
+      "version": "1.5.2",
+      "beta": null,
+      "title": "Application crashes if user tries to modify motor curve and this curve does not cover currently set wavelength",
+      "changes": [
+        {
+          "title": "Application crashes if user tries to modify motor curve and this curve does not cover currently set wavelength",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.5.1",
+      "beta": {
+        "date": "2017-08-08"
+      },
+      "title": "User can change serial number of device and motor board before launching device from zipped configuration",
+      "changes": [
+        {
+          "title": "User can change serial number of device and motor board before launching device from zipped configuration",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.5.0",
+      "beta": {
+        "date": "2017-07-25"
+      },
+      "title": "Each device has a model included in configuration (Topas-Prime, Orpheus-F, etc)",
+      "changes": [
+        {
+          "title": "Each device has a model included in configuration (Topas-Prime, Orpheus-F, etc)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-07-17",
+      "version": "1.4.2",
+      "beta": null,
+      "title": "'Saved motor positions' service is in public API",
+      "changes": [
+        {
+          "title": "'Saved motor positions' service is in public API",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-07-13",
+      "version": "1.4.1",
+      "beta": null,
+      "title": "Motor properties window can be opened directly from 'Testing workbench' (mouse right click)",
+      "changes": [
+        {
+          "title": "Motor properties window can be opened directly from 'Testing workbench' (mouse right click)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Self-hosted servers can be managed with advanced user access level",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-07-12",
+      "version": "1.4.0",
+      "beta": null,
+      "title": "Add basic Pharos control from WinTopas4 via Topas4Server if connection is configured ",
+      "changes": [
+        {
+          "title": "Add basic Pharos control from WinTopas4 via Topas4Server if connection is configured ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        },
+        {
+          "title": "Add new hotkey for shutter: Ctrl+NumPad0",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Motor board drivers are installed by default",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-06-29",
+      "version": "1.3.4",
+      "beta": null,
+      "title": "Add 'Restart server' button to Motor Testing Workbench",
+      "changes": [
+        {
+          "title": "Add 'Restart server' button to Motor Testing Workbench",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.3.3",
+      "beta": {
+        "date": "2017-06-27"
+      },
+      "title": "Update links to web pages",
+      "changes": [
+        {
+          "title": "Update links to web pages",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.3.2",
+      "beta": {
+        "date": "2017-06-27"
+      },
+      "title": "Add motor modules diagnostics tool ('Misc' tab, 'Diagnostics') (new unmanaged Topas3 dlls v3.3.0.52)",
+      "changes": [
+        {
+          "title": "Add motor modules diagnostics tool ('Misc' tab, 'Diagnostics') (new unmanaged Topas3 dlls v3.3.0.52)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-06-26",
+      "version": "1.3.1",
+      "beta": null,
+      "title": "Tabbing navigation does not work in 'Smooth Scanner' view",
+      "changes": [
+        {
+          "title": "Tabbing navigation does not work in 'Smooth Scanner' view",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Add step scanner tool (Misc tab)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-06-20",
+      "version": "1.3.0",
+      "beta": null,
+      "title": "Motor reset (homing) functions are exposed via public API",
+      "changes": [
+        {
+          "title": "Motor reset (homing) functions are exposed via public API",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Named motor positions can be modified with advanced user access level",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-06-15",
+      "version": "1.2.11",
+      "beta": null,
+      "title": "'Start Wavelength' in 'Create interaction' has reasonable fall-back value in case it is can be negative (i.e. using DFP)",
+      "changes": [
+        {
+          "title": "'Start Wavelength' in 'Create interaction' has reasonable fall-back value in case it is can be negative (i.e. using DFP)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-06-12",
+      "version": "1.2.10",
+      "beta": null,
+      "title": "Device location code might cause crash when restarting server",
+      "changes": [
+        {
+          "title": "Device location code might cause crash when restarting server",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "1.2.9",
+      "beta": {
+        "date": "2017-06-07"
+      },
+      "title": "Various 'Create interaction' wavelength range calculation improvements ",
+      "changes": [
+        {
+          "title": "Various 'Create interaction' wavelength range calculation improvements ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-06-05",
+      "version": "1.2.8",
+      "beta": null,
+      "title": "Add separation configuration check for overlapping ranges",
+      "changes": [
+        {
+          "title": "Add separation configuration check for overlapping ranges",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-05-31",
+      "version": "1.2.7",
+      "beta": null,
+      "title": "Add two new demo configurations (Topas-Prime+NirUVis and Orpheus-HP)",
+      "changes": [
+        {
+          "title": "Add two new demo configurations (Topas-Prime+NirUVis and Orpheus-HP)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Optical devices are always kept ordered by index",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-05-31",
+      "version": "1.2.6",
+      "beta": null,
+      "title": "Up to two successive motor board status read failures are ignored",
+      "changes": [
+        {
+          "title": "Up to two successive motor board status read failures are ignored",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Application exits point insertion mode in motor curve view when it loses visibility",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Optical configuration checker checks for small steps that are not small enough (<=0.1 nm, but > 0.001 nm)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-05-26",
+      "version": "1.2.5",
+      "beta": null,
+      "title": "All motor positions are saved within five seconds after setting new target position (i.e. moving motor)",
+      "changes": [
+        {
+          "title": "All motor positions are saved within five seconds after setting new target position (i.e. moving motor)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "'Reset in progress' warning is bigger and flashing",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-05-25",
+      "version": "1.2.4",
+      "beta": null,
+      "title": "Red warning 'undefined' is no longer shown for motors with named positions which are in none of them",
+      "changes": [
+        {
+          "title": "Red warning 'undefined' is no longer shown for motors with named positions which are in none of them",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-05-22",
+      "version": "1.2.3",
+      "beta": null,
+      "title": "Server application enters infinite relaunch loop if Windows are localized and firewall permissions are missing",
+      "changes": [
+        {
+          "title": "Server application enters infinite relaunch loop if Windows are localized and firewall permissions are missing",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-05-22",
+      "version": "1.2.2",
+      "beta": null,
+      "title": "Wrong motor reset position difference calculation (second pass used instead of first)",
+      "changes": [
+        {
+          "title": "Wrong motor reset position difference calculation (second pass used instead of first)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Minor UI tweaks",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-05-19",
+      "version": "1.2.1",
+      "beta": null,
+      "title": "Likely fixed: application might crash when restarting (System.NullReferenceException at System.Threading.Overlapped.get_iocbHelper)",
+      "changes": [
+        {
+          "title": "Likely fixed: application might crash when restarting (System.NullReferenceException at System.Threading.Overlapped.get_iocbHelper)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Remove unused websocket module initialization which might cause real one to become unavailable (crash before 1.2.0)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Application crashes if user tries to add neutral position without selecting motor first",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Application crashes if user tries to open wavelength fixer tool for interaction with no calibration points that apply for fixing",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-05-16",
+      "version": "1.2.0",
+      "beta": null,
+      "title": "Wrong minimal motor position calculation in case negative factor is used",
+      "changes": [
+        {
+          "title": "Wrong minimal motor position calculation in case negative factor is used",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        },
+        {
+          "title": "When named motor position is renamed, separation configuration does not update accordingly",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "After Topas3 > Topas4 conversion user can start device as demo (without using actual hardware)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Topas3 to Topas4 converter tries to guess named motor positions names for wavelength separators and some other motors with discrete positions",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Other minor tweaks in Topas3 to Topas4 converter",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Add EULA to installers",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed"
+          ],
+          "img": null
+        },
+        {
+          "title": "Separation configuration sanity checker for multiple entries which differ only by interaction is disabled",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-05-11",
+      "version": "1.1.3",
+      "beta": null,
+      "title": "When trying to delete/inactivate self hosted server from WinTopas4 check whether it has actually exited.",
+      "changes": [
+        {
+          "title": "When trying to delete/inactivate self hosted server from WinTopas4 check whether it has actually exited.",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-05-11",
+      "version": "1.1.2",
+      "beta": null,
+      "title": "New tool to manage SelfHosted servers from WinTopas4 (Tools>Self Hosts>Manage devices).",
+      "changes": [
+        {
+          "title": "New tool to manage SelfHosted servers from WinTopas4 (Tools>Self Hosts>Manage devices).",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Topas3 configuration converter preserves motor positions",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Topas3 configuration converter adds 127.0.0.1 to IP address white list (there is no need to authenticate after conversion)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "SelfHostedServers\\Master directory is hidden",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-05-09",
+      "version": "1.1.1",
+      "beta": null,
+      "title": "If connection to motor control board fails and client PC is not authenticated 'Start authentication' button is not shown",
+      "changes": [
+        {
+          "title": "If connection to motor control board fails and client PC is not authenticated 'Start authentication' button is not shown",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        },
+        {
+          "title": "Press F11 in server application to open Configuration\\Settings folder",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "New help generator for REST services (faster startup)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-05-08",
+      "version": "1.1.0",
+      "beta": null,
+      "title": "WinTopas4, including self hosted servers, can be updated offline by installing newest version on top",
+      "changes": [
+        {
+          "title": "WinTopas4, including self hosted servers, can be updated offline by installing newest version on top",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-05-02",
+      "version": "1.0.3",
+      "beta": null,
+      "title": "Shutter might actually be open while control board thinks it's closed if close command is issued shortly after open command.",
+      "changes": [
+        {
+          "title": "Shutter might actually be open while control board thinks it's closed if close command is issued shortly after open command.",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-05-02",
+      "version": "1.0.2",
+      "beta": null,
+      "title": "Respacer tool will add duplicate point under certain conditions",
+      "changes": [
+        {
+          "title": "Respacer tool will add duplicate point under certain conditions",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-05-02",
+      "version": "1.0.1",
+      "beta": null,
+      "title": "Position for motor curve with additive calibration is saved with no regard that it is additive when modifying motor curve in Calibration>Optical tab",
+      "changes": [
+        {
+          "title": "Position for motor curve with additive calibration is saved with no regard that it is additive when modifying motor curve in Calibration>Optical tab",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Motor curve with additive calibration is moved to wrong position when modifying interaction in 'Create interaction' tool",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Copy-pasting interaction input points does not handle decimal separator well",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Wavelength correction tool (move calibration points in all motor curves horizontally/add new point). Automated version with spectrometer in spectraLight since 2.5.0",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Respacer tool for interaction motor curves",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Arrow buttons to move named motor positions up/down in the list",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-04-27",
+      "version": "0.9.2",
+      "beta": null,
+      "title": "Application crashes if incorrect password is provided",
+      "changes": [
+        {
+          "title": "Application crashes if incorrect password is provided",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-04-26",
+      "version": "0.9.0",
+      "beta": null,
+      "title": "User can finish interaction modification by deleting all old points in motor curves",
+      "changes": [
+        {
+          "title": "User can finish interaction modification by deleting all old points in motor curves",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Auto updater moved from Dropbox to Azure+GitHub.io to avoid Great Firewall of China ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-04-25",
+      "version": "0.8.8",
+      "beta": null,
+      "title": ".pdb file for executable in not found by CLR, exceptions stack traces contains no line numbers (except for .dlls) ",
+      "changes": [
+        {
+          "title": ".pdb file for executable in not found by CLR, exceptions stack traces contains no line numbers (except for .dlls) ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        },
+        {
+          "title": "Under certain conditions shutter can't be opened ('due safety reasons') after setting wavelength",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Non-explicit IDL to SIG conversion creates invalid wavelength mapping curve",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-04-21",
+      "version": "0.8.7",
+      "beta": null,
+      "title": "Timeout for motor reset is too short for slow motors with long travel range",
+      "changes": [
+        {
+          "title": "Timeout for motor reset is too short for slow motors with long travel range",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Feedback text box does not accept return key and does not wrap text",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "It's possible to delete multiple points in motor curve and interaction views when only single point is selected",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Interaction output range sometimes is not updated in device view and interaction view ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Smooth scanner tool updates scan range every time new interaction is selected",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-04-19",
+      "version": "0.8.6",
+      "beta": null,
+      "title": "Calibration editor crashes a lot if curve type is OtherDevice instead of motor",
+      "changes": [
+        {
+          "title": "Calibration editor crashes a lot if curve type is OtherDevice instead of motor",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-04-18",
+      "version": "0.8.5",
+      "beta": {
+        "date": "2017-04-14"
+      },
+      "title": "New tool to quickly stop motor on required position (right click on motor control and select 'Find position') ",
+      "changes": [
+        {
+          "title": "New tool to quickly stop motor on required position (right click on motor control and select 'Find position') ",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "0.8.4",
+      "beta": {
+        "date": "2017-04-14"
+      },
+      "title": "'Create interaction' tool crashes due invalid TwoWay binding",
+      "changes": [
+        {
+          "title": "'Create interaction' tool crashes due invalid TwoWay binding",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "0.8.3",
+      "beta": {
+        "date": "2017-04-13"
+      },
+      "title": "user_id generator for application insights uses stable hashing algorithm",
+      "changes": [
+        {
+          "title": "user_id generator for application insights uses stable hashing algorithm",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        },
+        {
+          "title": "Git index lock (might happen due crash or when creating installer) is handled by deleting index.lock file",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "0.8.2",
+      "beta": {
+        "date": "2017-04-12"
+      },
+      "title": "Various fixes/format changes in sent telemetry data",
+      "changes": [
+        {
+          "title": "Various fixes/format changes in sent telemetry data",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        },
+        {
+          "title": "User can send feedback straight from WinTopas4 application (if server seems reachable)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "0.8.1",
+      "beta": {
+        "date": "2017-04-11"
+      },
+      "title": "Web page for mobile clients is hosted using port RestPort+2 instead of port 80 to avoid clashes with others applications (Skype etc)",
+      "changes": [
+        {
+          "title": "Web page for mobile clients is hosted using port RestPort+2 instead of port 80 to avoid clashes with others applications (Skype etc)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Output metrics collector for Application Insights does not try to make sense of device state if motors are not available",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "",
+      "version": "0.8.0",
+      "beta": {
+        "date": "2017-04-10"
+      },
+      "title": "Application Insights",
+      "changes": [
+        {
+          "title": "Application Insights",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        },
+        {
+          "title": "CMP-SIG template in Create interaction tab uses SIG as mapping wavelength mapping function",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Saved motors positions list in single device tab does not show vertical scrollbar if there isn't enough space",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-03-28",
+      "version": "0.7.4",
+      "beta": null,
+      "title": "Add buttons 'delete current configuration' to optical and separation configurations",
+      "changes": [
+        {
+          "title": "Add buttons 'delete current configuration' to optical and separation configurations",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Change calibration motor curve offset control to indicator, add two new buttons : 'Set offset' and 'Shift curve to make offset zero'. 'Add current offset' button renamed to 'Shift curve by current diff'.",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Calibration motor curve points are always auto-ordered by wavelength, user can't reorder",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-03-27",
+      "version": "0.7.3",
+      "beta": null,
+      "title": "Add link to [Topas4 info page](https://domasm.github.io/Topas4Info/) in three different locations",
+      "changes": [
+        {
+          "title": "Add link to [Topas4 info page](https://domasm.github.io/Topas4Info/) in three different locations",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        },
+        {
+          "title": "Beautified local (per device) API help pages, add more info to some methods",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed"
+          ],
+          "img": null
+        }
+      ]
+    },
+    {
+      "date": "2017-02-13",
+      "version": "0.7.2",
+      "beta": null,
+      "title": "Decrease power on still does not work at all",
+      "changes": [
+        {
+          "title": "Decrease power on still does not work at all",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Shutter is opened when it shouldn't be:",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "'Calibration>Optical' adds current motor position instead of target when modifying motor curve",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "'Tools>Create Installer with current configuration' fails with multiple self-hosted servers due too short timeout",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Before starting server with configured TCP ports, server checks if they aren't used by other applications and informs user if so instead of crashing",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "When calculating motor positions for wavelength, neutral positions are used only from optical devices that are actually used to set requested wavelength",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Device location might not work if PC isn't connected to LAN",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ],
+          "img": null
+        },
+        {
+          "title": "When connecting to new device in client application, named motor positions and forbidden ranges might not be synced",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Motor curves, if they have points with 'None' interpolation, are incorrectly converted  when using SIG<>IDL conversion with explicit IDL motor curves",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "'Calibration>Create interaction' informs user if end wavelength<=start wavelength",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Import anything from zipped configuration. User can inform any part of optical configuration (whole optical configuration, optical device, interaction, motor curve), separation configuration (...), or motor property from zipped server configuration",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Start a new self hosted server from zipped configuration (optionally as demo, i.e. without actual hardware)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Forbidden motor ranges: each motor has a list of forbidden positions ranges.  If shutter is open when motor is entering forbidden range it will be closed by server and reopened after motor leaves forbidden range. Shutter can't be opened while motor is in forbidden range.",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        },
+        {
+          "title": "On hardware failure, inform user to power-cycle device, reconnect USB and restart server application (pop-up in Client)",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        },
+        {
+          "title": "Hidden motors : if motor socket is installed in Topas3 board, but there is no motor connected, you can completely hide it from clients",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ],
+          "img": null
+        },
+        {
+          "title": "'Update is available' message in title bar",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Rectangle around motor control",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "All self-hosted servers in \\Resources\\SelfHostedServer are launched on start. Prepend '_' to folder name to ignore server (P17189 >> _P17189).",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Motor controls can be used with mouse in interactive mode ('Calibration>Optical')",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Calibration and Motors tabs are not visible in User Access Level",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Shutter has three states: open, closed and temporarily closed. Shutter in temporarily closed state can't be opened by user, but will be opened by server after reason why it was closed is no longer valid: e.g. motor leaves forbidden range, wavelength setting is finished",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed"
+          ],
+          "img": null
+        },
+        {
+          "title": "Order of named motor positions is kept unchanged after modifying position/name/short name",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "To close device tab, Shift key has to be held while clicking x button",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        },
+        {
+          "title": "Can't open shutter during motor reset",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Server"
+          ],
+          "img": null
+        },
+        {
+          "title": "Bigger Interactions and Messages buttons",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed",
+            "Client"
+          ],
+          "img": null
+        }
+      ]
+    }
+  ]
+}
