@@ -5,6 +5,43 @@
 
     {
       "date": "",
+      "version": "0.76.0",
+      "beta": {
+        "date": "2021-11-18"
+      },
+      "title": "API docs refresh and demo devices",
+      "changes": [
+        {
+          "tags": [
+            "Improved"
+          ],
+          "title": "API docs refresh and demo devices",
+          "details": "- Built in REST API has been refreshed for better looks\n-  REST API online docs published at https://topas4api.lightcon.com/current/Cronus.html\n- Special installation package for demo device is available (see REST API page)",
+          "img": null,
+          "workDocs": []
+        },
+        {
+          "title": "Topas4Server is always started on Cronus startup",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Improved"
+          ]
+        },
+        {
+          "title": "VDesk is no longer used",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed"
+          ]
+        }
+      ]
+    },
+
+
+    {
+      "date": "",
       "version": "0.75.0",
       "beta": {
         "date": "2021-11-15"
