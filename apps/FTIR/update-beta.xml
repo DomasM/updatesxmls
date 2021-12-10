@@ -131,7 +131,7 @@
     <updater>https://lightconupdater.blob.core.windows.net/take00/updaters/default/autoUpdater.exe</updater>
     <copyFilesHashes>
       <string>b292706580204571bab9a0c6137114a1c790ad0ecae59f2d4cc422f81adfcb1d</string>
-      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c15</string>
       <string>6e1b469e79eeb5db5c6bae09f36d66c7c75eecbd83afff4ab8b4260dec8eb4b8</string>
       <string>324c79b7b80d6c825be2e29d836553c9d6909b760e46bf6b793172c6b0bcf3a4</string>
     </copyFilesHashes>
