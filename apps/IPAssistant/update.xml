@@ -207,4 +207,52 @@
     <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="3.3.2.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="12.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="PostSharp" publicKeyToken="b13fd38b8f9c99d7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="6.8.9.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="PostSharp.Patterns.Aggregation" publicKeyToken="e7f631e6ce13f078" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="6.8.9.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="PostSharp.Patterns.Common" publicKeyToken="e7f631e6ce13f078" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="6.8.9.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="PostSharp.Patterns.Model" publicKeyToken="e7f631e6ce13f078" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="6.8.9.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="PostSharp.Patterns.Xaml" publicKeyToken="e7f631e6ce13f078" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="6.8.9.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="PropertyChanged" publicKeyToken="ee3ee20bcf148ddd" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="3.2.6.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="System.Management.Automation" publicKeyToken="31bf3856ad364e35" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="3.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="System.ValueTuple" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="4.0.3.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="System.Windows.Interactivity" publicKeyToken="31bf3856ad364e35" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="4.5.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
     <versionSerialized>0.6.0.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/IPAssistant/0.6.2.0/IPAssistant.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/installers/updaters/beta/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>5785b0fa20f94131e78b267882d530bef4b10b6b456a2d14ec1dfaf97eb5f02a</string>
+      <string>829fa9227ffdbc402d0236c9a044897f5e245ed579b4d5f137ea790991ce2235</string>
+      <string>1c6bfbbbbf6bf06e24d3be21f7c1021492957da46bb4b2816740eb6fddd37cc4</string>
+      <string>644948291ec95f8e0360a16d51a0cbfffa87042aa5ad7759962ef3b45a27de93</string>
+      <string>2d2a75fb87cc6d3dfcf4aac52abd788b2761a2150181ced1923f031e27d88c54</string>
+      <string>7442708068eb071a15c719ea9aaeda85155aa4cb2959bbd49d996b2c1f23d6f8</string>
+      <string>5d88e1a698f1c3466d769e706a88f8164760e78f21c5afd2570c698e1f79bbe7</string>
+      <string>72e0a2e9618e13c7cc2868e8adb31368fe224fcdc58dfa0dda589b0b23bb6294</string>
+      <string>8a5ddf73283cb899828c20d22aa637ed5b1c05f54215170a3009ef2b0143ed95</string>
+      <string>26548ffa4508fe769eb3e13196465fdefe0252dca6b8c6d70f28e90dc01ed922</string>
+      <string>604743e0ffec0d17b0d9e9291236acef5eb0d98f69dffd78a68881b500d17b37</string>
+      <string>8e9e547eb704727b565122f3e0ced1852be390c1535f3d08a1ad80fff339d49f</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/IPAssistant/0.6.2.0/lib/autoUpdaterAttached.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/IPAssistant/0.6.2.0/lib/autoUpdaterCommon.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/IPAssistant/0.6.2.0/lib/DynamicExpresso.Core.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/IPAssistant/0.6.2.0/lib/EthInterfaces.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/IPAssistant/0.6.2.0/lib/GenericCollections.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/IPAssistant/0.6.2.0/lib/IPAssistant.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/IPAssistant/0.6.2.0/lib/IPAssistant.pspdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/IPAssistant/0.6.2.0/lib/IPAssistant.pssym</string>
+      <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/IPAssistant/0.6.2.0/lib/LightConversionStyles.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/IPAssistant/0.6.2.0/lib/UpdateStateHelper.dll</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>lib\autoUpdaterAttached.dll</string>
+      <string>lib\autoUpdaterCommon.dll</string>
+      <string>lib\DynamicExpresso.Core.dll</string>
+      <string>lib\EthInterfaces.dll</string>
+      <string>lib\GenericCollections.dll</string>
+      <string>lib\IPAssistant.pdb</string>
+      <string>lib\IPAssistant.pspdb</string>
+      <string>lib\IPAssistant.pssym</string>
+      <string>lib\LightConversionStyles.dll</string>
+      <string>lib\UpdateStateHelper.dll</string>
+    </filesToCopyDestination>
+    <filesToDelete>
+      <string>lib\stdole.dll</string>
+    </filesToDelete>
+    <configRuntimeInfo>&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="MoreLinq" publicKeyToken="384d532d7e88985d" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="3.3.2.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="12.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="PostSharp" publicKeyToken="b13fd38b8f9c99d7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="6.8.9.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="PostSharp.Patterns.Aggregation" publicKeyToken="e7f631e6ce13f078" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="6.8.9.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="PostSharp.Patterns.Common" publicKeyToken="e7f631e6ce13f078" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="6.8.9.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="PostSharp.Patterns.Model" publicKeyToken="e7f631e6ce13f078" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="6.8.9.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="PostSharp.Patterns.Xaml" publicKeyToken="e7f631e6ce13f078" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="6.8.9.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="PropertyChanged" publicKeyToken="ee3ee20bcf148ddd" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="3.2.6.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="System.Management.Automation" publicKeyToken="31bf3856ad364e35" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="3.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="System.ValueTuple" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="4.0.3.0" /&gt;&lt;/dependentAssembly&gt;&lt;dependentAssembly&gt;&lt;Paket&gt;True&lt;/Paket&gt;&lt;assemblyIdentity name="System.Windows.Interactivity" publicKeyToken="31bf3856ad364e35" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-65535.65535.65535.65535" newVersion="4.5.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <configRuntimeInfoUri>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/IPAssistant/0.6.2.0/IPAssistant.exe.configuration.runtime</configRuntimeInfoUri>
+    <versionSerialized>0.6.2.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
