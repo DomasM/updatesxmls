@@ -857,7 +857,7 @@
     <updater>https://lightconupdater.blob.core.windows.net/installers/updaters/beta/autoUpdater.exe</updater>
     <copyFilesHashes>
       <string>e7ef6bc24d3f2c16487f3e966c7391f7e97cc2d1553a7a425e7748423f7727ae</string>
-      <string>dd6221369d6aa54c36be1c02c9e3c4638d63e09a23e3038c7d6aeb1f93860c14</string>
+      <string>83c0d1c581cd4b4b7db1c085c068877c2c0fffabea8388021c1e45eadc8b79c0</string>
       <string>4037761505e60d26579b18cdee5503953202d0b2cf0f31403ba2b63bff858fc1</string>
       <string>1c6bfbbbbf6bf06e24d3be21f7c1021492957da46bb4b2816740eb6fddd37cc4</string>
       <string>644948291ec95f8e0360a16d51a0cbfffa87042aa5ad7759962ef3b45a27de93</string>
@@ -918,7 +918,7 @@
     <updater>https://lightconupdater.blob.core.windows.net/installers/updaters/beta/autoUpdater.exe</updater>
     <copyFilesHashes>
       <string>0668a45ed53f8b82d34fa3bb2b68af9185c88dadc5f52ba6f7ddaeb7b6874c09</string>
-      <string>49c54142bc94c2c47868dd25aab702ff51ebacd639b1a24dc8abdb832acd36cf</string>
+      <string>83c0d1c581cd4b4b7db1c085c068877c2c0fffabea8388021c1e45eadc8b79c0</string>
       <string>a459c326812eab340c442db280c06d8c0f13c9b86b9596f928d57f0ec5df5716</string>
       <string>e88de4dc02460767f064cdf0b342fd9e15cbe8c5f088de7ae33a57c1f6ee4ec5</string>
     </copyFilesHashes>
@@ -940,7 +940,7 @@
     <updater>https://lightconupdater.blob.core.windows.net/installers/updaters/beta/autoUpdater.exe</updater>
     <copyFilesHashes>
       <string>f4b7903800092c646ceefcd50d2bb4ae59ef9e028e30305a43b3f03264993541</string>
-      <string>49c54142bc94c2c47868dd25aab702ff51ebacd639b1a24dc8abdb832acd36cf</string>
+      <string>83c0d1c581cd4b4b7db1c085c068877c2c0fffabea8388021c1e45eadc8b79c0</string>
       <string>64d4f0c13e006270158d4fee4c13e7e9fe3deacb366369eb09e54d7c19edd0b4</string>
       <string>6288942a5020e2a2224f8fbe3671ca1f01011e2827349e3e44ab13aca86a1925</string>
     </copyFilesHashes>
@@ -962,7 +962,7 @@
     <updater>https://lightconupdater.blob.core.windows.net/installers/updaters/beta/autoUpdater.exe</updater>
     <copyFilesHashes>
       <string>d38a0894bdf0c91e41e05df3a04ee576818163069f10c0783e96fd7fba45ac6c</string>
-      <string>829fa9227ffdbc402d0236c9a044897f5e245ed579b4d5f137ea790991ce2235</string>
+      <string>83c0d1c581cd4b4b7db1c085c068877c2c0fffabea8388021c1e45eadc8b79c0</string>
       <string>5cab8daabbbc483405ad85ec04bb8d921fa08ef9fa36cf5c70e3530d6c2ebb5d</string>
       <string>45d888a16b4ac0c6c66c3716dd0feaadd2dd8a9f5e20c58912dd06544ad82ef7</string>
     </copyFilesHashes>
