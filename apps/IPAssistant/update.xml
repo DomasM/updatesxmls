@@ -212,7 +212,7 @@
     <updater>https://lightconupdater.blob.core.windows.net/installers/updaters/beta/autoUpdater.exe</updater>
     <copyFilesHashes>
       <string>5785b0fa20f94131e78b267882d530bef4b10b6b456a2d14ec1dfaf97eb5f02a</string>
-      <string>829fa9227ffdbc402d0236c9a044897f5e245ed579b4d5f137ea790991ce2235</string>
+      <string>83c0d1c581cd4b4b7db1c085c068877c2c0fffabea8388021c1e45eadc8b79c0</string>
       <string>1c6bfbbbbf6bf06e24d3be21f7c1021492957da46bb4b2816740eb6fddd37cc4</string>
       <string>644948291ec95f8e0360a16d51a0cbfffa87042aa5ad7759962ef3b45a27de93</string>
       <string>2d2a75fb87cc6d3dfcf4aac52abd788b2761a2150181ced1923f031e27d88c54</string>
@@ -260,7 +260,7 @@
     <updater>https://lightconupdater.blob.core.windows.net/installers/updaters/beta/autoUpdater.exe</updater>
     <copyFilesHashes>
       <string>c29f8e27c3fe3f4a82b701e71996be6e06ed2a5bba94ccffc66d834928aa861b</string>
-      <string>829fa9227ffdbc402d0236c9a044897f5e245ed579b4d5f137ea790991ce2235</string>
+      <string>83c0d1c581cd4b4b7db1c085c068877c2c0fffabea8388021c1e45eadc8b79c0</string>
       <string>a8cde6890219524ccc5edae4b1e77fe913c118bba8fffe2558eac9441da03ee8</string>
       <string>b12abba8204d4871cda09623ba76e1334f6f9ebaf18ff1f7563a53b3ae9cabfc</string>
     </copyFilesHashes>
