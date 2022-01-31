@@ -2,102 +2,122 @@
     "pageTitle": "Cronus App Changelog",
   "releases": [
 
+    {
+      "date": "",
+      "version": "0.84.0",
+      "beta": {
+        "date": "2022-01-31"
+      },
+      "title": "Fix Delay offset logic",
+      "changes": [
+        {
+          "tags": [
+            "Fixed"
+          ],
+          "title": "Delay offset was never applied",
+          "details": "Hotfix for 0.80.0 - delay offset was never applied when setting output",
+          "img": null,
+          "workDocs": []
+        }
+      ]
+    },
+
 
     {
       "date": "",
       "version": "0.83.0",
       "beta": {
-          "date": "2022-01-28"
+        "date": "2022-01-28"
       },
       "title": "Add stable output power targets",
       "changes": [
-          {
-              "tags": [
-                  "New"
-              ],
-              "title": "Add stable output power targets",
-              "details": "Output power for tunable channels is always adjusted to the same wavelength-depending value when setting output (if enabled and configured).",
-              "img": null,
-              "workDocs": [
-                  {
-                      "url": "https://trello.com/c/uNFZ8vwc"
-                  }
-              ]
-          },
-          {
-              "title": "Calibrate internal power meter tool can't connect to external power meter",
-              "details": "",
-              "workDocs": [],
-              "tags": [
-                  "Fixed"
-              ]
-          }
+        {
+          "tags": [
+            "New"
+          ],
+          "title": "Add stable output power targets",
+          "details": "Output power for tunable channels is always adjusted to the same wavelength-depending value when setting output (if enabled and configured).",
+          "img": null,
+          "workDocs": [
+            {
+              "url": "https://trello.com/c/uNFZ8vwc"
+            }
+          ]
+        },
+        {
+          "title": "Calibrate internal power meter tool can't connect to external power meter",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ]
+        }
       ]
-  },
+    },
 
 
     {
       "date": "",
       "version": "0.80.0",
       "beta": {
-          "date": "2022-01-21"
+        "date": "2022-01-21"
       },
       "title": "Output setting rewrite, Fast Tuning Mode",
       "changes": [
-          {
-              "tags": [
-                  "Improved"
-              ],
-              "title": "Output setting rewrite",
-              "details": "Output setting algorithm was rewritten for faster and more resilient output setting with self-learning capabilities.",
-              "img": null,
-              "workDocs": [
-                  {
-                      "url": "https://trello.com/c/9NEEJNgd"
-                  },
-                  {
-                      "url": "https://trello.com/c/NIbZMdcm"
-                  },
-                  {
-                      "url": "https://trello.com/c/fAbdUpu1"
-                  },
-                  {
-                      "url": "https://trello.com/c/EqwcLoU9"
-                  }
-              ]
-          },
-          {
-              "title": "Fast Tuning Mode",
-              "details": "Users can use Fast Tuning Mode instead of traditional way to set the output to achieve super-quick change of output wavelength. Fast Tuning Mode has to be prepared prior use (takes about 8 minutes) and updated every few days. Tuning speed is limited by compressor motor movement speed in most cases.",
-              "workDocs": [
-                  {
-                      "url": "https://trello.com/c/uqiwxIVl"
-                  }
-              ],
-              "tags": [
-                  "New"
-              ],
-              "img": {
-                  "url": "https://changelogs.blob.core.windows.net/cronus/img/34d6a148-524b-4cf8-8882-5670dcb19b1e.gif",
-                  "width": "550",
-                  "height" :"380"
-              }
-          },
-          {
-              "title": "Channel 1 long wavelength range impovments",
-              "details": "New wavelength search algorithm allows to set wavelength in 800-970 nm range for Channel 1 with the same precision as in other output ranges.",
-              "workDocs": [],
-              "tags": [
-                  "Improved"
-              ],
-              "img": {
-                  "url": "https://changelogs.blob.core.windows.net/cronus/img/83c247c5-718d-4bbc-afc3-e708dab015d8.png",
-                  "width": "550",
-                  "height" :"412"
-              }
+        {
+          "tags": [
+            "Improved"
+          ],
+          "title": "Output setting rewrite",
+          "details": "Output setting algorithm was rewritten for faster and more resilient output setting with self-learning capabilities.",
+          "img": null,
+          "workDocs": [
+            {
+              "url": "https://trello.com/c/9NEEJNgd"
+            },
+            {
+              "url": "https://trello.com/c/NIbZMdcm"
+            },
+            {
+              "url": "https://trello.com/c/fAbdUpu1"
+            },
+            {
+              "url": "https://trello.com/c/EqwcLoU9"
+            }
+          ]
+        },
+        {
+          "title": "Fast Tuning Mode",
+          "details": "Users can use Fast Tuning Mode instead of traditional way to set the output to achieve super-quick change of output wavelength. Fast Tuning Mode has to be prepared prior use (takes about 8 minutes) and updated every few days. Tuning speed is limited by compressor motor movement speed in most cases.",
+          "workDocs": [
+            {
+              "url": "https://trello.com/c/uqiwxIVl"
+            }
+          ],
+          "tags": [
+            "New"
+          ],
+          "img": {
+            "url": "https://changelogs.blob.core.windows.net/cronus/img/34d6a148-524b-4cf8-8882-5670dcb19b1e.gif",
+            "width": "550",
+            "height": "380"
           }
+        },
+        {
+          "title": "Channel 1 long wavelength range impovments",
+          "details": "New wavelength search algorithm allows to set wavelength in 800-970 nm range for Channel 1 with the same precision as in other output ranges.",
+          "workDocs": [],
+          "tags": [
+            "Improved"
+          ],
+          "img": {
+            "url": "https://changelogs.blob.core.windows.net/cronus/img/83c247c5-718d-4bbc-afc3-e708dab015d8.png",
+            "width": "550",
+            "height": "412"
+          }
+        }
       ]
-  },
+    },
 
 
     {
@@ -182,7 +202,7 @@
           "img": {
             "url": "https://changelogs.blob.core.windows.net/cronus/img/436faafc-cb60-4b4c-a53a-be77264c9407.webp",
             "width": 300,
-             "height": 375
+            "height": 375
           },
           "workDocs": [
             {
