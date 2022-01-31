@@ -5,6 +5,39 @@
 
     {
       "date": "",
+      "version": "0.83.0",
+      "beta": {
+          "date": "2022-01-28"
+      },
+      "title": "Add stable output power targets",
+      "changes": [
+          {
+              "tags": [
+                  "New"
+              ],
+              "title": "Add stable output power targets",
+              "details": "Output power for tunable channels is always adjusted to the same wavelength-depending value when setting output (if enabled and configured).",
+              "img": null,
+              "workDocs": [
+                  {
+                      "url": "https://trello.com/c/uNFZ8vwc"
+                  }
+              ]
+          },
+          {
+              "title": "Calibrate internal power meter tool can't connect to external power meter",
+              "details": "",
+              "workDocs": [],
+              "tags": [
+                  "Fixed"
+              ]
+          }
+      ]
+  },
+
+
+    {
+      "date": "",
       "version": "0.80.0",
       "beta": {
           "date": "2022-01-21"
