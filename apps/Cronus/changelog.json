@@ -2,6 +2,34 @@
     "pageTitle": "Cronus App Changelog",
   "releases": [
 
+
+    {
+      "date": "",
+      "version": "0.85.0",
+      "beta": {
+        "date": "2022-03-09"
+      },
+      "title": "Add frequency modulator support",
+      "changes": [
+        {
+          "title": "Frequency modulator support",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "New"
+          ]
+        },
+        {
+          "title": "Adjustment mode works correctly with stable output power targets",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ]
+        }
+      ]
+    },
+
     {
       "date": "",
       "version": "0.84.0",
