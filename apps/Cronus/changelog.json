@@ -2,6 +2,73 @@
     "pageTitle": "Cronus App Changelog",
   "releases": [
 
+    {
+      "date": "",
+      "version": "0.88.0",
+      "beta": {
+          "date": "2022-04-20"
+      },
+      "title": "Simplify wavelength setter parameters",
+      "changes": [
+          {
+              "title": "Simplify wavelength setter parameters",
+              "details": "Number of independent parameters has been decreased, some parameters can be measured if device is able to set output. ",
+              "workDocs": [
+                  {
+                      "url": "https://trello.com/c/j1fscRtK"
+                  }
+              ],
+              "tags": [
+                  "Improved"
+              ]
+          },
+          {
+              "title": "Delay line motors are moved around during periodic device optimization",
+              "details": "Delay line motors are moved during every device optimization (every night by default) to avoid possible mechanical problems",
+              "workDocs": [
+                  {
+                      "url": "https://trello.com/c/CK6ESQbz"
+                  }
+              ],
+              "tags": [
+                  "Improved"
+              ]
+          },
+          {
+              "title": "UI improvements",
+              "details": "UI improvements for periodic device optimization and wavelength setter parameters",
+              "workDocs": [],
+              "tags": [
+                  "Improved"
+              ]
+          },
+          {
+              "title": "Support switch motor calibration via separation instead of optical curves",
+              "details": "Calibration curve can be migrated via WinTopas4 'Simplify' and 'To Separation' buttons in motor calibration curve view. Cronus sanity checker has been modified to ignore lack of switch curves in SIG1/2 interactions.",
+              "workDocs": [
+                  {
+                      "url": "https://trello.com/c/SdRdlsiG"
+                  }
+              ],
+              "tags": [
+                  "New"
+              ]
+          },
+          {
+              "title": "spectraLight can connect to internal spectrometers while Cronus app is running",
+              "details": "",
+              "workDocs": [
+                  {
+                      "url": "https://trello.com/c/KYy2nIjs"
+                  }
+              ],
+              "tags": [
+                  "New"
+              ]
+          }
+      ]
+  },
+
 
     {
       "date": "",
