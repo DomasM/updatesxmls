@@ -3,6 +3,29 @@
   "releases": [
 
     {
+
+
+      {
+        "date": "",
+        "version": "0.88.1",
+        "beta": {
+          "date": "2022-04-29"
+        },
+        "title": "Fix stable output power target with GDD changes",
+        "changes": [
+          {
+            "title": "Fix stable output power target changes when changing compressor GDD glass",
+            "details": "",
+            "workDocs": [],
+            "tags": [
+              "Fixed"
+            ]
+          }
+        ]
+      },
+
+
+
       "date": "",
       "version": "0.88.0",
       "beta": {
