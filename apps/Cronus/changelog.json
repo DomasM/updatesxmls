@@ -2,7 +2,32 @@
     "pageTitle": "Cronus App Changelog",
   "releases": [
 
-    
+    {
+      "date": "",
+      "version": "0.89.0",
+      "beta": {
+          "date": "2022-05-13"
+      },
+      "title": "Add crystal offsets for VIS1,IR1,IR12",
+      "changes": [
+          {
+              "title": "Add crystal offsets for VIS1,IR1,IR12",
+              "details": "",
+              "workDocs": [],
+              "tags": [
+                  "Changed"
+              ]
+          },
+          {
+              "title": "New UI for output beam stabilization",
+              "details": "",
+              "workDocs": [],
+              "tags": [
+                  "Improved"
+              ]
+          }
+      ]
+  },
 
 
       {
