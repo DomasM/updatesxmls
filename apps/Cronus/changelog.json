@@ -1,6 +1,26 @@
 {
     "pageTitle": "Cronus App Changelog",
   "releases": [
+
+    {
+      "date": "",
+      "version": "0.91.0",
+      "beta": {
+        "date": "2022-06-06"
+      },
+      "title": "Critical fix for hard exit",
+      "changes": [
+        {
+          "title": "Full power down does not complete",
+          "details": "App exits seemingly normally but oscillator is working further on and Topas4Server is not stopped",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ]
+        }
+      ]
+    },
+
     {
       "date": "",
       "version": "0.90.0",
@@ -17,14 +37,6 @@
               "url": "https://lightcon.wiseteam.eu/admin/task/edit/224#"
             }
           ],
-          "tags": [
-            "Fixed"
-          ]
-        },
-        {
-          "title": "Full power down does not complete",
-          "details": "App exits seemingly normally but oscillator is working further on and Topas4Server is not stopped",
-          "workDocs": [],
           "tags": [
             "Fixed"
           ]
@@ -56,115 +68,115 @@
       "date": "",
       "version": "0.89.0",
       "beta": {
-          "date": "2022-05-13"
+        "date": "2022-05-13"
       },
       "title": "Add crystal offsets for VIS1,IR1,IR12",
       "changes": [
-          {
-              "title": "Add crystal offsets for VIS1,IR1,IR12",
-              "details": "",
-              "workDocs": [],
-              "tags": [
-                  "Changed"
-              ]
-          },
-          {
-              "title": "New UI for output beam stabilization",
-              "details": "",
-              "workDocs": [],
-              "tags": [
-                  "Improved"
-              ]
-          }
-      ]
-  },
-
-
-      {
-        "date": "",
-        "version": "0.88.1",
-        "beta": {
-          "date": "2022-04-29"
+        {
+          "title": "Add crystal offsets for VIS1,IR1,IR12",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Changed"
+          ]
         },
-        "title": "Fix stable output power target with GDD changes",
-        "changes": [
-          {
-            "title": "Fix stable output power target changes when changing compressor GDD glass",
-            "details": "",
-            "workDocs": [],
-            "tags": [
-              "Fixed"
-            ]
-          }
-        ]
+        {
+          "title": "New UI for output beam stabilization",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Improved"
+          ]
+        }
+      ]
+    },
+
+
+    {
+      "date": "",
+      "version": "0.88.1",
+      "beta": {
+        "date": "2022-04-29"
       },
+      "title": "Fix stable output power target with GDD changes",
+      "changes": [
+        {
+          "title": "Fix stable output power target changes when changing compressor GDD glass",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ]
+        }
+      ]
+    },
 
     {
       "date": "",
       "version": "0.88.0",
       "beta": {
-          "date": "2022-04-20"
+        "date": "2022-04-20"
       },
       "title": "Simplify wavelength setter parameters",
       "changes": [
-          {
-              "title": "Simplify wavelength setter parameters",
-              "details": "Number of independent parameters has been decreased, some parameters can be measured if device is able to set output. ",
-              "workDocs": [
-                  {
-                      "url": "https://trello.com/c/j1fscRtK"
-                  }
-              ],
-              "tags": [
-                  "Improved"
-              ]
-          },
-          {
-              "title": "Delay line motors are moved around during periodic device optimization",
-              "details": "Delay line motors are moved during every device optimization (every night by default) to avoid possible mechanical problems",
-              "workDocs": [
-                  {
-                      "url": "https://trello.com/c/CK6ESQbz"
-                  }
-              ],
-              "tags": [
-                  "Improved"
-              ]
-          },
-          {
-              "title": "UI improvements",
-              "details": "UI improvements for periodic device optimization and wavelength setter parameters",
-              "workDocs": [],
-              "tags": [
-                  "Improved"
-              ]
-          },
-          {
-              "title": "Support switch motor calibration via separation instead of optical curves",
-              "details": "Calibration curve can be migrated via WinTopas4 'Simplify' and 'To Separation' buttons in motor calibration curve view. Cronus sanity checker has been modified to ignore lack of switch curves in SIG1/2 interactions.",
-              "workDocs": [
-                  {
-                      "url": "https://trello.com/c/SdRdlsiG"
-                  }
-              ],
-              "tags": [
-                  "New"
-              ]
-          },
-          {
-              "title": "spectraLight can connect to internal spectrometers while Cronus app is running",
-              "details": "",
-              "workDocs": [
-                  {
-                      "url": "https://trello.com/c/KYy2nIjs"
-                  }
-              ],
-              "tags": [
-                  "New"
-              ]
-          }
+        {
+          "title": "Simplify wavelength setter parameters",
+          "details": "Number of independent parameters has been decreased, some parameters can be measured if device is able to set output. ",
+          "workDocs": [
+            {
+              "url": "https://trello.com/c/j1fscRtK"
+            }
+          ],
+          "tags": [
+            "Improved"
+          ]
+        },
+        {
+          "title": "Delay line motors are moved around during periodic device optimization",
+          "details": "Delay line motors are moved during every device optimization (every night by default) to avoid possible mechanical problems",
+          "workDocs": [
+            {
+              "url": "https://trello.com/c/CK6ESQbz"
+            }
+          ],
+          "tags": [
+            "Improved"
+          ]
+        },
+        {
+          "title": "UI improvements",
+          "details": "UI improvements for periodic device optimization and wavelength setter parameters",
+          "workDocs": [],
+          "tags": [
+            "Improved"
+          ]
+        },
+        {
+          "title": "Support switch motor calibration via separation instead of optical curves",
+          "details": "Calibration curve can be migrated via WinTopas4 'Simplify' and 'To Separation' buttons in motor calibration curve view. Cronus sanity checker has been modified to ignore lack of switch curves in SIG1/2 interactions.",
+          "workDocs": [
+            {
+              "url": "https://trello.com/c/SdRdlsiG"
+            }
+          ],
+          "tags": [
+            "New"
+          ]
+        },
+        {
+          "title": "spectraLight can connect to internal spectrometers while Cronus app is running",
+          "details": "",
+          "workDocs": [
+            {
+              "url": "https://trello.com/c/KYy2nIjs"
+            }
+          ],
+          "tags": [
+            "New"
+          ]
+        }
       ]
-  },
+    },
 
 
     {
