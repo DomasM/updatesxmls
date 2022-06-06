@@ -1,7 +1,56 @@
 {
     "pageTitle": "Cronus App Changelog",
   "releases": [
-
+    {
+      "date": "",
+      "version": "0.90.0",
+      "beta": {
+        "date": "2022-06-06"
+      },
+      "title": "Critical fixes for failing wavelength setting and hard exit",
+      "changes": [
+        {
+          "title": "Setting wavelength for either channel might fail every time with no apparent reason",
+          "details": "",
+          "workDocs": [
+            {
+              "url": "https://lightcon.wiseteam.eu/admin/task/edit/224#"
+            }
+          ],
+          "tags": [
+            "Fixed"
+          ]
+        },
+        {
+          "title": "Full power down does not complete",
+          "details": "App exits seemingly normally but oscillator is working further on and Topas4Server is not stopped",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ]
+        },
+        {
+          "title": "Set wavelength again when leaving standby mode to adjustment mode",
+          "details": "Previously, wavelength would be set only if leaving to 'Full Power' mode",
+          "workDocs": [
+            {
+              "url": "https://lightcon.wiseteam.eu/admin/task/edit/175"
+            }
+          ],
+          "tags": [
+            "Improved"
+          ]
+        },
+        {
+          "title": "Easier to understand UI for Adjustment/Full Power modes",
+          "details": "",
+          "workDocs": [],
+          "tags": [
+            "Improved"
+          ]
+        }
+      ]
+    },
 
     {
       "date": "",
