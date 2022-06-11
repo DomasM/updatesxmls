@@ -2,6 +2,28 @@
     "pageTitle": "Cronus App Changelog",
   "releases": [
 
+
+
+    {
+      "date": "",
+      "version": "0.92.0",
+      "beta": {
+        "date": "2022-06-11"
+      },
+      "title": "Fix 'Pump Scan Search For Generation' wrong step size for pump xy motors",
+      "changes": [
+        {
+          "title": "Fix 'Pump Scan Search For Generation' ",
+          "details": "1. Step size was 10 times smaller than it should be\n2. Stage would start from the x,y positions where the previous stage left, meaning sub-optimal starting point",
+          "workDocs": [],
+          "tags": [
+            "Fixed"
+          ]
+        }
+      ]
+    },
+
+
     {
       "date": "",
       "version": "0.91.0",
