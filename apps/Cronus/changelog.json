@@ -2,6 +2,28 @@
     "pageTitle": "Cronus App Changelog",
   "releases": [
 
+    {
+      "date": "",
+      "version": "0.93.0",
+      "beta": {
+        "date": "2022-06-22"
+      },
+      "title": "Critical fix for failing wavelength setting",
+      "changes": [
+        {
+          "title": "Setting wavelength for either channel might fail every time with no apparent reason",
+          "details": "",
+          "workDocs": [
+            {
+              "url": "https://lightcon.wiseteam.eu/admin/task/edit/224#"
+            }
+          ],
+          "tags": [
+            "Fixed"
+          ]
+        }
+      ]
+    },
 
 
     {
