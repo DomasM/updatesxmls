@@ -2107,4 +2107,44 @@
     <configRuntimeInfoUri>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/LogViewer/5.4.1.0/LogViewer.exe.configuration.runtime</configRuntimeInfoUri>
     <versionSerialized>5.4.1.0</versionSerialized>
   </VersionInfo>
+  <VersionInfo>
+    <executable>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/LogViewer/5.4.2.0/LogViewer.exe</executable>
+    <updater>https://lightconupdater.blob.core.windows.net/installers/updaters/default/autoUpdater.exe</updater>
+    <copyFilesHashes>
+      <string>15635c9e9987070601644803bf9bb3e81beb5a11e8528b952ce3ba67a4e8efe5</string>
+      <string>83c0d1c581cd4b4b7db1c085c068877c2c0fffabea8388021c1e45eadc8b79c0</string>
+      <string>186a13f32540808d3685d5ba0816fd3cb21cf48481de85fb62459bacc2a1fa21</string>
+      <string>b378d2d7f4397ba1af3d14b53ceef111fe62ba99427566a18890629358e64afe</string>
+      <string>1eacff35b13c30d99fe9357f2ae9bd2bf22996c3b124ddff15e9c6e73cffb52f</string>
+      <string>b625926a684108301ce7495f8862bb6bd264fd0ba6c6596f13706e6561ca6ef1</string>
+      <string>727f8a4fe9619a62e75b6af2af6198606b771d67620b9ae9181351b6bda07173</string>
+      <string>3b58e3965b82f17c4196fac5a5c6b73ee2a661aa03dd58806a8fd1bd8bdd528f</string>
+      <string>5754e4067d073cbedaf9f28dc76d9b37f621032e667d84c5f3a9e47e9ed4bffc</string>
+      <string>5f559ccc726b35743f249c8678393791841959296f4502986f553b11d952b9f8</string>
+    </copyFilesHashes>
+    <filesToCopySource>
+      <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/LogViewer/5.4.2.0/GpuCapability.log</string>
+      <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/LogViewer/5.4.2.0/lib/LogViewer.pdb</string>
+      <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/LogViewer/5.4.2.0/lib/SylosDataLogSharedLib.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/LogViewer/5.4.2.0/lib/SylosLogFileReader.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/LogViewer/5.4.2.0/lib/SylosLogs.CombinedLogger.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/LogViewer/5.4.2.0/lib/SylosLogSyncroClient.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/LogViewer/5.4.2.0/lib/SylosReaderFactory.dll</string>
+      <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/LogViewer/5.4.2.0/lib/ThermoLogger.dll</string>
+    </filesToCopySource>
+    <filesToCopyDestination>
+      <string>GpuCapability.log</string>
+      <string>lib\LogViewer.pdb</string>
+      <string>lib\SylosDataLogSharedLib.dll</string>
+      <string>lib\SylosLogFileReader.dll</string>
+      <string>lib\SylosLogs.CombinedLogger.dll</string>
+      <string>lib\SylosLogSyncroClient.dll</string>
+      <string>lib\SylosReaderFactory.dll</string>
+      <string>lib\ThermoLogger.dll</string>
+    </filesToCopyDestination>
+    <filesToDelete />
+    <configRuntimeInfo>&lt;gcAllowVeryLargeObjects enabled="true" /&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;probing privatePath="lib;libs" /&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="MahApps.Metro" publicKeyToken="f4fb5a3c4d1e5b4f" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.6.4.0" newVersion="1.6.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;probing privatePath="lib;libs" xmlns="" /&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Autofac" publicKeyToken="17863af14b0044da" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.9.4.0" newVersion="4.9.4.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Castle.Core" publicKeyToken="407dd0808d44fbdc" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-5.0.0.0" newVersion="5.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="HtmlAgilityPack" publicKeyToken="bd319b19eaf3b43a" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-1.11.46.0" newVersion="1.11.46.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Microsoft.AI.Agent.Intercept" publicKeyToken="31bf3856ad364e35" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-2.4.0.0" newVersion="2.4.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Microsoft.Azure.KeyVault.Core" publicKeyToken="31bf3856ad364e35" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-3.0.5.0" newVersion="3.0.5.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="Microsoft.Bcl.AsyncInterfaces" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-7.0.0.0" newVersion="7.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="PostSharp.Patterns.Common" publicKeyToken="e7f631e6ce13f078" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-6.10.16.0" newVersion="6.10.16.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="PostSharp.Patterns.Model" publicKeyToken="e7f631e6ce13f078" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-6.10.16.0" newVersion="6.10.16.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="PostSharp.Patterns.Xaml" publicKeyToken="e7f631e6ce13f078" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-6.10.16.0" newVersion="6.10.16.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="PostSharp" publicKeyToken="b13fd38b8f9c99d7" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-6.10.16.0" newVersion="6.10.16.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="RestSharp" publicKeyToken="598062e77f915f75" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-106.15.0.0" newVersion="106.15.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="SciChart.Charting" publicKeyToken="b55dd9efe817e823" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-6.6.0.26505" newVersion="6.6.0.26505" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="System.Memory" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.0.1.2" newVersion="4.0.1.2" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="System.Runtime.CompilerServices.Unsafe" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-6.0.0.0" newVersion="6.0.0.0" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;&lt;dependentAssembly&gt;&lt;assemblyIdentity name="System.Threading.Tasks.Extensions" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" /&gt;&lt;bindingRedirect oldVersion="0.0.0.0-4.2.0.1" newVersion="4.2.0.1" /&gt;&lt;/dependentAssembly&gt;&lt;/assemblyBinding&gt;</configRuntimeInfo>
+    <configRuntimeInfoUri>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/LogViewer/5.4.2.0/LogViewer.exe.configuration.runtime</configRuntimeInfoUri>
+    <versionSerialized>5.4.2.0</versionSerialized>
+  </VersionInfo>
 </ArrayOfVersionInfo>
