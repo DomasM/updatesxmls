@@ -4220,8 +4220,7 @@
       <string>lib\Microsoft.Windows.Design.Extensibility.dll</string>
       <string>lib\Microsoft.Windows.Design.Interaction.dll</string>
     </filesToCopyDestination>
-    <filesToDelete>
-      <string>App.config</string>
+    <filesToDelete>   
       <string>GpuCapability.log</string>
       <string>cache\404.txt</string>
       <string>Configuration\azl</string>
