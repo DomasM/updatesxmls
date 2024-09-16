@@ -5185,12 +5185,6 @@
       <string>285b65931fbe72400e84c3395b52802528ee277d0269aa6981953aeb5ecd890a</string>
       <string>1f51b19f379fcf9a6957d14c9332d1da36ad33dc7fc3da7e6333ebc2da49be86</string>
       <string>b4c4fd50cd280b78472d737a07c4d59b9759fffc35c9fb068e3579f42e68f743</string>
-      <string>83c0d1c581cd4b4b7db1c085c068877c2c0fffabea8388021c1e45eadc8b79c0</string>
-      <string>a688454fb06355308f04d16bd3ea81a0b5a7a95bc6aed87640a09b4fd90f6398</string>
-      <string>2d1ddb0e85abc16f341f6c7c07bacf2d5bd23fc60b6126a4dbf9332559143359</string>
-      <string>f964a8249501ea982b617875db23225b463c8deeff8164c9b8daeb9ca6d4f05d</string>
-      <string>ba3d275c12d7ef4d38ba07bc2f073c49df4d372824bfaff37ab595251e553834</string>
-      <string>0894bd829bbab8fd717ff98e145c9bffdfb2d6bfb5fbdcdd70131dc052df6509</string>
     </copyFilesHashes>
     <filesToCopySource>
       <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/Layla/1.8.19.0/Layla20240912.log</string>
@@ -5199,12 +5193,6 @@
       <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/Layla/1.8.19.0/lib/Layla.Abstractions.pdb</string>
       <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/Layla/1.8.19.0/lib/Layla.pdb</string>
       <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/Layla/1.8.19.0/lib/Microsoft.VisualStudio.DesignTools.Extensibility.dll</string>
-      <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/Layla/1.8.19.0/update/autoUp_dater.exe</string>
-      <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/Layla/1.8.19.0/update/update.xml</string>
-      <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/Layla/1.8.19.0/update/files/Layla20240612.log</string>
-      <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/Layla/1.8.19.0/update/files/lib/Layla.Abstractions.dll</string>
-      <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/Layla/1.8.19.0/update/files/lib/Layla.Abstractions.pdb</string>
-      <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/Layla/1.8.19.0/update/files/lib/Layla.pdb</string>
     </filesToCopySource>
     <filesToCopyDestination>
       <string>Layla20240912.log</string>
