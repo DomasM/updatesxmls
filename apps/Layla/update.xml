@@ -5201,12 +5201,6 @@
       <string>lib\Layla.Abstractions.pdb</string>
       <string>lib\Layla.pdb</string>
       <string>lib\Microsoft.VisualStudio.DesignTools.Extensibility.dll</string>
-      <string>update\autoUp_dater.exe</string>
-      <string>update\update.xml</string>
-      <string>update\files\Layla20240612.log</string>
-      <string>update\files\lib\Layla.Abstractions.dll</string>
-      <string>update\files\lib\Layla.Abstractions.pdb</string>
-      <string>update\files\lib\Layla.pdb</string>
     </filesToCopyDestination>
     <filesToDelete>
       <string>Layla20240612.log</string>
