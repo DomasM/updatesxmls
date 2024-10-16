@@ -207,11 +207,9 @@
       <string>d4ae378e69f9d072ee0a7a75d6fb3a1ffb36ac0296e6988c234b14f6cf0fc0d9</string>
     </copyFilesHashes>
     <filesToCopySource>
-      <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/FTIRv2/2.1.0/FTIR20241014.log</string>
       <string>https://lightconupdater.blob.core.windows.net/installers/ReleaseDeltas/apps/FTIRv2/2.1.0/lib/FTIR.pdb</string>
     </filesToCopySource>
     <filesToCopyDestination>
-      <string>FTIR20241014.log</string>
       <string>lib\FTIR.pdb</string>
     </filesToCopyDestination>
     <filesToDelete />
